@@ -139,7 +139,14 @@
   </header>
   <div class="entry-content">
     <p>这是我的第一篇博客！ 我一定可以！
-</p>
+Hugo 博客 &#43; GitHub Pages 完整部署方案 📌 环境准备 设备：MacBook（macOS） 工具： Git Hugo GitHub 账号 安装 Hugo brew install hugo 确认安装成功：
+hugo version 🎯 创建 Hugo 博客 mkdir blog &amp;&amp; cd blog hugo new site . 初始化 Git：
+git init 🎨 选择 &amp; 添加主题 推荐 PaperMod 主题：
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 编辑 config.toml，添加：
+theme = &#34;PaperMod&#34; baseURL = &#34;https://yzwbeast.github.io/&#34; 📝 编写博客文章 创建第一篇文章：
+hugo new posts/hello-world.md 编辑 content/posts/hello-world.md：
+--- title: &#34;Hello World&#34; date: 2025-02-22T12:00:00 draft: false --- 这是我的第一篇博客！ 🔧 本地预览（第一次部署请跳过） hugo server -D 在浏览器访问：
+...</p>
   </div>
   <footer class="entry-footer"><span title='2025-02-22 22:55:12 +0800 CST'>February 22, 2025</span></footer>
   <a class="entry-link" aria-label="post link to Hello World" href="https://yzwbeast.github.io/posts/hello-world/"></a>

@@ -8,7 +8,52 @@
 <title>Hello World | 叶泽伟的博客</title>
 <meta name="keywords" content="">
 <meta name="description" content="这是我的第一篇博客！
-我一定可以！">
+我一定可以！
+Hugo 博客 &#43; GitHub Pages 完整部署方案
+📌 环境准备
+
+设备：MacBook（macOS）
+工具：
+
+Git
+Hugo
+GitHub 账号
+
+
+
+安装 Hugo
+brew install hugo
+确认安装成功：
+hugo version
+
+🎯 创建 Hugo 博客
+mkdir blog &amp;&amp; cd blog
+hugo new site .
+初始化 Git：
+git init
+
+🎨 选择 &amp; 添加主题
+推荐 PaperMod 主题：
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+编辑 config.toml，添加：
+theme = &#34;PaperMod&#34;
+baseURL = &#34;https://yzwbeast.github.io/&#34;
+
+📝 编写博客文章
+创建第一篇文章：
+hugo new posts/hello-world.md
+编辑 content/posts/hello-world.md：
+---
+title: &#34;Hello World&#34;
+date: 2025-02-22T12:00:00
+draft: false
+---
+
+这是我的第一篇博客！
+
+🔧 本地预览（第一次部署请跳过）
+hugo server -D
+在浏览器访问：">
 <meta name="author" content="">
 <link rel="canonical" href="https://yzwbeast.github.io/posts/hello-world/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
@@ -59,7 +104,14 @@
 </noscript><meta property="og:url" content="https://yzwbeast.github.io/posts/hello-world/">
   <meta property="og:site_name" content="叶泽伟的博客">
   <meta property="og:title" content="Hello World">
-  <meta property="og:description" content="这是我的第一篇博客！ 我一定可以！">
+  <meta property="og:description" content="这是我的第一篇博客！ 我一定可以！
+Hugo 博客 &#43; GitHub Pages 完整部署方案 📌 环境准备 设备：MacBook（macOS） 工具： Git Hugo GitHub 账号 安装 Hugo brew install hugo 确认安装成功：
+hugo version 🎯 创建 Hugo 博客 mkdir blog &amp;&amp; cd blog hugo new site . 初始化 Git：
+git init 🎨 选择 &amp; 添加主题 推荐 PaperMod 主题：
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 编辑 config.toml，添加：
+theme = &#34;PaperMod&#34; baseURL = &#34;https://yzwbeast.github.io/&#34; 📝 编写博客文章 创建第一篇文章：
+hugo new posts/hello-world.md 编辑 content/posts/hello-world.md：
+--- title: &#34;Hello World&#34; date: 2025-02-22T12:00:00 draft: false --- 这是我的第一篇博客！ 🔧 本地预览（第一次部署请跳过） hugo server -D 在浏览器访问：">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -68,7 +120,52 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="这是我的第一篇博客！
-我一定可以！">
+我一定可以！
+Hugo 博客 &#43; GitHub Pages 完整部署方案
+📌 环境准备
+
+设备：MacBook（macOS）
+工具：
+
+Git
+Hugo
+GitHub 账号
+
+
+
+安装 Hugo
+brew install hugo
+确认安装成功：
+hugo version
+
+🎯 创建 Hugo 博客
+mkdir blog &amp;&amp; cd blog
+hugo new site .
+初始化 Git：
+git init
+
+🎨 选择 &amp; 添加主题
+推荐 PaperMod 主题：
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+编辑 config.toml，添加：
+theme = &#34;PaperMod&#34;
+baseURL = &#34;https://yzwbeast.github.io/&#34;
+
+📝 编写博客文章
+创建第一篇文章：
+hugo new posts/hello-world.md
+编辑 content/posts/hello-world.md：
+---
+title: &#34;Hello World&#34;
+date: 2025-02-22T12:00:00
+draft: false
+---
+
+这是我的第一篇博客！
+
+🔧 本地预览（第一次部署请跳过）
+hugo server -D
+在浏览器访问：">
 
 
 <script type="application/ld+json">
@@ -97,12 +194,12 @@
   "@type": "BlogPosting",
   "headline": "Hello World",
   "name": "Hello World",
-  "description": "这是我的第一篇博客！ 我一定可以！\n",
+  "description": "这是我的第一篇博客！ 我一定可以！\nHugo 博客 + GitHub Pages 完整部署方案 📌 环境准备 设备：MacBook（macOS） 工具： Git Hugo GitHub 账号 安装 Hugo brew install hugo 确认安装成功：\nhugo version 🎯 创建 Hugo 博客 mkdir blog \u0026amp;\u0026amp; cd blog hugo new site . 初始化 Git：\ngit init 🎨 选择 \u0026amp; 添加主题 推荐 PaperMod 主题：\ngit submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 编辑 config.toml，添加：\ntheme = \u0026#34;PaperMod\u0026#34; baseURL = \u0026#34;https://yzwbeast.github.io/\u0026#34; 📝 编写博客文章 创建第一篇文章：\nhugo new posts/hello-world.md 编辑 content/posts/hello-world.md：\n--- title: \u0026#34;Hello World\u0026#34; date: 2025-02-22T12:00:00 draft: false --- 这是我的第一篇博客！ 🔧 本地预览（第一次部署请跳过） hugo server -D 在浏览器访问：\n",
   "keywords": [
     
   ],
-  "articleBody": "这是我的第一篇博客！ 我一定可以！\n",
-  "wordCount" : "2",
+  "articleBody": "这是我的第一篇博客！ 我一定可以！\nHugo 博客 + GitHub Pages 完整部署方案 📌 环境准备 设备：MacBook（macOS） 工具： Git Hugo GitHub 账号 安装 Hugo brew install hugo 确认安装成功：\nhugo version 🎯 创建 Hugo 博客 mkdir blog \u0026\u0026 cd blog hugo new site . 初始化 Git：\ngit init 🎨 选择 \u0026 添加主题 推荐 PaperMod 主题：\ngit submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 编辑 config.toml，添加：\ntheme = \"PaperMod\" baseURL = \"https://yzwbeast.github.io/\" 📝 编写博客文章 创建第一篇文章：\nhugo new posts/hello-world.md 编辑 content/posts/hello-world.md：\n--- title: \"Hello World\" date: 2025-02-22T12:00:00 draft: false --- 这是我的第一篇博客！ 🔧 本地预览（第一次部署请跳过） hugo server -D 在浏览器访问：\nhttp://localhost:1313 🔥 发布到 GitHub 1. 创建 GitHub 仓库 blog（存放 Hugo 源码） yzwbeast.github.io（存放生成的静态文件） 2. 推送 blog 仓库 git remote add origin https://github.com/yzwbeast/blog.git git branch -M main git add . git commit -m \"Initial commit\" git push -u origin main 3. 生成静态文件 hugo -D 静态文件位于 public/ 目录。\n4. 推送到 yzwbeast.github.io cd public git init git remote add origin https://github.com/yzwbeast/yzwbeast.github.io.git git checkout -b main git add . git commit -m \"Deploy Hugo site\" git push -f origin main 🌎 配置 GitHub Pages 进入 yzwbeast.github.io 仓库 Settings → Pages。 选择 main 分支，保存后等待部署完成。 访问 https://yzwbeast.github.io/ 查看博客。 🔄 自动化部署（可选） 1. 在 blog 仓库添加 deploy.sh nano deploy.sh 粘贴以下内容：\n#!/bin/bash hugo -D cd public git add . git commit -m \"Deploy: $(date)\" git push origin main cd .. 保存并退出（按 Ctrl + X，然后 Y，再回车）。\n2. 赋予执行权限 chmod +x deploy.sh 3. 运行部署脚本 ./deploy.sh 🎉 大功告成！ 以后更新博客时，只需：\n在 blog/ 目录下写文章 hugo new posts/xxx.md 运行 ./deploy.sh 访问 https://yzwbeast.github.io/ 查看更新 💡 有问题随时复习此笔记！ 🚀\n",
+  "wordCount" : "235",
   "inLanguage": "en",
   "datePublished": "2025-02-22T22:55:12+08:00",
   "dateModified": "2025-02-22T22:55:12+08:00",
@@ -179,6 +276,109 @@
   </header> 
   <div class="post-content"><p>这是我的第一篇博客！
 我一定可以！</p>
+<h1 id="hugo-博客--github-pages-完整部署方案">Hugo 博客 + GitHub Pages 完整部署方案<a hidden class="anchor" aria-hidden="true" href="#hugo-博客--github-pages-完整部署方案">#</a></h1>
+<h2 id="-环境准备">📌 环境准备<a hidden class="anchor" aria-hidden="true" href="#-环境准备">#</a></h2>
+<ul>
+<li><strong>设备</strong>：MacBook（macOS）</li>
+<li><strong>工具</strong>：
+<ul>
+<li>Git</li>
+<li>Hugo</li>
+<li>GitHub 账号</li>
+</ul>
+</li>
+</ul>
+<h3 id="安装-hugo"><strong>安装 Hugo</strong><a hidden class="anchor" aria-hidden="true" href="#安装-hugo">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><p>确认安装成功：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><hr>
+<h2 id="-创建-hugo-博客">🎯 创建 Hugo 博客<a hidden class="anchor" aria-hidden="true" href="#-创建-hugo-博客">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mkdir blog <span style="color:#f92672">&amp;&amp;</span> cd blog
+</span></span><span style="display:flex;"><span>hugo new site .
+</span></span></code></pre></div><p>初始化 Git：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git init
+</span></span></code></pre></div><hr>
+<h2 id="-选择--添加主题">🎨 选择 &amp; 添加主题<a hidden class="anchor" aria-hidden="true" href="#-选择--添加主题">#</a></h2>
+<p>推荐 <code>PaperMod</code> 主题：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</span></span></code></pre></div><p>编辑 <code>config.toml</code>，添加：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;PaperMod&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://yzwbeast.github.io/&#34;</span>
+</span></span></code></pre></div><hr>
+<h2 id="-编写博客文章">📝 编写博客文章<a hidden class="anchor" aria-hidden="true" href="#-编写博客文章">#</a></h2>
+<p>创建第一篇文章：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new posts/hello-world.md
+</span></span></code></pre></div><p>编辑 <code>content/posts/hello-world.md</code>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Hello World&#34;
+</span></span><span style="display:flex;"><span>date: 2025-02-22T12:00:00
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>这是我的第一篇博客！
+</span></span></code></pre></div><hr>
+<h2 id="-本地预览第一次部署请跳过">🔧 本地预览（第一次部署请跳过）<a hidden class="anchor" aria-hidden="true" href="#-本地预览第一次部署请跳过">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>在浏览器访问：</p>
+<pre tabindex="0"><code>http://localhost:1313
+</code></pre><hr>
+<h2 id="-发布到-github">🔥 发布到 GitHub<a hidden class="anchor" aria-hidden="true" href="#-发布到-github">#</a></h2>
+<h3 id="1-创建-github-仓库"><strong>1. 创建 GitHub 仓库</strong><a hidden class="anchor" aria-hidden="true" href="#1-创建-github-仓库">#</a></h3>
+<ul>
+<li><code>blog</code>（存放 Hugo 源码）</li>
+<li><code>yzwbeast.github.io</code>（存放生成的静态文件）</li>
+</ul>
+<h3 id="2-推送"><strong>2. 推送 <code>blog</code> 仓库</strong><a hidden class="anchor" aria-hidden="true" href="#2-推送">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git remote add origin https://github.com/yzwbeast/blog.git
+</span></span><span style="display:flex;"><span>git branch -M main
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><h3 id="3-生成静态文件"><strong>3. 生成静态文件</strong><a hidden class="anchor" aria-hidden="true" href="#3-生成静态文件">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo -D
+</span></span></code></pre></div><p>静态文件位于 <code>public/</code> 目录。</p>
+<h3 id="4-推送到"><strong>4. 推送到 <code>yzwbeast.github.io</code></strong><a hidden class="anchor" aria-hidden="true" href="#4-推送到">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git remote add origin https://github.com/yzwbeast/yzwbeast.github.io.git
+</span></span><span style="display:flex;"><span>git checkout -b main
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Deploy Hugo site&#34;</span>
+</span></span><span style="display:flex;"><span>git push -f origin main
+</span></span></code></pre></div><hr>
+<h2 id="-配置-github-pages">🌎 配置 GitHub Pages<a hidden class="anchor" aria-hidden="true" href="#-配置-github-pages">#</a></h2>
+<ul>
+<li>进入 <code>yzwbeast.github.io</code> 仓库 <strong>Settings → Pages</strong>。</li>
+<li>选择 <code>main</code> 分支，保存后等待部署完成。</li>
+<li>访问 <code>https://yzwbeast.github.io/</code> 查看博客。</li>
+</ul>
+<hr>
+<h2 id="-自动化部署可选">🔄 自动化部署（可选）<a hidden class="anchor" aria-hidden="true" href="#-自动化部署可选">#</a></h2>
+<h3 id="1-在"><strong>1. 在 <code>blog</code> 仓库添加 <code>deploy.sh</code></strong><a hidden class="anchor" aria-hidden="true" href="#1-在">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>nano deploy.sh
+</span></span></code></pre></div><p>粘贴以下内容：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>hugo -D
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Deploy: </span><span style="color:#66d9ef">$(</span>date<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin main
+</span></span><span style="display:flex;"><span>cd ..
+</span></span></code></pre></div><p>保存并退出（按 <code>Ctrl + X</code>，然后 <code>Y</code>，再回车）。</p>
+<h3 id="2-赋予执行权限"><strong>2. 赋予执行权限</strong><a hidden class="anchor" aria-hidden="true" href="#2-赋予执行权限">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>chmod +x deploy.sh
+</span></span></code></pre></div><h3 id="3-运行部署脚本"><strong>3. 运行部署脚本</strong><a hidden class="anchor" aria-hidden="true" href="#3-运行部署脚本">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>./deploy.sh
+</span></span></code></pre></div><hr>
+<h2 id="-大功告成">🎉 大功告成！<a hidden class="anchor" aria-hidden="true" href="#-大功告成">#</a></h2>
+<p>以后更新博客时，只需：</p>
+<ol>
+<li>在 <code>blog/</code> 目录下写文章 <code>hugo new posts/xxx.md</code></li>
+<li>运行 <code>./deploy.sh</code></li>
+<li>访问 <code>https://yzwbeast.github.io/</code> 查看更新</li>
+</ol>
+<p>💡 <strong>有问题随时复习此笔记！</strong> 🚀</p>
 
 
   </div>
