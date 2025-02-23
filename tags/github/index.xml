@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on 叶泽伟的博客</title>
+    <link>https://yzwbeast.github.io/tags/github/</link>
+    <description>Recent content in GitHub on 叶泽伟的博客</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yzwbeast.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的博客搭建之旅：从零到上线</title>
+      <link>https://yzwbeast.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yzwbeast.github.io/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;hugo-博客--github-pages-完整部署方案&#34;&gt;Hugo 博客 + GitHub Pages 完整部署方案&lt;/h1&gt;
+&lt;h2 id=&#34;-环境准备&#34;&gt;📌 环境准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;设备&lt;/strong&gt;：MacBook（macOS）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工具&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;GitHub 账号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装-hugo&#34;&gt;&lt;strong&gt;安装 Hugo&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;确认安装成功：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-创建-hugo-博客&#34;&gt;🎯 创建 Hugo 博客&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir blog &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; cd blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;初始化 Git：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
