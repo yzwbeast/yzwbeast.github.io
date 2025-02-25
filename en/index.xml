@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hello, Welcome to my blog on 叶泽伟的博客</title>
+    <title>Ye Zewei&#39;s Blog on 叶泽伟的博客</title>
     <link>https://yzwbeast.github.io/en/</link>
-    <description>Recent content in Hello, Welcome to my blog on 叶泽伟的博客</description>
+    <description>Recent content in Ye Zewei&#39;s Blog on 叶泽伟的博客</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yzwbeast.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japanese Grammar Guide</title>
+      <link>https://yzwbeast.github.io/en/posts/japanese-grammar/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yzwbeast.github.io/en/posts/japanese-grammar/</guid>
+      <description>&lt;h2 id=&#34;problems-with-traditional-textbooks&#34;&gt;★Problems with Traditional Textbooks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Core Issues&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Goal of Traditional Textbooks: To quickly teach practical and polite Japanese, but they overlook the true logic of the language.&lt;/li&gt;
+&lt;li&gt;Main Problems:
+&lt;ul&gt;
+&lt;li&gt;Teaching Japanese from an English perspective, making it difficult to truly understand Japanese expressions.&lt;/li&gt;
+&lt;li&gt;Attempting to translate English phrases rather than teaching the Japanese grammatical system.&lt;/li&gt;
+&lt;li&gt;Ignoring kanji study, leaving learners unable to read and comprehend Japanese texts in practical situations.&lt;/li&gt;
+&lt;li&gt;Introducing honorifics too early without a solid foundation, causing confusion.&lt;/li&gt;
+&lt;li&gt;Emphasizing complete sentence expressions (e.g., &lt;code&gt;&amp;quot;Hi, my name is Smith&amp;quot;&lt;/code&gt;), but in Japanese, much information is omitted through context.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Solution: Learn Japanese with Japanese Logic&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introduction to Learning Japanese: Effective Methods</title>
       <link>https://yzwbeast.github.io/en/posts/japanese-learning-methods/</link>

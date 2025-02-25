@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>devops-roadmap | 叶泽伟的博客</title>
+<meta name="keywords" content="DevOps, 路线图">
+<meta name="description" content="DevOps 路线图
+1. 学习一门编程语言
+选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。
+
+文章 选择 DevOps 编程语言的指南
+
+该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 这里。">
+<meta name="author" content="叶泽伟">
+<link rel="canonical" href="http://localhost:1313/posts/devops-roadmap/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/devops-roadmap/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/posts/devops-roadmap/">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/ja/posts/devops-roadmap/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="叶泽伟的博客 (Alt + H)">叶泽伟的博客</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="http://localhost:1313/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:1313/ja/" title="日本語"
+                            aria-label="日本語">Ja</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">文章列表</a></div>
+    <h1 class="post-title entry-hint-parent">
+      devops-roadmap
+    </h1>
+    <div class="post-meta"><span title='2025-02-25 00:00:00 +0000 UTC'>二月 25, 2025</span>&nbsp;·&nbsp;10 分钟&nbsp;·&nbsp;叶泽伟&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="http://localhost:1313/en/posts/devops-roadmap/">En</a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/ja/posts/devops-roadmap/">Ja</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#devops-%e8%b7%af%e7%ba%bf%e5%9b%be" aria-label="DevOps 路线图">DevOps 路线图</a><ul>
+                        
+                <li>
+                    <a href="#1-%e5%ad%a6%e4%b9%a0%e4%b8%80%e9%97%a8%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80" aria-label="1. 学习一门编程语言">1. 学习一门编程语言</a><ul>
+                        
+                <li>
+                    <a href="#python" aria-label="Python">Python</a></li>
+                <li>
+                    <a href="#go" aria-label="Go">Go</a></li></ul>
+                </li>
+                <li>
+                    <a href="#2-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f" aria-label="2. 操作系统">2. 操作系统</a><ul>
+                        
+                <li>
+                    <a href="#ubuntudebianlinux" aria-label="Ubuntu/Debian(Linux)">Ubuntu/Debian(Linux)</a></li>
+                <li>
+                    <a href="#rhel%e8%a1%8d%e7%94%9f%e7%89%88linux" aria-label="RHEL/衍生版(Linux)">RHEL/衍生版(Linux)</a></li>
+                <li>
+                    <a href="#freebsdunix" aria-label="FreeBSD(Unix)">FreeBSD(Unix)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#3-%e7%bb%88%e7%ab%af%e7%9f%a5%e8%af%86" aria-label="3. 终端知识">3. 终端知识</a><ul>
+                        
+                <li>
+                    <a href="#%e8%84%9a%e6%9c%ac%e7%bc%96%e5%86%99-bash" aria-label="脚本编写: Bash">脚本编写: Bash</a></li>
+                <li>
+                    <a href="#%e7%bc%96%e8%be%91%e5%99%a8-vim-nano-emacs" aria-label="编辑器: Vim, Nano, Emacs">编辑器: Vim, Nano, Emacs</a></li>
+                <li>
+                    <a href="#%e8%bf%9b%e7%a8%8b%e7%9b%91%e6%8e%a7" aria-label="进程监控">进程监控</a></li>
+                <li>
+                    <a href="#%e6%80%a7%e8%83%bd%e7%9b%91%e6%8e%a7" aria-label="性能监控">性能监控</a></li>
+                <li>
+                    <a href="#%e7%bd%91%e7%bb%9c%e5%b7%a5%e5%85%b7" aria-label="网络工具">网络工具</a></li>
+                <li>
+                    <a href="#%e6%96%87%e6%9c%ac%e5%a4%84%e7%90%86" aria-label="文本处理">文本处理</a></li></ul>
+                </li>
+                <li>
+                    <a href="#4-%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6%e7%b3%bb%e7%bb%9f" aria-label="4. 版本控制系统">4. 版本控制系统</a><ul>
+                        
+                <li>
+                    <a href="#git" aria-label="Git">Git</a></li></ul>
+                </li>
+                <li>
+                    <a href="#5-vcs-%e6%89%98%e7%ae%a1" aria-label="5. VCS 托管">5. VCS 托管</a><ul>
+                        
+                <li>
+                    <a href="#github" aria-label="GitHub">GitHub</a></li></ul>
+                </li>
+                <li>
+                    <a href="#6-%e5%ae%b9%e5%99%a8" aria-label="6. 容器">6. 容器</a><ul>
+                        
+                <li>
+                    <a href="#docker" aria-label="Docker">Docker</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="devops-路线图">DevOps 路线图<a hidden class="anchor" aria-hidden="true" href="#devops-路线图">#</a></h1>
+<h2 id="1-学习一门编程语言">1. 学习一门编程语言<a hidden class="anchor" aria-hidden="true" href="#1-学习一门编程语言">#</a></h2>
+<p>选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。</p>
+<ul>
+<li><em>文章</em> <a href="https://cs.fyi/guide/programming-language-for-devops">选择 DevOps 编程语言的指南</a></li>
+</ul>
+<p>该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 <a href="https://cs.fyi/guide/programming-language-for-devops">这里</a>。</p>
+<h3 id="python">Python<a hidden class="anchor" aria-hidden="true" href="#python">#</a></h3>
+<p>Python 是一种高级解释型编程语言，以其简洁性、可读性和多功能性而闻名。它支持多种编程范式，包括过程式、面向对象和函数式编程。Python 拥有广泛的标准库和丰富的第三方包生态系统，适用于从 Web 开发、数据分析到人工智能和科学计算的多种应用场景。其简洁的语法和动态类型使得快速开发和原型设计成为可能。Python 的“内置电池”哲学提供了丰富的内置功能，而其跨平台兼容性确保了代码的可移植性。凭借强大的社区支持和持续发展，Python 已成为最受欢迎的编程语言之一，广泛应用于学术界、工业界和开源项目中，从简单的脚本编写到复杂的软件开发。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/python">访问 Python 专属路线图</a></li>
+<li><em>官方</em> <a href="https://www.python.org/">Python 官网</a></li>
+<li><em>文章</em> <a href="https://automatetheboringstuff.com/">自动化无聊的工作</a></li>
+<li><em>文章</em> <a href="https://ehmatthes.github.io/pcc/">Python 速成课程</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=ix9cRaBkVe0">Python 免费完整课程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/python?ref=roadmapsh">探索关于 Python 的热门帖子</a></li>
+</ul>
+<h3 id="go">Go<a hidden class="anchor" aria-hidden="true" href="#go">#</a></h3>
+<p>Go，也称为 Golang，是由 Google 开发的一种静态类型、编译型编程语言。它强调简洁性、效率和内置的并发支持。Go 具有快速编译、垃圾回收和强大的标准库。其语法简洁明了，易于阅读和维护。Go 的 goroutine 和 channel 为并发编程提供了强大的工具。该语言特别适合系统编程、网络服务和云原生应用。Go 的高效内存使用和快速执行使其在构建可扩展的服务器端应用和微服务方面广受欢迎。凭借其简洁性和性能，Go 在 DevOps 工具、容器技术和云基础设施项目中得到了广泛采用。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/golang">访问 Go 专属路线图</a></li>
+<li><em>官方</em> <a href="https://go.dev/tour/welcome/1">Go 基础教程</a></li>
+<li><em>官方</em> <a href="https://go.dev/doc/">Go 参考文档</a></li>
+<li><em>文章</em> <a href="https://gobyexample.com/">Go 示例 - 带注释的示例程序</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/make-a-restful-json-api-go/">用 Go 构建 RESTful JSON API</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=446E-r0rXHI">100 秒了解 Go</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/golang?ref=roadmapsh">探索关于 Golang 的热门帖子</a></li>
+</ul>
+<h2 id="2-操作系统">2. 操作系统<a hidden class="anchor" aria-hidden="true" href="#2-操作系统">#</a></h2>
+<h3 id="ubuntudebianlinux">Ubuntu/Debian(<em>Linux</em>)<a hidden class="anchor" aria-hidden="true" href="#ubuntudebianlinux">#</a></h3>
+<p>Ubuntu 和 Debian 都是流行的 Linux 发行版，其中 Debian 是 Ubuntu 的上游基础。Debian 以其稳定性、广泛的软件包库和严格的测试流程而闻名，是服务器和需要长期支持的系统的首选。Ubuntu 源自 Debian，旨在提供更友好的用户体验，具有定期发布、易用性和商业支持选项。它具有更简化的安装过程、广泛的文档和活跃的社区。两个发行版都使用 Debian 的包管理系统（APT），并共享许多底层技术，但 Ubuntu 强调更精致的桌面体验和快速的发布周期。</p>
+<ul>
+<li><em>课程</em> <a href="https://labex.io/courses/linux-basic-commands-practice-online">通过实践实验室练习 Linux 命令</a></li>
+<li><em>官方</em> <a href="https://www.debian.org/">Debian 官网</a></li>
+<li><em>官方</em> <a href="https://ubuntu.com/">Ubuntu 官网</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=lmeDvSgN6zY">如何使用 Ubuntu</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=zOZEkzwhThc">Debian 12 初学者教程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/ubuntu?ref=roadmapsh">探索关于 Ubuntu 的热门帖子</a></li>
+</ul>
+<h3 id="rhel衍生版linux">RHEL/衍生版(<em>Linux</em>)<a hidden class="anchor" aria-hidden="true" href="#rhel衍生版linux">#</a></h3>
+<p>Red Hat Enterprise Linux (RHEL) 是一种流行的 Linux 操作系统发行版，专为企业级使用设计。它由 Red Hat, Inc. 开发和维护，采用基于订阅的模式提供。有几个基于 RHEL 或从 RHEL 衍生的 Linux 发行版，这些发行版被称为 RHEL 衍生版。一些 RHEL 衍生版的例子包括：AlmaLinux、CentOS、CloudLinux、Oracle Linux 和 Scientific Linux。RHEL 衍生版通常在企业环境中使用，因为它们提供了 RHEL 的稳定性和可靠性，同时具有免费或低成本的额外优势。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux 官网</a></li>
+<li><em>官方</em> <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/">RHEL 文档</a></li>
+<li><em>文章</em> <a href="https://developer.ibm.com/series/learn-linux-101/">学习 Linux 101</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=HEBvdSI0wGQ">什么是 Red Hat Enterprise Linux？</a></li>
+</ul>
+<h3 id="freebsdunix">FreeBSD(<em>Unix</em>)<a hidden class="anchor" aria-hidden="true" href="#freebsdunix">#</a></h3>
+<p>FreeBSD 是一种免费、开源的类 Unix 操作系统，源自 Berkeley 软件发行版 (BSD)。FreeBSD 以其稳定性、性能和先进的网络功能而闻名，广泛用于服务器环境、嵌入式系统以及作为网络设备的基础。它具有单体内核、全面的用户态工具集和用于轻松安装软件的 ports 集合。FreeBSD 支持多种架构，并包含高级功能，如 ZFS 文件系统、用于容器化的 jail 和 pf 包过滤器。虽然 FreeBSD 在桌面环境中不太常见，但它广泛应用于互联网基础设施、存储系统以及需要强大、可定制操作系统和宽松许可证的公司中。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.freebsd.org/">FreeBSD</a></li>
+<li><em>官方</em> <a href="https://www.freebsd.org/projects/newbies/">FreeBSD 新手资源</a></li>
+<li><em>官方</em> <a href="https://docs.freebsd.org/en/">FreeBSD 文档</a></li>
+<li><em>官方</em> <a href="https://docs.freebsd.org/en/books/handbook/">FreeBSD 手册</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=NKHzcXwTdB4">100 秒了解 FreeBSD</a></li>
+</ul>
+<h2 id="3-终端知识">3. 终端知识<a hidden class="anchor" aria-hidden="true" href="#3-终端知识">#</a></h2>
+<h3 id="脚本编写-bash"><strong>脚本编写</strong>: Bash<a hidden class="anchor" aria-hidden="true" href="#脚本编写-bash">#</a></h3>
+<p>Bash（Bourne Again Shell）是一种强大的 Unix shell 和命令语言解释器，是大多数 Linux 发行版和 macOS 的默认 shell。它提供了与操作系统交互的命令行界面，执行命令并通过 shell 脚本自动化任务。Bash 支持变量、控制结构、函数和命令替换，使其在系统管理、DevOps 任务和通用脚本编写中非常灵活。它能够管道命令、重定向输入/输出，并利用大量内置命令和实用程序，使其成为开发人员和系统管理员在 Unix 类环境中管理和自动化工作流程的必备工具。</p>
+<ul>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=tK9Oc6AEnR4">Bash 脚本编写初学者教程</a></li>
+<li><em>文章</em> <a href="https://www.learnshell.org/en/Welcome">交互式 Shell 脚本教程</a></li>
+<li><em>文章</em> <a href="https://www.javatpoint.com/bash">Bash 脚本编写教程</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=I4EWvMFj37g">100 秒了解 Bash</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/bash?ref=roadmapsh">探索关于 Bash 的热门帖子</a></li>
+</ul>
+<h3 id="编辑器-vim-nano-emacs"><strong>编辑器</strong>: Vim, Nano, Emacs<a hidden class="anchor" aria-hidden="true" href="#编辑器-vim-nano-emacs">#</a></h3>
+<p>文本编辑器是用于创建、编辑和管理文本文件的软件工具。它们从具有基本功能的简单编辑器到复杂的集成开发环境（IDE）不等。流行的文本编辑器包括：</p>
+<ul>
+<li>
+<p>Notepad：Windows 的基本编辑器，适用于简单的文本文件。</p>
+</li>
+<li>
+<p>Vim：一种高度可配置且功能强大的编辑器，以其效率和模态界面而闻名。</p>
+</li>
+<li>
+<p>Emacs：一种多功能编辑器，具有广泛的定制选项和丰富的插件。</p>
+</li>
+<li>
+<p>Sublime Text：一种功能丰富的编辑器，注重速度和用户友好的界面。</p>
+</li>
+<li>
+<p>Visual Studio Code：一种现代的开源编辑器，内置调试支持、扩展和与各种开发工具的集成。</p>
+</li>
+<li>
+<p><em>官方</em> <a href="https://www.vim.org/">Vim</a></p>
+</li>
+<li>
+<p><em>官方</em> <a href="https://www.nano-editor.org/">GNU Nano</a></p>
+</li>
+<li>
+<p><em>官方</em> <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://vim-adventures.com/">Vim 冒险</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=RZ4p-saaQkc">Vim 初学者教程</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=DLeATFgGM-A">Linux 速成课程 - nano</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=48JlgiBpw_I">Emacs 绝对初学者指南</a></p>
+</li>
+</ul>
+<h3 id="进程监控">进程监控<a hidden class="anchor" aria-hidden="true" href="#进程监控">#</a></h3>
+<p>进程监控是对 IT 系统或组织内进程的持续观察和分析，以确保最佳性能、效率和合规性。它涉及跟踪关键指标、资源利用率和系统上运行的各个进程或应用程序的行为。这种做法有助于在问题影响整体系统性能或用户体验之前识别异常、瓶颈或潜在问题。进程监控工具通常提供有关 CPU 使用率、内存消耗、I/O 操作和线程活动的实时数据。它们通常包括警报、日志记录和进程数据可视化功能。在现代 IT 环境中，进程监控对于维护系统稳定性、优化资源分配、排查性能问题以及支持复杂分布式系统中的容量规划至关重要。</p>
+<p>Lsof 在其标准输出中列出有关进程打开的文件信息。</p>
+<ul>
+<li><em>文章</em> <a href="https://neverendingsecurity.wordpress.com/2015/04/13/lsof-commands-cheatsheet/">lsof 速查表</a></li>
+<li><em>文章</em> <a href="https://man7.org/linux/man-pages/man8/lsof.8.html">lsof 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=n9nZ1ellaV0">Linux 速成课程 - lsof 命令</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/monitoring?ref=roadmapsh">探索关于监控的热门帖子</a></li>
+</ul>
+<h3 id="性能监控">性能监控<a hidden class="anchor" aria-hidden="true" href="#性能监控">#</a></h3>
+<p>性能监控是对 IT 系统运行效率和有效性的系统观察和测量。它涉及收集、分析和报告各种组件（包括应用程序、网络、服务器和数据库）的关键性能指标（KPI）。此过程使用专门的工具来跟踪响应时间、吞吐量、资源利用率和错误率等指标。性能监控有助于识别瓶颈、预测潜在问题并优化系统资源。它对于维护服务级别协议（SLA）、确保用户满意度和支持容量规划至关重要。在现代 IT 环境中，性能监控通常结合实时分析、AI 驱动的洞察和自动警报系统，从而实现对复杂分布式系统的主动管理，并支持 IT 运营和服务交付的持续改进。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/sysadmin/linux-commands-vmstat">Linux 命令：使用 vmstat 探索虚拟内存</a></li>
+<li><em>文章</em> <a href="https://man7.org/linux/man-pages/man8/vmstat.8.html">VMstat 手册页</a></li>
+<li><em>文章</em> <a href="https://phoenixnap.com/kb/vmstat-command">vmstat 教程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/monitoring?ref=roadmapsh">探索关于监控的热门帖子</a></li>
+</ul>
+<h3 id="网络工具">网络工具<a hidden class="anchor" aria-hidden="true" href="#网络工具">#</a></h3>
+<p>网络工具是用于监控、分析、故障排除和管理计算机网络的重要软件实用程序。它们包括广泛的应用程序，如用于深度数据包分析的 Wireshark、用于网络扫描和安全审计的 Nmap、用于测试基本连接性的 Ping、用于可视化网络路径的 Traceroute、用于显示网络连接的 Netstat、用于命令行数据包捕获的 Tcpdump、用于性能测试的 Iperf、用于各种网络操作的 Netcat、用于 DNS 查询的 Nslookup/Dig 以及用于通过 SSH 或 telnet 进行远程访问的 PuTTY。这些工具共同使网络管理员和安全专业人员能够诊断问题、优化性能、进行安全评估并维护从小型本地网络到大型企业环境的网络基础设施的整体健康和效率。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.tecmint.com/scp-commands-examples/">10 个 SCP 命令示例</a></li>
+<li><em>文章</em> <a href="https://phoenixnap.com/kb/linux-scp-command">SCP 命令详解</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=MT85eMsMN6o">前 5 个 Linux 网络命令</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=gd7BXuUQ91w">你需要知道的 60 个 Linux 命令</a></li>
+</ul>
+<h3 id="文本处理">文本处理<a hidden class="anchor" aria-hidden="true" href="#文本处理">#</a></h3>
+<p>文本处理工具是使用户能够高效修改、处理和转换文本数据的实用程序或软件。这些工具通常用于脚本编写、数据清理和自动化任务。常见的文本处理工具包括用于搜索和替换的 <code>sed</code>（流编辑器）、用于模式扫描和数据提取的 <code>awk</code> 以及用于使用正则表达式搜索文本的 <code>grep</code>。其他流行的工具包括用于各种文本处理功能的 <code>cut</code>、<code>sort</code>、<code>tr</code> 和 <code>uniq</code>。这些命令行工具通常用于 UNIX/Linux 环境中，以处理大型文本文件、自动化工作流程并执行复杂的文本转换。</p>
+<ul>
+<li><em>文章</em> <a href="https://earthly.dev/blog/linux-text-processing-commands/">Linux 文本处理命令</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=9YOZmI-zWok">学习 Awk 对 Linux 用户至关重要</a></li>
+</ul>
+<h2 id="4-版本控制系统">4. 版本控制系统<a hidden class="anchor" aria-hidden="true" href="#4-版本控制系统">#</a></h2>
+<p>版本控制系统（VCS）是跟踪代码和文件随时间变化的工具，使多个用户能够协作项目、维护历史记录并管理代码库的不同版本。它们有助于跟踪修改、合并更改和解决冲突。VCS 有两种主要类型：集中式和分布式。集中式系统（如 Subversion 和 CVS）依赖于单一的中央仓库，而分布式系统（如 Git 和 Mercurial）允许每个用户拥有仓库的完整副本，包括其历史记录。分布式 VCS（如 Git）因其灵活性、分支能力和对协作工作流的强大支持而特别受欢迎。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/git-github">访问 Git &amp; GitHub 专属路线图</a></li>
+<li><em>官方</em> <a href="https://git-scm.com/">Git</a></li>
+<li><em>官方</em> <a href="https://www.mercurial-scm.org/">Mercurial</a></li>
+<li><em>官方</em> <a href="https://subversion.apache.org/">Subversion</a></li>
+<li><em>文章</em> <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">什么是版本控制？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=SVkuliabq4g">版本控制系统（VCS）</a></li>
+</ul>
+<h3 id="git">Git<a hidden class="anchor" aria-hidden="true" href="#git">#</a></h3>
+<p>Git 是一种分布式版本控制系统，旨在跟踪软件开发过程中源代码的变化。它允许多个开发人员同时在同一项目上工作，维护修改的完整历史记录。Git 在每个开发人员的机器上都有本地仓库，支持离线工作和快速操作。它通过分支和合并支持非线性开发，促进并行工作流。Git 的分布式特性增强了协作、备份和实验。关键概念包括提交、分支、合并和远程仓库。凭借其速度、灵活性和强大的分支与合并能力，Git 已成为现代软件开发中版本控制的标准，支持 GitHub 和 GitLab 等平台。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/git-github">访问 Git &amp; GitHub 专属路线图</a></li>
+<li><em>课程</em> <a href="https://antonz.org/git-by-example/">通过示例学习 Git - 通过小课程学习版本控制</a></li>
+<li><em>文章</em> <a href="https://www.atlassian.com/git">通过教程、新闻和技巧学习 Git - Atlassian</a></li>
+<li><em>文章</em> <a href="https://cs.fyi/guide/git-cheatsheet">Git 速查表</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=SWYqp7iY_Tc">Git &amp; GitHub 初学者速成课程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/git?ref=roadmapsh">探索关于 Git 的热门帖子</a></li>
+</ul>
+<h2 id="5-vcs-托管">5. VCS 托管<a hidden class="anchor" aria-hidden="true" href="#5-vcs-托管">#</a></h2>
+<p>在团队中工作时，通常需要一个远程位置来存放代码，以便其他人可以访问它、创建自己的分支以及创建或审查拉取请求。这些服务通常包括问题跟踪、代码审查和持续集成功能。一些流行的选择包括 GitHub、GitLab、BitBucket 和 AWS CodeCommit。</p>
+<ul>
+<li><em>官方</em> <a href="https://github.com/">GitHub</a></li>
+<li><em>官方</em> <a href="https://about.gitlab.com/">GitLab</a></li>
+<li><em>官方</em> <a href="https://bitbucket.org/product/guides/getting-started/overview">BitBucket</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=FQGXIIqziQg">GitHub vs GitLab vs Bitbucket - 哪个更好？</a></li>
+</ul>
+<h3 id="github">GitHub<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h3>
+<p>GitHub 是一个基于 Web 的版本控制和协作平台，使用 Git。它提供基于云的 Git 仓库托管，提供错误跟踪、任务管理和项目 wiki 等功能。GitHub 通过拉取请求促进代码审查，支持问题跟踪，并通过分叉和星标仓库等功能实现社交编码。它提供公共和私有仓库，使其在开源项目和私有开发中广受欢迎。GitHub 的生态系统包括与各种开发工具和 CI/CD 平台的集成。凭借 GitHub Actions 自动化、GitHub Packages 包管理和 GitHub Pages 网页托管等功能，它成为了一个全面的软件开发工作流平台，促进了全球开发人员之间的协作。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/git-github">访问 Git &amp; GitHub 专属路线图</a></li>
+<li><em>官方</em> <a href="https://github.com/">GitHub</a></li>
+<li><em>文章</em> <a href="https://ooloo.io/project/github-flow">如何在专业开发团队中使用 Git</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=pBy1zgt0XPc">什么是 GitHub？</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/github?ref=roadmapsh">探索关于 GitHub 的热门帖子</a></li>
+</ul>
+<h2 id="6-容器">6. 容器<a hidden class="anchor" aria-hidden="true" href="#6-容器">#</a></h2>
+<p>容器是轻量级、可移植且隔离的环境，用于打包应用程序及其依赖项，从而在不同的计算环境中实现一致的部署。它们封装了软件代码、运行时、系统工具、库和设置，确保应用程序无论部署在哪里都能以相同的方式运行。容器共享主机操作系统的内核，使其比传统的虚拟机更高效。像 Docker 这样的流行容器化平台提供了创建、分发和运行容器的工具。该技术支持微服务架构，简化了应用程序部署，提高了可扩展性，并通过简化从开发到生产的流程和实现更高效的资源利用来增强 DevOps 实践。</p>
+<ul>
+<li><em>文章</em> <a href="https://cloud.google.com/learn/what-are-containers">什么是容器？</a></li>
+<li><em>文章</em> <a href="https://www.docker.com/resources/what-container/">什么是容器？</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/category/containers/">容器 - The New Stack</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz">什么是容器？</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/containers?ref=roadmapsh">探索关于容器的热门帖子</a></li>
+</ul>
+<h3 id="docker">Docker<a hidden class="anchor" aria-hidden="true" href="#docker">#</a></h3>
+<p>Docker 是一个开源平台，使用容器化技术自动化应用程序的部署、扩展和管理。它使开发人员能够将应用程序及其所有依赖项打包到称为容器的标准化单元中，确保在不同环境中的一致行为。Docker 提供了全机器虚拟化的轻量级替代方案，使用操作系统级虚拟化在单个主机上运行多个隔离系统。其生态系统包括用于构建、共享和运行容器的工具，如 Docker Engine、Docker Hub 和 Docker Compose。Docker 已成为现代 DevOps 实践的重要组成部分，促进了微服务架构、持续集成/部署管道以及开发和生产环境中的高效资源利用。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/docker">访问 Docker 专属路线图</a></li>
+<li><em>官方</em> <a href="https://docs.docker.com/">Docker 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=RqTEHSBrYFw">Docker 教程</a></li>
+<li><em>视频</em> <a href="https://youtu.be/vP_4DlOH1G4">55 秒简化 Docker</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/docker?ref=roadmapsh">探索关于 Docker 的热门帖子</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/devops/">DevOps</a></li>
+      <li><a href="http://localhost:1313/tags/%E8%B7%AF%E7%BA%BF%E5%9B%BE/">路线图</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/japanese-grammar/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>日语语法指南</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on x"
+            href="https://x.com/intent/tweet/?text=devops-roadmap&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f&amp;hashtags=DevOps%2c%e8%b7%af%e7%ba%bf%e5%9b%be">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f&amp;title=devops-roadmap&amp;summary=devops-roadmap&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f&title=devops-roadmap">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on whatsapp"
+            href="https://api.whatsapp.com/send?text=devops-roadmap%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on telegram"
+            href="https://telegram.me/share/url?text=devops-roadmap&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share devops-roadmap on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=devops-roadmap&u=http%3a%2f%2flocalhost%3a1313%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">叶泽伟的博客</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

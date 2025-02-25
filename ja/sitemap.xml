@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yzwbeast.github.io/ja/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://yzwbeast.github.io/ja/posts/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -39,7 +39,7 @@
                 />
   </url><url>
     <loc>https://yzwbeast.github.io/ja/tags/</loc>
-    <lastmod>2025-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -56,10 +56,28 @@
                 href="https://yzwbeast.github.io/ja/tags/"
                 />
   </url><url>
-    <loc>https://yzwbeast.github.io/ja/tags/%E5%AD%A6%E7%BF%92%E6%B3%95/</loc>
-    <lastmod>2025-02-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yzwbeast.github.io/ja/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yzwbeast.github.io/ja/posts/japanese-grammar/</loc>
+    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://yzwbeast.github.io/posts/japanese-grammar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yzwbeast.github.io/en/posts/japanese-grammar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yzwbeast.github.io/ja/posts/japanese-grammar/"
+                />
+  </url><url>
+    <loc>https://yzwbeast.github.io/ja/tags/%E5%AD%A6%E7%BF%92%E6%B3%95/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yzwbeast.github.io/ja/posts/japanese-learning-methods/</loc>
