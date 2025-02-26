@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Roadmap on 叶泽伟的博客</title>
+    <link>https://yuuniji.us.kg/en/tags/roadmap/</link>
+    <description>Recent content in Roadmap on 叶泽伟的博客</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yuuniji.us.kg/en/tags/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps Roadmap</title>
+      <link>https://yuuniji.us.kg/en/posts/devops-roadmap/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/en/posts/devops-roadmap/</guid>
+      <description>&lt;h2 id=&#34;1-learn-a-programming-language&#34;&gt;1. Learn a Programming Language&lt;/h2&gt;
+&lt;p&gt;It doesn’t matter what language you pick, but it is important to learn at least one. You will be able to use that language to write automation scripts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;article&lt;/em&gt; &lt;a href=&#34;https://cs.fyi/guide/programming-language-for-devops&#34;&gt;Guide to Picking a Language for DevOps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The guide recommends Python or Go for programming languages and Bash or PowerShell Core for shell scripting in DevOps. Python is versatile, widely used for automation and tools, while Go is crucial for container technologies like Kubernetes and Docker. Bash is ideal for Linux environments, and PowerShell Core is cross-platform, suitable for Windows and Linux. For more details, check the full guide &lt;a href=&#34;https://cs.fyi/guide/programming-language-for-devops&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

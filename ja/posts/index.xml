@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>記事一覧 on 叶泽伟的博客</title>
+    <link>https://yuuniji.us.kg/ja/posts/</link>
+    <description>Recent content in 記事一覧 on 叶泽伟的博客</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yuuniji.us.kg/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps学習ロードマップ</title>
+      <link>https://yuuniji.us.kg/ja/posts/devops-roadmap/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/ja/posts/devops-roadmap/</guid>
+      <description>&lt;h2 id=&#34;1-プログラミング言語を学ぶ&#34;&gt;1. プログラミング言語を学ぶ&lt;/h2&gt;
+&lt;p&gt;どの言語を選んでも構いませんが、少なくとも1つの言語を学ぶことが重要です。その言語を使用して自動化スクリプトを作成できます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日本語文法ガイド</title>
+      <link>https://yuuniji.us.kg/ja/posts/japanese-grammar/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/ja/posts/japanese-grammar/</guid>
+      <description>&lt;h2 id=&#34;伝統的な教科書の問題点&#34;&gt;★伝統的な教科書の問題点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;核心的な問題&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;伝統的な教科書の目標：実用的で丁寧な日本語を迅速に教えるが、言語の真の論理を無視している。&lt;/li&gt;
+&lt;li&gt;主な問題点：
+&lt;ul&gt;
+&lt;li&gt;英語の考え方で日本語を教えるため、日本語の表現方法を本当に理解できない。&lt;/li&gt;
+&lt;li&gt;英語のフレーズを翻訳しようとし、日本語の文法体系を教えない。&lt;/li&gt;
+&lt;li&gt;漢字の学習を無視し、学習者が実際に日本語のテキストを読んで理解できない。&lt;/li&gt;
+&lt;li&gt;敬語を早く教えるが、基礎を固めずに教えるため、学習者が混乱する。&lt;/li&gt;
+&lt;li&gt;完全な文の表現（例：&lt;code&gt;&amp;quot;Hi, my name is Smith&amp;quot;&lt;/code&gt;）を強調するが、日本語では多くの情報が文脈で省略される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解決策：日本語の考え方で日本語を学ぶ&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日本語学習入門：効率的な学習方法</title>
+      <link>https://yuuniji.us.kg/ja/posts/japanese-learning-methods/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/ja/posts/japanese-learning-methods/</guid>
+      <description>&lt;h1 id=&#34;日本語学習入門効率的な方法&#34;&gt;日本語学習入門：効率的な方法&lt;/h1&gt;
+&lt;h2 id=&#34;一教材を選ぶおすすめはみんなの日本語&#34;&gt;一、教材を選ぶ（おすすめは「みんなの日本語」）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;推薦理由&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;日本人が書いた教材で、日本人がよく犯す間違いが含まれているため、日本人の目から見た日本語のレベルに影響を与えない。&lt;/li&gt;
+&lt;li&gt;自分に合った教材を選ぶことが重要で、内容が完璧であることよりも、学びやすいことが鍵。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教材の構成&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;本冊（全日本語）&lt;/li&gt;
+&lt;li&gt;指導用書（単語表、中国語の説明などが含まれる）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二リピート機またはリピートソフトを準備する&#34;&gt;二、リピート機またはリピートソフトを準備する&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;機能要件&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;リピート位置を設定できる。&lt;/li&gt;
+&lt;li&gt;録音分解記憶機能があるとさらに良い。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三授業前の準備&#34;&gt;三、授業前の準備&lt;/h2&gt;
+&lt;h3 id=&#34;1-テキストを見ずにまずは課後の単語と文法説明を見る&#34;&gt;1. テキストを見ずに、まずは課後の単語と文法説明を見る&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;「みんなの日本語」を使う場合、指導用書のみを見て、本冊の内容は見ない。指導用書のテキスト翻訳部分も最初は飛ばす。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-単語と文法を先に覚える&#34;&gt;2. 単語と文法を先に覚える&lt;/h3&gt;
+&lt;h4 id=&#34;録音を聞きながら単語を覚える&#34;&gt;録音を聞きながら単語を覚える&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;初回記憶&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>日本語学習入門：核心概念</title>
+      <link>https://yuuniji.us.kg/ja/posts/japanese-learning-concept/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/ja/posts/japanese-learning-concept/</guid>
+      <description>&lt;h1 id=&#34;日本語学習入門核心概念&#34;&gt;日本語学習入門：核心概念&lt;/h1&gt;
+&lt;h2 id=&#34;第一の核心全ては文を中心に文こそが全て文こそが財産&#34;&gt;第一の核心：全ては文を中心に！文こそが全て！文こそが財産！&lt;/h2&gt;
+&lt;p&gt;文はシンプルで明確であり、すぐに交流に使える！&lt;/p&gt;
+&lt;h3 id=&#34;情熱の成果&#34;&gt;情熱の成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;毎日10文を口に出すと、1年で3600文以上を蓄積し、応用すれば1万近い実用的な文を手に入れ、自由に交流できるレベルに到達！&lt;/li&gt;
+&lt;li&gt;1年間日本語を学んだ学生の能力は、多くの大学の日本語学部卒業生を遥かに超え、後者が連続して話せる日本語は10文にも満たないかもしれない。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;生涯の趣味&#34;&gt;生涯の趣味&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;良い文を集め、繰り返し練習し、口から出るまでにする。&lt;/li&gt;
+&lt;li&gt;この習慣により、多くの人が私の影響で日本語学習を愛し、成功への道を歩んでいる！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;すぐに行動最もよく使われる10文を10分で学ぼう&#34;&gt;すぐに行動（最もよく使われる10文を10分で学ぼう）&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;どちらにお住まいですか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;どうやってこちらへみえましたか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お体はいかがですか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;家族はお見えですか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お仕事はどちらですか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;今度の日曜日はお暇ですか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;どちらにお勤めですか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;わからないことはありますか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お困りのことはありませんか。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;仕事が終わったら、お会いできますか。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第二の核心三最口腔筋肉トレーニング法&#34;&gt;第二の核心：三最口腔筋肉トレーニング法&lt;/h2&gt;
+&lt;h3 id=&#34;核心理念&#34;&gt;核心理念&lt;/h3&gt;
+&lt;p&gt;言語は「話す」もの！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>私のブログ構築の旅：ゼロからオンラインへ</title>
+      <link>https://yuuniji.us.kg/ja/posts/my-first-post/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/ja/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;hugo-ブログ--github-pages-完全デプロイガイド&#34;&gt;Hugo ブログ + GitHub Pages 完全デプロイガイド&lt;/h1&gt;
+&lt;h2 id=&#34;-環境準備&#34;&gt;📌 環境準備&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;デバイス&lt;/strong&gt;：MacBook（macOS）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ツール&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;GitHub アカウント&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hugo-のインストール&#34;&gt;&lt;strong&gt;Hugo のインストール&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;インストールの確認：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>标签 on 叶泽伟的博客</title>
+    <link>https://yuuniji.us.kg/tags/</link>
+    <description>Recent content in 标签 on 叶泽伟的博客</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yuuniji.us.kg/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>https://yuuniji.us.kg/tags/devops/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>路线图</title>
+      <link>https://yuuniji.us.kg/tags/%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/tags/%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>日语</title>
+      <link>https://yuuniji.us.kg/tags/%E6%97%A5%E8%AF%AD/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/tags/%E6%97%A5%E8%AF%AD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>学习法</title>
+      <link>https://yuuniji.us.kg/tags/%E5%AD%A6%E4%B9%A0%E6%B3%95/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/tags/%E5%AD%A6%E4%B9%A0%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>https://yuuniji.us.kg/tags/github/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>博客搭建</title>
+      <link>https://yuuniji.us.kg/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

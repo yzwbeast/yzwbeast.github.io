@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DevOps on 叶泽伟的博客</title>
+    <link>https://yuuniji.us.kg/tags/devops/</link>
+    <description>Recent content in DevOps on 叶泽伟的博客</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yuuniji.us.kg/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps 学习路线图</title>
+      <link>https://yuuniji.us.kg/posts/devops-roadmap/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/posts/devops-roadmap/</guid>
+      <description>&lt;h2 id=&#34;1-学习一门编程语言&#34;&gt;1. 学习一门编程语言&lt;/h2&gt;
+&lt;p&gt;选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;文章&lt;/em&gt; &lt;a href=&#34;https://cs.fyi/guide/programming-language-for-devops&#34;&gt;选择 DevOps 编程语言的指南&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 &lt;a href=&#34;https://cs.fyi/guide/programming-language-for-devops&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

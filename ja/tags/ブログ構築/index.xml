@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ブログ構築 on 叶泽伟的博客</title>
+    <link>https://yuuniji.us.kg/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</link>
+    <description>Recent content in ブログ構築 on 叶泽伟的博客</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yuuniji.us.kg/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>私のブログ構築の旅：ゼロからオンラインへ</title>
+      <link>https://yuuniji.us.kg/ja/posts/my-first-post/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuuniji.us.kg/ja/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;hugo-ブログ--github-pages-完全デプロイガイド&#34;&gt;Hugo ブログ + GitHub Pages 完全デプロイガイド&lt;/h1&gt;
+&lt;h2 id=&#34;-環境準備&#34;&gt;📌 環境準備&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;デバイス&lt;/strong&gt;：MacBook（macOS）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ツール&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;GitHub アカウント&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hugo-のインストール&#34;&gt;&lt;strong&gt;Hugo のインストール&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;インストールの確認：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

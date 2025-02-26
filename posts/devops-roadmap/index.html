@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>DevOps 学习路线图 | 叶泽伟的博客</title>
+<meta name="keywords" content="DevOps, 路线图">
+<meta name="description" content="1. 学习一门编程语言
+选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。
+
+文章 选择 DevOps 编程语言的指南
+
+该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 这里。">
+<meta name="author" content="叶泽伟">
+<link rel="canonical" href="https://yuuniji.us.kg/posts/devops-roadmap/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://yuuniji.us.kg/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://yuuniji.us.kg/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://yuuniji.us.kg/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://yuuniji.us.kg/apple-touch-icon.png">
+<link rel="mask-icon" href="https://yuuniji.us.kg/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://yuuniji.us.kg/posts/devops-roadmap/">
+<link rel="alternate" hreflang="en" href="https://yuuniji.us.kg/en/posts/devops-roadmap/">
+<link rel="alternate" hreflang="ja" href="https://yuuniji.us.kg/ja/posts/devops-roadmap/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://yuuniji.us.kg/posts/devops-roadmap/">
+  <meta property="og:site_name" content="叶泽伟的博客">
+  <meta property="og:title" content="DevOps 学习路线图">
+  <meta property="og:description" content="1. 学习一门编程语言 选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。
+文章 选择 DevOps 编程语言的指南 该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 这里。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-26T00:00:00+00:00">
+    <meta property="article:tag" content="DevOps">
+    <meta property="article:tag" content="路线图">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DevOps 学习路线图">
+<meta name="twitter:description" content="1. 学习一门编程语言
+选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。
+
+文章 选择 DevOps 编程语言的指南
+
+该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 这里。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "文章列表",
+      "item": "https://yuuniji.us.kg/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "DevOps 学习路线图",
+      "item": "https://yuuniji.us.kg/posts/devops-roadmap/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "DevOps 学习路线图",
+  "name": "DevOps 学习路线图",
+  "description": "1. 学习一门编程语言 选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。\n文章 选择 DevOps 编程语言的指南 该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 这里。\n",
+  "keywords": [
+    "DevOps", "路线图"
+  ],
+  "articleBody": "1. 学习一门编程语言 选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。\n文章 选择 DevOps 编程语言的指南 该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 这里。\n◇Python Python 是一种高级解释型编程语言，以其简洁性、可读性和多功能性而闻名。它支持多种编程范式，包括过程式、面向对象和函数式编程。Python 拥有广泛的标准库和丰富的第三方包生态系统，适用于从 Web 开发、数据分析到人工智能和科学计算的多种应用场景。其简洁的语法和动态类型使得快速开发和原型设计成为可能。Python 的“内置电池”哲学提供了丰富的内置功能，而其跨平台兼容性确保了代码的可移植性。凭借强大的社区支持和持续发展，Python 已成为最受欢迎的编程语言之一，广泛应用于学术界、工业界和开源项目中，从简单的脚本编写到复杂的软件开发。\n路线图 访问 Python 专属路线图 官方 Python 官网 文章 自动化无聊的工作 文章 Python 速成课程 视频 Python 免费完整课程 动态 探索关于 Python 的热门帖子 ◇Go Go，也称为 Golang，是由 Google 开发的一种静态类型、编译型编程语言。它强调简洁性、效率和内置的并发支持。Go 具有快速编译、垃圾回收和强大的标准库。其语法简洁明了，易于阅读和维护。Go 的 goroutine 和 channel 为并发编程提供了强大的工具。该语言特别适合系统编程、网络服务和云原生应用。Go 的高效内存使用和快速执行使其在构建可扩展的服务器端应用和微服务方面广受欢迎。凭借其简洁性和性能，Go 在 DevOps 工具、容器技术和云基础设施项目中得到了广泛采用。\n路线图 访问 Go 专属路线图 官方 Go 基础教程 官方 Go 参考文档 文章 Go 示例 - 带注释的示例程序 文章 用 Go 构建 RESTful JSON API 视频 100 秒了解 Go 动态 探索关于 Golang 的热门帖子 2. 操作系统 ◇Ubuntu/Debian(Linux) Ubuntu 和 Debian 都是流行的 Linux 发行版，其中 Debian 是 Ubuntu 的上游基础。Debian 以其稳定性、广泛的软件包库和严格的测试流程而闻名，是服务器和需要长期支持的系统的首选。Ubuntu 源自 Debian，旨在提供更友好的用户体验，具有定期发布、易用性和商业支持选项。它具有更简化的安装过程、广泛的文档和活跃的社区。两个发行版都使用 Debian 的包管理系统（APT），并共享许多底层技术，但 Ubuntu 强调更精致的桌面体验和快速的发布周期。\n课程 通过实践实验室练习 Linux 命令 官方 Debian 官网 官方 Ubuntu 官网 视频 如何使用 Ubuntu 视频 Debian 12 初学者教程 动态 探索关于 Ubuntu 的热门帖子 ◇RHEL/衍生版(Linux) Red Hat Enterprise Linux (RHEL) 是一种流行的 Linux 操作系统发行版，专为企业级使用设计。它由 Red Hat, Inc. 开发和维护，采用基于订阅的模式提供。有几个基于 RHEL 或从 RHEL 衍生的 Linux 发行版，这些发行版被称为 RHEL 衍生版。一些 RHEL 衍生版的例子包括：AlmaLinux、CentOS、CloudLinux、Oracle Linux 和 Scientific Linux。RHEL 衍生版通常在企业环境中使用，因为它们提供了 RHEL 的稳定性和可靠性，同时具有免费或低成本的额外优势。\n官方 Red Hat Enterprise Linux 官网 官方 RHEL 文档 文章 学习 Linux 101 视频 什么是 Red Hat Enterprise Linux？ ◇FreeBSD(Unix) FreeBSD 是一种免费、开源的类 Unix 操作系统，源自 Berkeley 软件发行版 (BSD)。FreeBSD 以其稳定性、性能和先进的网络功能而闻名，广泛用于服务器环境、嵌入式系统以及作为网络设备的基础。它具有单体内核、全面的用户态工具集和用于轻松安装软件的 ports 集合。FreeBSD 支持多种架构，并包含高级功能，如 ZFS 文件系统、用于容器化的 jail 和 pf 包过滤器。虽然 FreeBSD 在桌面环境中不太常见，但它广泛应用于互联网基础设施、存储系统以及需要强大、可定制操作系统和宽松许可证的公司中。\n官方 FreeBSD 官方 FreeBSD 新手资源 官方 FreeBSD 文档 官方 FreeBSD 手册 视频 100 秒了解 FreeBSD 3. 终端知识 ◇脚本编写: Bash Bash（Bourne Again Shell）是一种强大的 Unix shell 和命令语言解释器，是大多数 Linux 发行版和 macOS 的默认 shell。它提供了与操作系统交互的命令行界面，执行命令并通过 shell 脚本自动化任务。Bash 支持变量、控制结构、函数和命令替换，使其在系统管理、DevOps 任务和通用脚本编写中非常灵活。它能够管道命令、重定向输入/输出，并利用大量内置命令和实用程序，使其成为开发人员和系统管理员在 Unix 类环境中管理和自动化工作流程的必备工具。\n课程 Bash 脚本编写初学者教程 文章 交互式 Shell 脚本教程 文章 Bash 脚本编写教程 视频 100 秒了解 Bash 动态 探索关于 Bash 的热门帖子 ◇编辑器: Vim, Nano, Emacs 文本编辑器是用于创建、编辑和管理文本文件的软件工具。它们从具有基本功能的简单编辑器到复杂的集成开发环境（IDE）不等。流行的文本编辑器包括：\nNotepad：Windows 的基本编辑器，适用于简单的文本文件。\nVim：一种高度可配置且功能强大的编辑器，以其效率和模态界面而闻名。\nEmacs：一种多功能编辑器，具有广泛的定制选项和丰富的插件。\nSublime Text：一种功能丰富的编辑器，注重速度和用户友好的界面。\nVisual Studio Code：一种现代的开源编辑器，内置调试支持、扩展和与各种开发工具的集成。\n官方 Vim\n官方 GNU Nano\n官方 GNU Emacs\n文章 Vim 冒险\n视频 Vim 初学者教程\n视频 Linux 速成课程 - nano\n视频 Emacs 绝对初学者指南\n◇进程监控 进程监控是对 IT 系统或组织内进程的持续观察和分析，以确保最佳性能、效率和合规性。它涉及跟踪关键指标、资源利用率和系统上运行的各个进程或应用程序的行为。这种做法有助于在问题影响整体系统性能或用户体验之前识别异常、瓶颈或潜在问题。进程监控工具通常提供有关 CPU 使用率、内存消耗、I/O 操作和线程活动的实时数据。它们通常包括警报、日志记录和进程数据可视化功能。在现代 IT 环境中，进程监控对于维护系统稳定性、优化资源分配、排查性能问题以及支持复杂分布式系统中的容量规划至关重要。\nLsof 在其标准输出中列出有关进程打开的文件信息。\n文章 lsof 速查表 文章 lsof 文档 视频 Linux 速成课程 - lsof 命令 动态 探索关于监控的热门帖子 ◇性能监控 性能监控是对 IT 系统运行效率和有效性的系统观察和测量。它涉及收集、分析和报告各种组件（包括应用程序、网络、服务器和数据库）的关键性能指标（KPI）。此过程使用专门的工具来跟踪响应时间、吞吐量、资源利用率和错误率等指标。性能监控有助于识别瓶颈、预测潜在问题并优化系统资源。它对于维护服务级别协议（SLA）、确保用户满意度和支持容量规划至关重要。在现代 IT 环境中，性能监控通常结合实时分析、AI 驱动的洞察和自动警报系统，从而实现对复杂分布式系统的主动管理，并支持 IT 运营和服务交付的持续改进。\n文章 Linux 命令：使用 vmstat 探索虚拟内存 文章 VMstat 手册页 文章 vmstat 教程 动态 探索关于监控的热门帖子 ◇网络工具 网络工具是用于监控、分析、故障排除和管理计算机网络的重要软件实用程序。它们包括广泛的应用程序，如用于深度数据包分析的 Wireshark、用于网络扫描和安全审计的 Nmap、用于测试基本连接性的 Ping、用于可视化网络路径的 Traceroute、用于显示网络连接的 Netstat、用于命令行数据包捕获的 Tcpdump、用于性能测试的 Iperf、用于各种网络操作的 Netcat、用于 DNS 查询的 Nslookup/Dig 以及用于通过 SSH 或 telnet 进行远程访问的 PuTTY。这些工具共同使网络管理员和安全专业人员能够诊断问题、优化性能、进行安全评估并维护从小型本地网络到大型企业环境的网络基础设施的整体健康和效率。\n文章 10 个 SCP 命令示例 文章 SCP 命令详解 视频 前 5 个 Linux 网络命令 视频 你需要知道的 60 个 Linux 命令 ◇文本处理 文本处理工具是使用户能够高效修改、处理和转换文本数据的实用程序或软件。这些工具通常用于脚本编写、数据清理和自动化任务。常见的文本处理工具包括用于搜索和替换的 sed（流编辑器）、用于模式扫描和数据提取的 awk 以及用于使用正则表达式搜索文本的 grep。其他流行的工具包括用于各种文本处理功能的 cut、sort、tr 和 uniq。这些命令行工具通常用于 UNIX/Linux 环境中，以处理大型文本文件、自动化工作流程并执行复杂的文本转换。\n文章 Linux 文本处理命令 视频 学习 Awk 对 Linux 用户至关重要 4. 版本控制系统 版本控制系统（VCS）是跟踪代码和文件随时间变化的工具，使多个用户能够协作项目、维护历史记录并管理代码库的不同版本。它们有助于跟踪修改、合并更改和解决冲突。VCS 有两种主要类型：集中式和分布式。集中式系统（如 Subversion 和 CVS）依赖于单一的中央仓库，而分布式系统（如 Git 和 Mercurial）允许每个用户拥有仓库的完整副本，包括其历史记录。分布式 VCS（如 Git）因其灵活性、分支能力和对协作工作流的强大支持而特别受欢迎。\n路线图 访问 Git \u0026 GitHub 专属路线图 官方 Git 官方 Mercurial 官方 Subversion 文章 什么是版本控制？ 视频 版本控制系统（VCS） ◇Git Git 是一种分布式版本控制系统，旨在跟踪软件开发过程中源代码的变化。它允许多个开发人员同时在同一项目上工作，维护修改的完整历史记录。Git 在每个开发人员的机器上都有本地仓库，支持离线工作和快速操作。它通过分支和合并支持非线性开发，促进并行工作流。Git 的分布式特性增强了协作、备份和实验。关键概念包括提交、分支、合并和远程仓库。凭借其速度、灵活性和强大的分支与合并能力，Git 已成为现代软件开发中版本控制的标准，支持 GitHub 和 GitLab 等平台。\n路线图 访问 Git \u0026 GitHub 专属路线图 课程 通过示例学习 Git - 通过小课程学习版本控制 文章 通过教程、新闻和技巧学习 Git - Atlassian 文章 Git 速查表 视频 Git \u0026 GitHub 初学者速成课程 动态 探索关于 Git 的热门帖子 5. VCS 托管 在团队中工作时，通常需要一个远程位置来存放代码，以便其他人可以访问它、创建自己的分支以及创建或审查拉取请求。这些服务通常包括问题跟踪、代码审查和持续集成功能。一些流行的选择包括 GitHub、GitLab、BitBucket 和 AWS CodeCommit。\n官方 GitHub 官方 GitLab 官方 BitBucket 视频 GitHub vs GitLab vs Bitbucket - 哪个更好？ ◇GitHub GitHub 是一个基于 Web 的版本控制和协作平台，使用 Git。它提供基于云的 Git 仓库托管，提供错误跟踪、任务管理和项目 wiki 等功能。GitHub 通过拉取请求促进代码审查，支持问题跟踪，并通过分叉和星标仓库等功能实现社交编码。它提供公共和私有仓库，使其在开源项目和私有开发中广受欢迎。GitHub 的生态系统包括与各种开发工具和 CI/CD 平台的集成。凭借 GitHub Actions 自动化、GitHub Packages 包管理和 GitHub Pages 网页托管等功能，它成为了一个全面的软件开发工作流平台，促进了全球开发人员之间的协作。\n路线图 访问 Git \u0026 GitHub 专属路线图 官方 GitHub 文章 如何在专业开发团队中使用 Git 视频 什么是 GitHub？ 动态 探索关于 GitHub 的热门帖子 6. 容器 容器是轻量级、可移植且隔离的环境，用于打包应用程序及其依赖项，从而在不同的计算环境中实现一致的部署。它们封装了软件代码、运行时、系统工具、库和设置，确保应用程序无论部署在哪里都能以相同的方式运行。容器共享主机操作系统的内核，使其比传统的虚拟机更高效。像 Docker 这样的流行容器化平台提供了创建、分发和运行容器的工具。该技术支持微服务架构，简化了应用程序部署，提高了可扩展性，并通过简化从开发到生产的流程和实现更高效的资源利用来增强 DevOps 实践。\n文章 什么是容器？ 文章 什么是容器？ 文章 容器 - The New Stack 视频 什么是容器？ 动态 探索关于容器的热门帖子 ◇Docker Docker 是一个开源平台，使用容器化技术自动化应用程序的部署、扩展和管理。它使开发人员能够将应用程序及其所有依赖项打包到称为容器的标准化单元中，确保在不同环境中的一致行为。Docker 提供了全机器虚拟化的轻量级替代方案，使用操作系统级虚拟化在单个主机上运行多个隔离系统。其生态系统包括用于构建、共享和运行容器的工具，如 Docker Engine、Docker Hub 和 Docker Compose。Docker 已成为现代 DevOps 实践的重要组成部分，促进了微服务架构、持续集成/部署管道以及开发和生产环境中的高效资源利用。\n路线图 访问 Docker 专属路线图 官方 Docker 文档 视频 Docker 教程 视频 55 秒简化 Docker 动态 探索关于 Docker 的热门帖子 7. Web 服务与代理配置 学习如何设置：\n正向代理 反向代理 负载均衡器 防火墙 缓存服务器 Web 服务器 ◇正向代理 正向代理，通常简称为代理，是位于客户端设备和互联网之间的服务器，负责将客户端的请求转发到 Web 服务器。它代表客户端行事，可能提供匿名性、安全性和访问控制等好处。正向代理可以缓存频繁请求的内容，过滤网络流量，绕过地理限制，并记录用户活动。它们通常在企业网络中使用，以强制执行互联网使用策略，通过隐藏内部网络细节来增强安全性，并通过缓存提高性能。与反向代理不同，反向代理代表服务器提供资源，而正向代理主要服务于客户端需求，作为客户端与更广泛的互联网之间的中介。\n文章 什么是正向代理？ 文章 正向代理与反向代理 视频 理解代理、正向代理和反向代理 ◇反向代理 反向代理是位于客户端设备和后端服务器之间的服务器，拦截来自客户端的请求并将其转发到适当的后端服务器。它代表服务器行事，提供负载均衡、缓存、SSL 终止和安全性等好处。反向代理可以将传入的流量分配到多个服务器以提高性能和可靠性，缓存频繁请求的内容以减少服务器负载，处理 SSL 加密和解密以减轻后端服务器的负担，并通过隐藏服务器细节提供额外的安全层。常见的用途包括提高 Web 应用程序性能、启用微服务架构以及增强 Web 托管环境的安全性。流行的反向代理软件包括 NGINX、HAProxy 和 Apache 的 mod_proxy。\n文章 什么是反向代理？ 文章 NGINX 文档 文章 理解 NGINX 作为反向代理 视频 代理与反向代理（实际示例） ◇缓存服务器 缓存服务器，也称为代理服务器或缓存服务器，是一种专用的网络服务器，用于本地保存网页和其他互联网内容，以减少带宽使用、服务器负载和感知延迟。它通过拦截客户端的请求，保存来自 Web 服务器的响应，并为后续相同信息的请求提供缓存内容。缓存服务器可以显著提高响应时间并减少网络流量，特别是对于频繁访问的内容。它们通常用于内容分发网络（CDN）、企业网络和互联网服务提供商，以优化性能、降低成本并通过从更接近最终用户的位置提供内容来增强用户体验。\n文章 什么是缓存？ 文章 什么是缓存服务器？ 文章 站点缓存 vs 浏览器缓存 vs 服务器缓存 视频 每个开发者都应该知道的缓存系统 ◇防火墙 防火墙是一种网络安全设备，它根据组织先前建立的安全策略监控和过滤传入和传出的网络流量。它是位于私有内部网络和公共互联网之间的屏障。防火墙的主要目的是允许无害的流量进入并阻止危险的流量。\n文章 什么是防火墙？ 文章 防火墙的类型 文章 简单防火墙（UFW） 文章 为什么我们需要防火墙？ 视频 防火墙与网络安全 - SimpliLearn 订阅 探索关于防火墙的热门文章 ◇负载均衡器 负载均衡器充当交通警察，位于服务器前面，将客户端请求路由到能够满足这些请求的所有服务器，以最大化速度和容量利用率，并确保没有一台服务器过载。如果其中一台服务器宕机，负载均衡器会将流量重定向到剩余的在线服务器。\n文章 什么是负载均衡？ 文章 负载均衡的概念和算法 文章 NGINX 反向代理与负载均衡 视频 什么是负载均衡器？ ◇Nginx（Web 服务器） NGINX 是一个高性能、开源的 Web 服务器、反向代理和负载均衡器。NGINX 以其处理并发连接的效率而闻名，它使用事件驱动、异步的架构，消耗最少的资源。它擅长提供静态内容、将请求代理到应用服务器以及在多个后端之间进行负载均衡。NGINX 因其提高网站性能、可扩展性和安全性的能力而被广泛使用。它支持各种协议，包括 HTTP、HTTPS、SMTP 和 WebSocket，并提供 SSL/TLS 终止、缓存和内容压缩等功能。NGINX 在小型和大型企业环境中都很受欢迎，是许多现代 Web 架构中的关键组件，特别是在微服务和容器化部署中。\n官方 Nginx 文章 Ubuntu 上的基本 NGINX 设置：功能性和安全性网站服务指南 视频 100 秒内解释 NGINX 订阅 探索关于 Nginx 的热门文章 8. 网络与协议 网络协议是标准化的规则和程序，用于管理数据在计算机网络中的传输、接收和解释。它们定义了数据通信中的格式、时序、序列和错误控制。关键协议包括：\nTCP/IP（传输控制协议/互联网协议）：互联网通信的基础套件。\nHTTP/HTTPS：用于网页浏览和 Web 上的安全数据传输。\nFTP/SFTP：文件传输协议。\nSMTP/POP3/IMAP：电子邮件通信协议。\nDNS：用于域名解析。\nDHCP：用于自动分配 IP 地址。\nSSL/TLS：用于安全的加密通信。\nUDP：用于快速、无连接的数据传输。\n文章 Cloudflare - 什么是 SSL？\n文章 Cloudflare - 什么是 TLS？\n文章 关于 HTTP 的一切你需要知道的\n文章 什么是 HTTP？\n文章 什么是 HTTPS？\n文章 什么是 DNS？\n视频 DNS 及其工作原理\n视频 DNS 记录\n视频 SSH vs SSL vs TLS\n视频 OpenSSH 完整指南\n◇FTP/SFTP（文件传输） FTP（文件传输协议）是一种标准的网络协议，用于在计算机网络中的客户端和服务器之间传输文件。它采用客户端-服务器模型，通常在客户端和服务器之间使用单独的控制和数据连接。FTP 允许用户上传、下载和管理远程系统上的文件，支持认证和匿名访问。尽管 FTP 因其简单性和兼容性而被广泛使用，但由于它以明文传输数据和凭证，存在安全限制。因此，更安全的替代方案如 SFTP（SSH 文件传输协议）和 FTPS（FTP 安全）在敏感数据传输中越来越受欢迎。尽管 FTP 已经存在多年，它仍然在各种文件传输需求中使用，特别是在遗留系统和安全性要求较低的环境中。\nSFTP（SSH 文件传输协议）是一种安全的文件传输协议，通过安全外壳（SSH）数据流提供文件访问、传输和管理功能。它被设计为 SSH 的扩展，以提供安全的文件传输能力。SFTP 在传输过程中加密命令和数据，防止窃听和中间人攻击。与传统的 FTP 不同，SFTP 使用单一连接，不分离控制通道和数据通道。它支持恢复中断的传输、目录列表和远程文件删除等功能。SFTP 在企业环境中广泛用于安全文件传输、自动化脚本以及作为 FTP 的更安全替代方案。它与 SSH 的集成使其成为系统管理员和开发人员在安全远程系统操作中的首选。\n文章 FTP vs SFTP vs FTPS 文章 什么是 SFTP？ ◇DNS（域名服务） DNS（域名系统）是一种分层的、分散的命名系统，用于连接到互联网或私有网络的计算机、服务或其他资源。它将人类可读的域名（如 www.example.com）转换为计算机用于在网络上相互识别的 IP 地址（如 192.0.2.1）。DNS 充当互联网的电话簿，使用户能够使用易于记忆的名称访问网站，而不是使用数字 IP 地址。该系统由 DNS 服务器、解析器和记录（如 A、CNAME、MX）组成，共同工作以高效地路由互联网流量。DNS 对互联网功能至关重要，影响从网页浏览和电子邮件到现代云架构中的负载均衡和服务发现的一切。\n文章 什么是 DNS？ 文章 DNS 的工作原理（漫画） 视频 DNS 及其工作原理 订阅 探索关于 DNS 的热门文章 ◇HTTP（Web 通信） HTTP（超文本传输协议）是万维网上数据通信的基础。它是一种应用层协议，支持客户端（通常是 Web 浏览器）和服务器之间传输各种类型的数据，主要是网页及其组件。HTTP 采用请求-响应模型，客户端发送资源请求，服务器响应请求的数据或错误消息。它是无状态的，意味着每个请求都独立于之前的请求。HTTP 支持各种方法（GET、POST、PUT、DELETE 等）以执行不同类型的操作。虽然最初设计为纯文本传输，但现在广泛采用其安全版本 HTTPS，使用加密来保护传输中的数据。\n文章 关于 HTTP 的一切你需要知道的 文章 什么是 HTTP？ 文章 HTTP 概述 视频 HTTP/1 到 HTTP/2 到 HTTP/3 视频 HTTP 速成课程与探索 ◇HTTPS（Web 通信） HTTPS（超文本传输协议安全）是 HTTP 的安全版本，加密客户端和服务器之间交换的数据。它使用 SSL/TLS 协议提供身份验证、数据完整性和保密性。HTTPS 通过加密所有通信来防止窃听、篡改和中间人攻击。它使用数字证书来验证网站的身份，增强信任和安全性。HTTPS 对于保护登录凭证和财务数据等敏感信息至关重要。它已成为安全 Web 通信的标准，主要浏览器将非 HTTPS 网站标记为“不安全”。HTTPS 还提供 SEO 优势，并且是许多现代 Web 功能和渐进式 Web 应用程序的必备条件。\n文章 什么是 HTTPS？ 文章 为什么 HTTPS 重要 文章 在服务器上启用 HTTPS 文章 HTTPS 的工作原理（漫画） 视频 HTTPS 真的能保护你吗？ ◇SSL/TLS（Web 通信） 安全套接字层（SSL）和传输层安全（TLS）是用于提供互联网通信安全性的加密协议。这些协议加密通过 Web 传输的数据，因此任何试图拦截数据包的人都无法解释数据。一个重要区别是，由于安全漏洞，SSL 现在已被弃用，大多数现代 Web 浏览器不再支持它。但 TLS 仍然是安全的并得到广泛支持，因此最好使用 TLS。\n文章 Cloudflare - 什么是 SSL？ 文章 Cloudflare - 什么是 TLS？ 文章 维基百科 - SSL/TLS 视频 SSH vs SSL vs TLS 视频 7 分钟内解释 SSL/TLS ◇SSH（Web 通信） SSH（安全外壳）是一种加密网络协议，用于在不安全的网络上安全地访问和管理远程机器。它提供加密通信，确保机密性和完整性，并允许安全文件传输、命令执行和隧道。SSH 广泛用于服务器、云基础设施和网络设备的远程管理，通常采用基于密钥的认证或密码。像 OpenSSH 这样的工具通常用于建立 SSH 连接，提供比 Telnet 等较旧、较不安全的协议更安全的替代方案。\n官方 什么是 SSH？ 文章 SSH 简介 文章 使用 SSH 进行 SFTP 视频 SSH 的工作原理 订阅 探索关于 SSH 的热门文章 ◇OSI 模型 OSI（开放系统互连）模型是一个概念框架，将电信或计算系统的功能标准化为七个抽象层。这些层从下到上分别是：物理层、数据链路层、网络层、传输层、会话层、表示层和应用层。每一层在数据通信过程中都有特定的用途，下层处理更多与硬件相关的任务，而上层处理软件和用户界面方面的问题。该模型有助于理解数据如何在网络中移动、排查网络问题以及设计网络协议和硬件。虽然在现实世界的实现中并不严格遵循 OSI 模型，但它仍然是网络工程师和开发人员的宝贵教育工具和参考点，为讨论网络操作和架构提供了通用语言。\n文章 什么是 OSI 模型？ 视频 OSI 模型 视频 OSI 与 TCP/IP 模型 ◇白名单/灰名单（电子邮件协议） 白名单涉及创建受信任实体（如 IP 地址、电子邮件地址或应用程序）的列表，这些实体被明确允许访问系统或发送消息。默认情况下，任何不在白名单上的内容都会被拒绝。白名单通过限制访问仅限已知和批准的实体来提供高级别的安全性，但它可能不够灵活，并且需要频繁更新以适应合法的更改。灰名单是一种更灵活的方法，主要用于电子邮件过滤。当从未知发件人收到电子邮件时，服务器会暂时拒绝它，并返回“稍后再试”的响应。合法的邮件服务器会在短暂的延迟后重新发送电子邮件，而垃圾邮件发送者通常不会重试，因此被阻止。这种方法通过利用垃圾邮件发送者通常不遵循重试机制的事实来减少垃圾邮件。灰名单可能比白名单更少侵入性，但它可能会对首次发件人造成轻微的电子邮件传递延迟。\n文章 灰名单的详细介绍 视频 灰名单 视频 如何将电子邮件地址加入白名单？ ◇SMTP（电子邮件协议） 电子邮件正在成为当今互联网上最有价值的服务之一。大多数互联网系统使用 SMTP 作为将邮件从一个用户传输到另一个用户的方法。SMTP 是一种推送协议，用于发送邮件，而 POP（邮局协议）或 IMAP（互联网消息访问协议）用于在接收方检索这些电子邮件。SMTP 是一种应用层协议。想要发送邮件的客户端打开与 SMTP 服务器的 TCP 连接，然后通过连接发送邮件。SMTP 服务器始终处于监听模式。一旦它侦听到来自任何客户端的 TCP 连接，SMTP 进程就会通过端口 25 启动连接。成功建立 TCP 连接后，客户端进程会立即发送邮件。\n文章 什么是 SMTP？ - Cloudflare 文章 SMTP - 维基百科 视频 什么是 SMTP 及其工作原理？ 订阅 探索关于无服务器的热门文章 ◇DMARC（电子邮件协议） DMARC（基于域的消息认证、报告和一致性）是一种电子邮件认证协议，建立在 SPF 和 DKIM 之上，以防范电子邮件欺骗和钓鱼攻击。它允许域名所有者指定电子邮件接收者应如何处理未通过认证检查的消息。DMARC 为域名所有者提供了一种反馈机制，以接收电子邮件认证结果的报告，帮助他们监控和改进电子邮件安全性。通过实施 DMARC 策略，组织可以提高其电子邮件的可交付性，保护其品牌声誉，并减少其域名被用于欺诈性电子邮件活动的可能性。DMARC 被主要电子邮件提供商广泛采用，并被认为是现代电子邮件安全策略的关键组成部分。\n官方 DMARC 视频 什么是 DMARC：你需要了解的电子邮件安全 订阅 探索关于安全的热门文章 ◇IMAP（电子邮件协议） IMAP（互联网消息访问协议）是一种标准的电子邮件协议，允许电子邮件客户端访问存储在邮件服务器上的消息。与 POP3 不同，IMAP 将电子邮件保留在服务器上，从而可以从多个设备访问并保持同步。它支持文件夹结构、消息标记和部分消息检索，使其在管理大量电子邮件时非常高效。IMAP 允许用户在服务器端进行搜索，减少带宽使用。它设计用于在服务器上长期存储邮件，非常适合需要从各种设备或位置访问电子邮件的用户。IMAP 的同步能力和服务器端管理功能使其成为大多数现代电子邮件系统的首选协议，特别是在移动和多设备环境中。\n文章 维基百科：互联网消息访问协议 视频 什么是 POP3、IMAP 和 SMTP？ ◇SPF（电子邮件协议） 发件人策略框架（SPF）用于验证电子邮件的发件人。通过设置 SPF 记录，互联网服务提供商可以验证邮件服务器是否有权为特定域名发送电子邮件。SPF 记录是 DNS TXT 记录，包含允许代表您的域名发送电子邮件的 IP 地址列表。\n文章 什么是 DNS SPF 记录？ 视频 什么是 SPF？发件人策略框架解释 ◇POP3S（电子邮件协议） POP3（端口 110）或 POP3s（端口 995）代表邮局协议。它是一种互联网标准协议，本地电子邮件软件客户端使用它通过 TCP/IP 连接从远程邮件服务器检索电子邮件。互联网服务提供商托管的电子邮件服务器也使用 POP3 来接收和保存其订阅者的电子邮件。这些订阅者会定期使用电子邮件客户端软件检查远程服务器上的邮箱，并下载发送给他们的电子邮件。一旦电子邮件客户端下载了电子邮件，它们通常会被从服务器上删除，尽管一些电子邮件客户端允许用户指定邮件在服务器上保留一段时间。\n文章 什么是 POP3？ 视频 什么是 POP3、IMAP 和 SMTP？ ◇域名密钥（电子邮件协议） 域名密钥是一种电子邮件认证方法，旨在验证电子邮件发件人的域名并确保消息的完整性。由雅虎开发，它是 DKIM（域名密钥识别邮件）的前身。域名密钥使用公钥加密，允许电子邮件系统验证消息是由授权发件人发送的，并且在传输过程中未被篡改。发送服务器使用私钥对发出的电子邮件进行签名，接收服务器可以使用发件人 DNS 记录中发布的公钥验证签名。虽然域名密钥在很大程度上已被 DKIM 取代，但它在旨在打击电子邮件欺骗和钓鱼攻击的电子邮件认证技术的发展中发挥了关键作用。\n文章 域名密钥识别邮件 视频 什么是 DKIM？域名密钥识别邮件 9. 云服务提供商 云服务提供商提供了一层API来抽象基础设施，并根据安全和计费边界进行资源调配。云运行在数据中心的服务器上，但这些抽象巧妙地给人一种与单一“平台”或大型应用程序交互的错觉。通过云服务提供商快速调配、配置和保护资源的能力，是现代DevOps巨大成功和复杂性的关键。\n文章 云服务提供商 文章 什么是云服务提供商？ 订阅 探索关于云的顶级文章 ◇AWS 自2011年以来，亚马逊网络服务（AWS）一直是市场领先的云计算平台，领先于Azure和Google Cloud。AWS提供超过200种服务，数据中心遍布全球。AWS服务是一个在线平台，提供可扩展且经济高效的云计算解决方案。它是一个广泛采用的云平台，提供多种按需操作，如计算能力、数据库存储、内容交付等。\n课程 100小时AWS完整课程2024 官方 AWS官网 官方 AWS云基础 官方 亚马逊网络服务概述 文章 创建AWS账户 订阅 探索关于AWS的顶级文章 ◇Azure 微软Azure是一个全面的云计算平台，提供广泛的服务，用于通过微软管理的数据中心构建、部署和管理应用程序。它提供基础设施即服务（IaaS）、平台即服务（PaaS）和软件即服务（SaaS）解决方案，支持各种编程语言、工具和框架，包括微软特定和第三方系统。Azure的服务涵盖计算、分析、存储、网络等，使企业能够扩展和转型其业务，利用人工智能和机器学习，并实施强大的安全措施，同时通过其按需付费的定价模式可能降低IT成本。\n官方 Azure官网 开源 微软Azure指南 视频 微软Azure基础认证课程（AZ-900） 订阅 探索关于Azure的顶级文章 ◇Google Cloud Google Cloud是谷歌的云计算服务产品，提供超过150种产品/服务供选择。它由一组物理资产（如计算机和硬盘驱动器）和虚拟资源（如虚拟机）组成，这些资源位于谷歌的数据中心内。它运行在谷歌内部用于其终端用户产品（如搜索、Gmail、Google Drive和YouTube）的相同基础设施上。\n官方 Google Cloud 文章 成为Google Cloud认证专业架构师的5个技巧 视频 Google Cloud平台完整课程2023 订阅 探索关于云的顶级文章 10. 无服务器计算 无服务器计算是一种云计算执行模型，云提供商动态管理基础设施，使开发人员能够专注于编写代码。在此模型中，资源根据需求自动分配和扩展，计费基于实际使用情况而非预购容量。无服务器架构通常用于事件驱动的工作负载和微服务，提高开发效率并减少运营开销。流行的无服务器计算平台包括 AWS Lambda、Azure Functions 和 Google Cloud Functions。\n文章 什么是无服务器计算？ 视频 什么是无服务器计算？ 动态 探索关于无服务器计算的热门帖子 ◇AWS Lambda AWS Lambda 是一种无服务器计算服务，允许您运行代码而无需预置或管理服务器。它会自动扩展，响应触发器执行代码，并且仅按消耗的计算时间计费。Lambda 支持多种编程语言，并与其他 AWS 服务无缝集成，使其成为构建微服务、自动化任务和处理数据流的理想选择，同时最大限度地减少运营开销。\n官方 AWS Lambda 简介 视频 AWS Lambda 教程：入门无服务器计算 动态 探索关于 AWS 的热门帖子 ◇Cloudflare Cloudflare 是一家互联网公司，提供一系列服务来帮助保护和加速网站和应用程序。其核心是内容分发网络（CDN）和反向代理云提供商。这意味着它充当网站源服务器与其访问者之间的中介，缓存内容并过滤恶意流量。Cloudflare 由 Matthew Prince、Lee Holloway 和 Michelle Zatlyn 于 2009 年 7 月创立。该公司获得风险投资，并于 2019 年 8 月向纽约证券交易所提交了 S-1 文件进行 IPO。它于 2019 年 9 月 13 日以每股 15 美元的价格公开交易。\n官方 Cloudflare 视频 Cloudflare 简介 动态 探索关于 Cloudflare 的热门帖子 11. 资源预配 资源预配是指设置和配置必要的 IT 基础设施以支持应用程序或服务的过程。这包括分配和准备资源，如服务器、存储、网络和软件环境。预配可以手动完成，但在现代 DevOps 实践中，通常使用 Terraform、Pulumi 或 CloudFormation 等工具进行自动化。这些工具允许基础设施即代码（IaC），其中整个预配过程在版本控制的脚本或模板中定义。这种方法实现了跨环境的一致、可重复部署，减少了人为错误，并促进了快速扩展和灾难恢复。\n文章 什么是资源预配？ - RedHat 文章 什么是资源预配？ - IBM 视频 开放答案：什么是资源预配？ ◇Terraform Terraform 是 HashiCorp 开发的开源基础设施即代码（IaC）工具，用于使用声明性配置文件定义、预配和管理云和本地基础设施。它支持 AWS、Azure 和 Google Cloud 等多个云提供商，以及各种服务和平台，实现了跨多样化环境的基础设施自动化。Terraform 的状态管理和模块化结构允许高效扩展、重用和版本控制基础设施。它广泛用于自动化基础设施预配，减少手动错误，并提高基础设施的一致性和可重复性。\n路线图 访问专用 Terraform 路线图 课程 完整的 Terraform 课程 官方 Terraform 文档 官方 Terraform 教程 文章 如何扩展您的 Terraform 基础设施 动态 探索关于 Terraform 的热门帖子 12. 配置管理 配置管理是一种系统工程过程，用于在产品生命周期内建立产品属性的一致性。在技术领域，配置管理是一种 IT 管理过程，用于跟踪 IT 系统的各个配置项。IT 系统由粒度不同的 IT 资产组成。IT 资产可以代表一个软件、一台服务器或一组服务器。以下重点介绍配置管理在 IT 软件资产和软件资产 CI/CD 中的直接应用。软件配置管理是一种系统工程过程，用于跟踪和监控软件系统配置元数据的更改。在软件开发中，配置管理通常与版本控制和 CI/CD 基础设施一起使用。本文重点介绍其在敏捷 CI/CD 软件环境中的现代应用和使用。\n文章 什么是配置管理？ 文章 什么是配置管理？ - RedHat 视频 为什么您需要学习配置管理 ◇Ansible Ansible 是一种开源的自动化工具，用于配置管理、应用程序部署和任务自动化。它通过使用声明性语言定义所需状态和配置，简化了管理和编排基础设施的过程。Ansible 使用 YAML 文件（称为 playbooks）来描述要在远程系统上执行的任务。它采用无代理架构，这意味着它使用 SSH 或其他远程协议在目标机器上执行任务，而无需安装额外的软件。Ansible 广泛用于自动化重复任务、确保一致性以及管理跨各种环境的大规模部署。\n课程 Ansible 初学者完整课程 官方 Ansible 网站 视频 100 秒了解 Ansible 动态 探索关于 Ansible 的热门帖子 13. CI/CD 工具 CI/CD 是一种通过在应用程序开发的各个阶段引入自动化来频繁向客户交付应用程序的方法。CI/CD 的主要概念包括持续集成、持续交付和持续部署。CI/CD 解决了新代码集成可能对开发和运维团队造成的问题。具体来说，CI/CD 在应用程序的整个生命周期中引入了持续的自动化和监控，从集成和测试阶段到交付和部署。这些相互关联的实践通常被称为“CI/CD 管道”，并由开发和运维团队以敏捷的方式共同支持，采用 DevOps 或站点可靠性工程（SRE）方法。\n文章 CI vs CD 文章 什么是 CI/CD？ 视频 100 秒解释 DevOps CI/CD 视频 5 分钟了解 CI/CD 动态 探索关于 CI/CD 的热门帖子 ◇CircleCI CircleCI 是一个流行的持续集成和持续交付（CI/CD）平台，它自动化了软件项目的构建、测试和部署过程。它支持多种编程语言，并与各种版本控制系统集成，主要是 GitHub 和 Bitbucket。CircleCI 使用 YAML 配置文件来定义管道，允许开发人员指定复杂的工作流、并行作业执行和自定义环境。它提供了缓存、工件存储和 Docker 层缓存等功能，以加快构建速度。通过其基于云和自托管的选项，CircleCI 为各种规模的项目提供了可扩展的解决方案，帮助团队提高代码质量、加速发布周期并简化开发工作流。\n官网 CircleCI 网站 视频 CircleCI 初学者教程 动态 探索关于 CI/CD 的热门帖子 ◇GitLab CI GitLab CI 是 GitLab 生态系统中的一个集成持续集成和交付平台。它通过 YAML 文件中定义的管道自动化构建、测试和部署代码更改的过程。GitLab CI 提供了并行执行、容器注册表集成和自动 DevOps 等功能，使团队能够直接从其 GitLab 仓库中实施强大的 CI/CD 工作流，而无需额外的工具或基础设施。\n官网 GitLab 网站 官方文档 GitLab 文档 视频 GitLab CI/CD 管道初学者教程（2024） 动态 探索关于 GitLab 的热门帖子 ◇GitHub Actions GitHub Actions 是一个直接集成到 GitHub 仓库中的持续集成和持续交付（CI/CD）平台。它允许开发人员自动化软件工作流，包括构建、测试和部署应用程序。Actions 在 YAML 文件中定义，并由各种 GitHub 事件触发，如推送、拉取请求或计划任务。该平台提供了一个预构建 Actions 的市场，并支持自定义 Actions。GitHub Actions 提供了矩阵构建、并行作业执行，并支持多种操作系统和语言。它与 GitHub 的生态系统无缝集成，促进了自动化代码审查、问题跟踪和项目管理。该工具使开发人员能够在 GitHub 工作流中高效地实施 DevOps 实践，从而提高生产力和代码质量。\n课程 GitHub Actions 认证 - 通过考试的全课程 官方文档 GitHub Actions 文档 视频 什么是 GitHub Actions？ 视频 使用 GitHub Actions 自动化您的工作流 动态 探索关于 GitHub 的热门帖子 14. 密钥管理 密钥管理是指在组织的IT基础设施中安全地处理、存储和分发敏感信息，如密码、API密钥和证书。它涉及使用专门的工具和实践来保护密钥免受未经授权的访问，同时确保在需要时授权系统和用户可以访问这些密钥。密钥管理解决方案通常提供静态和传输中的加密、访问控制、审计、轮换策略以及与各种平台和服务的集成等功能。这些系统旨在集中存储密钥，降低暴露风险，自动化密钥生命周期管理，并提供与应用程序和DevOps工作流的无缝集成。在现代复杂的IT环境中，有效的密钥管理对于维护安全性、合规性和操作效率至关重要。\n文章 如何在Web应用程序中管理密钥？ 文章 为什么DevSecOps团队需要密钥管理 视频 生产环境中管理密钥的DevOps技巧 ◇Vault HashiCorp Vault 是一款专为安全管理密钥和保护敏感数据（如密码、API密钥和加密密钥）而设计的工具。它提供集中式密钥管理、访问控制和审计功能。Vault 支持多种身份验证方法和动态密钥，允许动态生成密钥并管理其生命周期。它还提供强大的加密功能，包括静态和传输中的数据加密。Vault 广泛应用于DevOps环境中，以确保敏感信息的安全和可扩展管理，并与各种基础设施和应用程序平台集成。\n官方 HashiCorp Vault 开源 hashicorp/vault 视频 180秒了解HashiCorp Vault 视频 HashiCorp Vault 初学者教程 15. 基础设施监控 监控是指使基础设施的性能和状态可见的实践。本节包含用于监控的常见工具。这是一个供应商众多的领域——在研究特定产品或项目的材料时要谨慎，因为有许多相互矛盾的观点和策略在使用。对于最复杂的面向互联网的应用程序，没有单一的解决方案，因此了解这些工具的优缺点将有助于您规划如何为特定目标监控系统。\n文章 优化DevOps团队基础设施监控的最佳实践 文章 有效进行云原生基础设施监控的七个步骤 视频 使用Telegraf、Grafana和InfluxDB进行基础设施监控基础 订阅 探索关于基础设施的热门文章 ◇Prometheus Prometheus 是一个开源的系统监控和警报工具包，专为可靠性和可扩展性而设计。它具有多维数据模型、灵活的查询语言（PromQL）和高效的时间序列数据库。Prometheus 以给定的时间间隔从配置的目标收集指标，评估规则表达式，显示结果，并在观察到指定条件时触发警报。它采用拉取模型，从HTTP端点抓取指标，并支持动态环境的服务发现。Prometheus 特别适合监控微服务和容器化环境，与Kubernetes等系统无缝集成。其生态系统包括用于第三方系统的各种导出器和内置的警报管理器。Prometheus 在云原生架构中被广泛采用，是现代可观测性堆栈的核心组件，通常与Grafana等工具一起用于可视化。\n官方 Prometheus 网站 视频 Prometheus 监控系统简介 | 关键概念和功能 订阅 探索关于Prometheus的热门文章 ◇Grafana Grafana 是一个开源的分析和交互式可视化Web应用程序。它连接到各种数据源，包括时间序列数据库、关系数据库和云服务，以创建可定制的仪表板。Grafana 擅长可视化基础设施和应用程序分析的时间序列数据，支持多种图表类型和插件。它具有警报功能、用户身份验证和基于角色的访问控制。Grafana 通常用于监控系统指标、应用程序性能和业务分析。其灵活性和从多个数据源组合数据的能力使其在DevOps环境中广受欢迎，用于创建全面的监控解决方案。Grafana 的用户友好界面和广泛的定制选项使用户能够创建视觉上吸引人且信息丰富的仪表板，用于实时数据可视化和分析。\n官方 Grafana 官方 Grafana 网络研讨会和视频 视频 服务器监控 // Prometheus 和 Grafana 教程 订阅 探索关于Grafana的热门文章 ◇Datadog Datadog 是一个用于大规模应用程序的监控和分析平台。它包括基础设施监控、应用程序性能监控、日志管理和用户体验监控。Datadog 通过400多个集成聚合整个堆栈的数据，用于故障排除、警报和图表绘制。\n官方 Datadog 网站 官方 Datadog 文档 订阅 探索关于DevOps的热门文章 16. 日志管理 日志管理是处理由所有软件应用程序及其运行基础设施生成的日志事件的过程。它包括日志的收集、聚合、解析、存储、分析、搜索、归档和处置，最终目标是利用这些数据进行故障排除和获取业务洞察，同时确保应用程序和基础设施的合规性和安全性。\n官方 日志管理：DevOps团队需要了解的内容 文章 日志管理简介 文章 Kubernetes日志记录：记录什么以及如何记录 ◇Loki Loki是由Grafana Labs设计的一个水平可扩展、高可用、多租户的日志聚合系统。它的设计初衷是成本效益高且易于操作，特别适合存储和查询来自Kubernetes集群的日志。Loki索引的是日志的元数据而非全文，这使得它比传统的日志管理系统更节省资源。它使用与Prometheus相同的查询语言（LogQL），使得熟悉Prometheus的用户更容易上手。Loki与Grafana无缝集成以实现可视化，并经常与Prometheus和Grafana一起用于云原生可观测性堆栈中。其设计注重简洁性，使其成为在容器化环境中寻求高效日志管理的组织的一个有吸引力的选择。\n官方 Loki 官方 Loki文档 视频 认识Grafana LOKI，一个适用于一切的日志聚合系统 动态 探索关于Grafana的热门帖子 ◇Elastic Stack Elastic Stack，前身为ELK Stack，是一组用于实时搜索、分析和可视化数据的开源工具。它由四个主要组件组成：Elasticsearch（一个分布式搜索和分析引擎）、Logstash（一个数据处理管道）、Kibana（一个数据可视化管理工具）和Beats（轻量级数据收集器）。这些工具共同使用户能够从各种来源收集数据，处理和丰富数据，将其存储在可搜索的格式中，并创建交互式可视化和仪表板。Elastic Stack广泛用于日志分析、应用程序性能监控、安全信息和事件管理（SIEM）以及商业智能应用，提供了处理大量多样化数据的可扩展性和灵活性。\n官方 Elastic Stack 文章 Logstash vs Fluentd 视频 掌握Elastic Stack：Elastic Stack概述 动态 探索关于ELK的热门帖子 17. 容器编排 容器编排是管理和自动化容器生命周期的过程，包括其部署、扩展和跨多个主机的网络连接。这是在生产环境中运行复杂容器化应用程序的关键技术。\n通过利用Kubernetes、Docker Swarm和Apache Mesos等工具，组织可以确保其应用程序的高可用性、可扩展性和可靠性。容器编排通过自动化日常任务简化了操作，并为微服务、云原生开发和DevOps实践提供了坚实的基础。\n文章 什么是容器编排？ 文章 什么是Kubernetes？ 文章 Docker Swarm 视频 Kubernetes简介 ◇Kubernetes Kubernetes是一个开源的容器管理平台，也是该领域的主导产品。使用Kubernetes，团队可以在多个底层主机上部署镜像，并通过YAML定义其所需的可用性、部署逻辑和扩展逻辑。Kubernetes源自Google的内部平台Borg，该平台用于配置和分配计算资源（类似于Microsoft Azure的Autopilot和Aquaman系统）。Kubernetes的流行使其成为DevOps工程师越来越重要的技能，并引发了整个行业中平台团队的创建。这些平台工程团队通常存在的唯一目的是使其产品开发同事能够轻松使用Kubernetes。\n路线图 访问专门的Kubernetes路线图 官方 Kubernetes网站 开源 kubernetes/kubernetes 文章 入门：Kubernetes的由来、是什么以及为什么你应该关注 文章 Kubernetes概述 视频 完整的Kubernetes课程 - 从初学者到专家 动态 探索关于Kubernetes的热门帖子 18. 应用监控 应用监控涉及对软件应用程序的持续观察和分析，以确保其性能最佳、识别问题并提供对其操作的洞察。此过程包括跟踪响应时间、错误率、资源利用率（CPU、内存和磁盘）以及事务性能等指标。应用监控工具收集和分析数据以检测异常，提供潜在问题的警报，并提供应用程序行为和性能的详细洞察。通过监控应用程序，组织可以主动解决问题、优化性能并改善用户体验，最终确保其软件系统的可靠性和效率。\n文章 应用基础与高级监控技术 文章 为什么遗留应用也需要你的监控关爱 视频 应用监控 - 四大黄金信号 订阅 探索关于监控的热门文章 ◇OpenTelemetry OpenTelemetry 是一个用于云原生软件的开源可观测性框架，提供了一种标准化的方式来收集和导出遥测数据，如指标、日志和跟踪。它旨在通过提供供应商中立、统一的 API、库、代理和工具，使可观测性成为云原生应用程序的内置功能。OpenTelemetry 简化了跨不同语言和平台的可观测性实现，使开发人员能够一次性检测其代码并将数据发送到多个后端。它支持许多流行框架和库的自动检测，减少了向应用程序添加可观测性所需的工作量。通过提供一致的数据收集和导出方法，OpenTelemetry 促进了现代分布式软件环境中可观测性工具和平台之间更好的互操作性。\n官方 OpenTelemetry 网站 官方 OpenTelemetry 文档 视频 什么是 OpenTelemetry？ 视频 OpenTelemetry 课程 - 理解软件性能 19. 制品管理 在软件开发中，制品是开发生命周期中产生的各种输出，包括源代码、二进制文件、文档、配置文件、构建输出和测试结果。这些制品对于管理、部署和维护应用程序至关重要，因为它们为开发、测试和生产环境提供了必要的资源和文档。它们有助于跟踪项目进度，确保一致性，并促进软件系统的高效交付和操作。\n文章 什么是制品 - Oracle 文章 什么是制品 - Atlassian 视频 了解 GitLab 制品和缓存 ◇Artifactory Artifactory 是一个通用的 DevOps 解决方案，用于托管、管理和分发二进制文件和制品。任何类型的二进制软件——如应用程序安装程序、容器镜像、库、配置文件等——都可以使用 Artifactory 进行管理、保护、存储和交付。名称“Artifactory”反映了它可以托管软件开发“工厂”中所需的任何类型的“制品”。在软件开发中，制品是在软件开发和交付过程中产生的任何对象。制品包括用于安装和运行应用程序的文件，以及配置或管理软件所需的任何补充信息。Artifactory 作为 DevOps 流程的中心枢纽。所有制品、依赖项、包等最终都会被放入并从 Artifactory 中提取。\n官方 Artifactory 网站 视频 5 分钟了解 JFrog Artifactory 的关键特性 订阅 探索关于 Artifactory 的热门文章 20. GitOps GitOps 是一种使用 Git 作为单一事实来源来管理基础设施和应用程序部署的范式。它通过使用 Git 仓库存储基础设施和应用程序的声明性描述来扩展 DevOps 实践。对期望状态的更改通过拉取请求进行，这些请求会触发自动化过程以使实际状态与期望状态保持一致。GitOps 依赖于持续部署工具，这些工具会自动将实时系统与 Git 中定义的期望状态进行协调。这种方法提供了基础设施的版本控制、改进的可审计性、更轻松的回滚和增强的协作等好处。GitOps 特别适合云原生应用程序和 Kubernetes 环境，提供了一种简化的方法来管理复杂的分布式系统。\n文章 GitOps 指南 视频 什么是 GitOps，GitOps 如何工作及其为何如此有用 订阅 探索关于 GitOps 的热门文章 ◇ArgoCD Argo CD 是一个基于 GitOps 方法的 Kubernetes 持续交付工具。它用于通过持续同步生产环境中的期望应用程序状态与实际应用程序状态来自动化云原生应用程序的部署和管理。在 Argo CD 工作流中，应用程序的更改通过提交代码或配置更改到 Git 仓库来进行。Argo CD 监控仓库并自动使用持续交付管道将更改部署到生产环境。该管道由 Git 仓库的更改触发，并负责构建、测试和将更改部署到生产环境。Argo CD 旨在成为一种简单高效的管理云原生应用程序的方式，因为它允许开发人员使用熟悉的工具和流程对系统进行更改，并提供系统所有更改的清晰和可审计的历史记录。它通常与 Helm 等工具结合使用，以自动化云原生应用程序的部署和管理。\n官方 Argo CD - Argo 项目 视频 ArgoCD 初学者教程 视频 什么是 ArgoCD 订阅 探索关于 ArgoCD 的热门文章 21. 服务网格 服务网格是一个专门的基础设施层，用于管理分布式应用程序中微服务之间的通信。它提供了负载均衡、服务发现、加密、可观测性和流量管理等功能，使服务能够安全高效地进行通信。通过将网络相关的关注点从应用代码中抽象出来，服务网格增强了可靠性和安全性，同时简化了微服务交互的管理。流行的服务网格实现包括 Istio、Linkerd 和 Consul。\n文章 什么是服务网格？ 文章 关于服务网格的最新消息 (TNS) 视频 Istio \u0026 服务网格 - 15分钟简单解释 订阅 探索关于服务网格的热门文章 ◇Istio Istio 是一个开源的服务网格平台，提供了一种控制微服务之间如何共享数据的方式。它包括允许 Istio 集成到任何日志平台、遥测或策略系统中的 API。Istio 设计用于在各种环境中运行：本地、云托管、Kubernetes 容器中、虚拟机中运行的服务等。\n文章 什么是 Istio？ 视频 Istio 服务网格解释 订阅 探索关于 Istio 的热门文章 ◇Consul Consul 是一个服务网格解决方案，提供了一个功能齐全的控制平面，具有服务发现、配置和分段功能。这些功能可以根据需要单独使用，也可以一起使用以构建完整的服务网格。Consul 需要一个数据平面，并支持代理和原生集成模型。Consul 附带一个简单的内置代理，因此一切都可以开箱即用，但也支持第三方代理集成，如 Envoy。\n官方 什么是 Consul？ 开源 Consul 指南 视频 Consul 服务网格初学者教程 订阅 探索关于 HashiCorp 的热门文章 22. 云设计模式 云设计模式是解决云计算架构中常见问题的可重用解决方案。这些模式解决了分布式系统中与可扩展性、可靠性、安全性和性能相关的挑战。它们提供了设计和实现云原生应用程序的最佳实践，涵盖了数据管理、消息传递、弹性和部署等方面。示例包括用于处理故障的断路器模式、用于分离读写操作的 CQRS 模式以及用于将应用程序组件部署到单独进程或容器中的边车模式。通过利用这些模式，开发人员可以创建更健壮、高效和可维护的云应用程序，从而更好地利用云平台的优势。\n课程 30 个云设计模式深入解析 官方 云设计模式 文章 云设计模式、架构和实现 ◇可用性 可用性是指系统正常运行并按预期工作的时间百分比，通常称为正常运行时间。可用性可能受到硬件或软件错误、基础设施问题、恶意攻击和系统负载的影响。许多云提供商通常为用户提供服务水平协议 (SLA)，其中规定了承诺的正常运行时间/停机时间的确切百分比。可用性与可靠性相关。例如，一家公司可能承诺其服务的正常运行时间为 99.99%。\n文章 在 SRE 中定义可用性、可维护性和可靠性 文章 实现高可用性的技术 视频 SLIs、SLOs、SLAs，哦我的天！(SRE 实现 DevOps) ◇数据管理 数据管理是云应用程序的关键要素，影响大多数质量属性。数据通常托管在不同位置和跨多个服务器上，原因包括性能、可扩展性或可用性，这可能会带来一系列挑战。例如，必须保持数据一致性，并且通常需要在不同位置之间同步数据。此外，数据应在静止、传输和通过授权访问机制时受到保护，以维护机密性、完整性和可用性的安全保证。有关更多信息，请参阅 Azure 安全基准数据保护控制。\n文章 数据管理模式 视频 什么是主数据管理 订阅 探索关于数据管理的热门文章 ◇设计与实现 良好的设计包括组件设计和部署的一致性和连贯性、简化管理和开发的可维护性以及允许组件和子系统在其他应用程序和其他场景中使用的可重用性。在设计和实现阶段做出的决策对云托管应用程序和服务的质量和总拥有成本有巨大影响。\n文章 设计与实现模式 ◇管理与监控 DevOps 管理和监控涉及监督从规划、开发、集成和测试、部署到操作的整个开发过程。它涉及生产环境中应用程序、服务和基础设施状态的完整实时视图。实时流、历史回放和可视化等功能是应用程序和服务监控的关键组件。\n文章 管理与监控入门指南 订阅 探索关于监控的热门文章 ",
+  "wordCount" : "20295",
+  "inLanguage": "zh",
+  "datePublished": "2025-02-26T00:00:00Z",
+  "dateModified": "2025-02-26T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "叶泽伟"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yuuniji.us.kg/posts/devops-roadmap/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "叶泽伟的博客",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yuuniji.us.kg/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://yuuniji.us.kg/" accesskey="h" title="叶泽伟的博客 (Alt + H)">叶泽伟的博客</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://yuuniji.us.kg/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                    <li>
+                        <a href="https://yuuniji.us.kg/ja/" title="日本語"
+                            aria-label="日本語">Ja</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://yuuniji.us.kg/" title="首页">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yuuniji.us.kg/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yuuniji.us.kg/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yuuniji.us.kg/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yuuniji.us.kg/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://yuuniji.us.kg/">主页</a>&nbsp;»&nbsp;<a href="https://yuuniji.us.kg/posts/">文章列表</a></div>
+    <h1 class="post-title entry-hint-parent">
+      DevOps 学习路线图
+    </h1>
+    <div class="post-meta"><span title='2025-02-26 00:00:00 +0000 UTC'>二月 26, 2025</span>&nbsp;·&nbsp;41 分钟&nbsp;·&nbsp;叶泽伟&nbsp;|&nbsp;语言:
+<ul class="i18n_list">
+    <li>
+        <a href="https://yuuniji.us.kg/en/posts/devops-roadmap/">En</a>
+    </li>
+    <li>
+        <a href="https://yuuniji.us.kg/ja/posts/devops-roadmap/">Ja</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%e5%ad%a6%e4%b9%a0%e4%b8%80%e9%97%a8%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80" aria-label="1. 学习一门编程语言">1. 学习一门编程语言</a><ul>
+                        
+                <li>
+                    <a href="#python" aria-label="◇Python">◇Python</a></li>
+                <li>
+                    <a href="#go" aria-label="◇Go">◇Go</a></li></ul>
+                </li>
+                <li>
+                    <a href="#2-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f" aria-label="2. 操作系统">2. 操作系统</a><ul>
+                        
+                <li>
+                    <a href="#ubuntudebianlinux" aria-label="◇Ubuntu/Debian(Linux)">◇Ubuntu/Debian(Linux)</a></li>
+                <li>
+                    <a href="#rhel%e8%a1%8d%e7%94%9f%e7%89%88linux" aria-label="◇RHEL/衍生版(Linux)">◇RHEL/衍生版(Linux)</a></li>
+                <li>
+                    <a href="#freebsdunix" aria-label="◇FreeBSD(Unix)">◇FreeBSD(Unix)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#3-%e7%bb%88%e7%ab%af%e7%9f%a5%e8%af%86" aria-label="3. 终端知识">3. 终端知识</a><ul>
+                        
+                <li>
+                    <a href="#%e8%84%9a%e6%9c%ac%e7%bc%96%e5%86%99-bash" aria-label="◇脚本编写: Bash">◇脚本编写: Bash</a></li>
+                <li>
+                    <a href="#%e7%bc%96%e8%be%91%e5%99%a8-vim-nano-emacs" aria-label="◇编辑器: Vim, Nano, Emacs">◇编辑器: Vim, Nano, Emacs</a></li>
+                <li>
+                    <a href="#%e8%bf%9b%e7%a8%8b%e7%9b%91%e6%8e%a7" aria-label="◇进程监控">◇进程监控</a></li>
+                <li>
+                    <a href="#%e6%80%a7%e8%83%bd%e7%9b%91%e6%8e%a7" aria-label="◇性能监控">◇性能监控</a></li>
+                <li>
+                    <a href="#%e7%bd%91%e7%bb%9c%e5%b7%a5%e5%85%b7" aria-label="◇网络工具">◇网络工具</a></li>
+                <li>
+                    <a href="#%e6%96%87%e6%9c%ac%e5%a4%84%e7%90%86" aria-label="◇文本处理">◇文本处理</a></li></ul>
+                </li>
+                <li>
+                    <a href="#4-%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6%e7%b3%bb%e7%bb%9f" aria-label="4. 版本控制系统">4. 版本控制系统</a><ul>
+                        
+                <li>
+                    <a href="#git" aria-label="◇Git">◇Git</a></li></ul>
+                </li>
+                <li>
+                    <a href="#5-vcs-%e6%89%98%e7%ae%a1" aria-label="5. VCS 托管">5. VCS 托管</a><ul>
+                        
+                <li>
+                    <a href="#github" aria-label="◇GitHub">◇GitHub</a></li></ul>
+                </li>
+                <li>
+                    <a href="#6-%e5%ae%b9%e5%99%a8" aria-label="6. 容器">6. 容器</a><ul>
+                        
+                <li>
+                    <a href="#docker" aria-label="◇Docker">◇Docker</a></li></ul>
+                </li>
+                <li>
+                    <a href="#7-web-%e6%9c%8d%e5%8a%a1%e4%b8%8e%e4%bb%a3%e7%90%86%e9%85%8d%e7%bd%ae" aria-label="7. Web 服务与代理配置">7. Web 服务与代理配置</a><ul>
+                        
+                <li>
+                    <a href="#%e6%ad%a3%e5%90%91%e4%bb%a3%e7%90%86" aria-label="◇正向代理">◇正向代理</a></li>
+                <li>
+                    <a href="#%e5%8f%8d%e5%90%91%e4%bb%a3%e7%90%86" aria-label="◇反向代理">◇反向代理</a></li>
+                <li>
+                    <a href="#%e7%bc%93%e5%ad%98%e6%9c%8d%e5%8a%a1%e5%99%a8" aria-label="◇缓存服务器">◇缓存服务器</a></li>
+                <li>
+                    <a href="#%e9%98%b2%e7%81%ab%e5%a2%99" aria-label="◇防火墙">◇防火墙</a></li>
+                <li>
+                    <a href="#%e8%b4%9f%e8%bd%bd%e5%9d%87%e8%a1%a1%e5%99%a8" aria-label="◇负载均衡器">◇负载均衡器</a></li>
+                <li>
+                    <a href="#nginxweb-%e6%9c%8d%e5%8a%a1%e5%99%a8" aria-label="◇Nginx（Web 服务器）">◇Nginx（Web 服务器）</a></li></ul>
+                </li>
+                <li>
+                    <a href="#8-%e7%bd%91%e7%bb%9c%e4%b8%8e%e5%8d%8f%e8%ae%ae" aria-label="8. 网络与协议">8. 网络与协议</a><ul>
+                        
+                <li>
+                    <a href="#ftpsftp%e6%96%87%e4%bb%b6%e4%bc%a0%e8%be%93" aria-label="◇FTP/SFTP（文件传输）">◇FTP/SFTP（文件传输）</a></li>
+                <li>
+                    <a href="#dns%e5%9f%9f%e5%90%8d%e6%9c%8d%e5%8a%a1" aria-label="◇DNS（域名服务）">◇DNS（域名服务）</a></li>
+                <li>
+                    <a href="#httpweb-%e9%80%9a%e4%bf%a1" aria-label="◇HTTP（Web 通信）">◇HTTP（Web 通信）</a></li>
+                <li>
+                    <a href="#httpsweb-%e9%80%9a%e4%bf%a1" aria-label="◇HTTPS（Web 通信）">◇HTTPS（Web 通信）</a></li>
+                <li>
+                    <a href="#ssltlsweb-%e9%80%9a%e4%bf%a1" aria-label="◇SSL/TLS（Web 通信）">◇SSL/TLS（Web 通信）</a></li>
+                <li>
+                    <a href="#sshweb-%e9%80%9a%e4%bf%a1" aria-label="◇SSH（Web 通信）">◇SSH（Web 通信）</a></li>
+                <li>
+                    <a href="#osi-%e6%a8%a1%e5%9e%8b" aria-label="◇OSI 模型">◇OSI 模型</a></li>
+                <li>
+                    <a href="#%e7%99%bd%e5%90%8d%e5%8d%95%e7%81%b0%e5%90%8d%e5%8d%95%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇白名单/灰名单（电子邮件协议）">◇白名单/灰名单（电子邮件协议）</a></li>
+                <li>
+                    <a href="#smtp%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇SMTP（电子邮件协议）">◇SMTP（电子邮件协议）</a></li>
+                <li>
+                    <a href="#dmarc%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇DMARC（电子邮件协议）">◇DMARC（电子邮件协议）</a></li>
+                <li>
+                    <a href="#imap%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇IMAP（电子邮件协议）">◇IMAP（电子邮件协议）</a></li>
+                <li>
+                    <a href="#spf%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇SPF（电子邮件协议）">◇SPF（电子邮件协议）</a></li>
+                <li>
+                    <a href="#pop3s%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇POP3S（电子邮件协议）">◇POP3S（电子邮件协议）</a></li>
+                <li>
+                    <a href="#%e5%9f%9f%e5%90%8d%e5%af%86%e9%92%a5%e7%94%b5%e5%ad%90%e9%82%ae%e4%bb%b6%e5%8d%8f%e8%ae%ae" aria-label="◇域名密钥（电子邮件协议）">◇域名密钥（电子邮件协议）</a></li></ul>
+                </li>
+                <li>
+                    <a href="#9-%e4%ba%91%e6%9c%8d%e5%8a%a1%e6%8f%90%e4%be%9b%e5%95%86" aria-label="9. 云服务提供商">9. 云服务提供商</a><ul>
+                        
+                <li>
+                    <a href="#aws" aria-label="◇AWS">◇AWS</a></li>
+                <li>
+                    <a href="#azure" aria-label="◇Azure">◇Azure</a></li>
+                <li>
+                    <a href="#google-cloud" aria-label="◇Google Cloud">◇Google Cloud</a></li></ul>
+                </li>
+                <li>
+                    <a href="#10-%e6%97%a0%e6%9c%8d%e5%8a%a1%e5%99%a8%e8%ae%a1%e7%ae%97" aria-label="10. 无服务器计算">10. 无服务器计算</a><ul>
+                        
+                <li>
+                    <a href="#aws-lambda" aria-label="◇AWS Lambda">◇AWS Lambda</a></li>
+                <li>
+                    <a href="#cloudflare" aria-label="◇Cloudflare">◇Cloudflare</a></li></ul>
+                </li>
+                <li>
+                    <a href="#11-%e8%b5%84%e6%ba%90%e9%a2%84%e9%85%8d" aria-label="11. 资源预配">11. 资源预配</a><ul>
+                        
+                <li>
+                    <a href="#terraform" aria-label="◇Terraform">◇Terraform</a></li></ul>
+                </li>
+                <li>
+                    <a href="#12-%e9%85%8d%e7%bd%ae%e7%ae%a1%e7%90%86" aria-label="12. 配置管理">12. 配置管理</a><ul>
+                        
+                <li>
+                    <a href="#ansible" aria-label="◇Ansible">◇Ansible</a></li></ul>
+                </li>
+                <li>
+                    <a href="#13-cicd-%e5%b7%a5%e5%85%b7" aria-label="13. CI/CD 工具">13. CI/CD 工具</a><ul>
+                        
+                <li>
+                    <a href="#circleci" aria-label="◇CircleCI">◇CircleCI</a></li>
+                <li>
+                    <a href="#gitlab-ci" aria-label="◇GitLab CI">◇GitLab CI</a></li>
+                <li>
+                    <a href="#github-actions" aria-label="◇GitHub Actions">◇GitHub Actions</a></li></ul>
+                </li>
+                <li>
+                    <a href="#14-%e5%af%86%e9%92%a5%e7%ae%a1%e7%90%86" aria-label="14. 密钥管理">14. 密钥管理</a><ul>
+                        
+                <li>
+                    <a href="#vault" aria-label="◇Vault">◇Vault</a></li></ul>
+                </li>
+                <li>
+                    <a href="#15-%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e7%9b%91%e6%8e%a7" aria-label="15. 基础设施监控">15. 基础设施监控</a><ul>
+                        
+                <li>
+                    <a href="#prometheus" aria-label="◇Prometheus">◇Prometheus</a></li>
+                <li>
+                    <a href="#grafana" aria-label="◇Grafana">◇Grafana</a></li>
+                <li>
+                    <a href="#datadog" aria-label="◇Datadog">◇Datadog</a></li></ul>
+                </li>
+                <li>
+                    <a href="#16-%e6%97%a5%e5%bf%97%e7%ae%a1%e7%90%86" aria-label="16. 日志管理">16. 日志管理</a><ul>
+                        
+                <li>
+                    <a href="#loki" aria-label="◇Loki">◇Loki</a></li>
+                <li>
+                    <a href="#elastic-stack" aria-label="◇Elastic Stack">◇Elastic Stack</a></li></ul>
+                </li>
+                <li>
+                    <a href="#17-%e5%ae%b9%e5%99%a8%e7%bc%96%e6%8e%92" aria-label="17. 容器编排">17. 容器编排</a><ul>
+                        
+                <li>
+                    <a href="#kubernetes" aria-label="◇Kubernetes">◇Kubernetes</a></li></ul>
+                </li>
+                <li>
+                    <a href="#18-%e5%ba%94%e7%94%a8%e7%9b%91%e6%8e%a7" aria-label="18. 应用监控">18. 应用监控</a><ul>
+                        
+                <li>
+                    <a href="#opentelemetry" aria-label="◇OpenTelemetry">◇OpenTelemetry</a></li></ul>
+                </li>
+                <li>
+                    <a href="#19-%e5%88%b6%e5%93%81%e7%ae%a1%e7%90%86" aria-label="19. 制品管理">19. 制品管理</a><ul>
+                        
+                <li>
+                    <a href="#artifactory" aria-label="◇Artifactory">◇Artifactory</a></li></ul>
+                </li>
+                <li>
+                    <a href="#20-gitops" aria-label="20. GitOps">20. GitOps</a><ul>
+                        
+                <li>
+                    <a href="#argocd" aria-label="◇ArgoCD">◇ArgoCD</a></li></ul>
+                </li>
+                <li>
+                    <a href="#21-%e6%9c%8d%e5%8a%a1%e7%bd%91%e6%a0%bc" aria-label="21. 服务网格">21. 服务网格</a><ul>
+                        
+                <li>
+                    <a href="#istio" aria-label="◇Istio">◇Istio</a></li>
+                <li>
+                    <a href="#consul" aria-label="◇Consul">◇Consul</a></li></ul>
+                </li>
+                <li>
+                    <a href="#22-%e4%ba%91%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f" aria-label="22. 云设计模式">22. 云设计模式</a><ul>
+                        
+                <li>
+                    <a href="#%e5%8f%af%e7%94%a8%e6%80%a7" aria-label="◇可用性">◇可用性</a></li>
+                <li>
+                    <a href="#%e6%95%b0%e6%8d%ae%e7%ae%a1%e7%90%86" aria-label="◇数据管理">◇数据管理</a></li>
+                <li>
+                    <a href="#%e8%ae%be%e8%ae%a1%e4%b8%8e%e5%ae%9e%e7%8e%b0" aria-label="◇设计与实现">◇设计与实现</a></li>
+                <li>
+                    <a href="#%e7%ae%a1%e7%90%86%e4%b8%8e%e7%9b%91%e6%8e%a7" aria-label="◇管理与监控">◇管理与监控</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="1-学习一门编程语言">1. 学习一门编程语言<a hidden class="anchor" aria-hidden="true" href="#1-学习一门编程语言">#</a></h2>
+<p>选择哪种语言并不重要，但至少学习一门编程语言是至关重要的。你可以使用该语言编写自动化脚本。</p>
+<ul>
+<li><em>文章</em> <a href="https://cs.fyi/guide/programming-language-for-devops">选择 DevOps 编程语言的指南</a></li>
+</ul>
+<p>该指南推荐 Python 或 Go 作为编程语言，Bash 或 PowerShell Core 作为 DevOps 中的 Shell 脚本语言。Python 功能多样，广泛用于自动化和工具开发，而 Go 对于 Kubernetes 和 Docker 等容器技术至关重要。Bash 是 Linux 环境的理想选择，而 PowerShell Core 是跨平台的，适用于 Windows 和 Linux。更多详细信息，请查看完整指南 <a href="https://cs.fyi/guide/programming-language-for-devops">这里</a>。</p>
+<h3 id="python">◇Python<a hidden class="anchor" aria-hidden="true" href="#python">#</a></h3>
+<p>Python 是一种高级解释型编程语言，以其简洁性、可读性和多功能性而闻名。它支持多种编程范式，包括过程式、面向对象和函数式编程。Python 拥有广泛的标准库和丰富的第三方包生态系统，适用于从 Web 开发、数据分析到人工智能和科学计算的多种应用场景。其简洁的语法和动态类型使得快速开发和原型设计成为可能。Python 的“内置电池”哲学提供了丰富的内置功能，而其跨平台兼容性确保了代码的可移植性。凭借强大的社区支持和持续发展，Python 已成为最受欢迎的编程语言之一，广泛应用于学术界、工业界和开源项目中，从简单的脚本编写到复杂的软件开发。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/python">访问 Python 专属路线图</a></li>
+<li><em>官方</em> <a href="https://www.python.org/">Python 官网</a></li>
+<li><em>文章</em> <a href="https://automatetheboringstuff.com/">自动化无聊的工作</a></li>
+<li><em>文章</em> <a href="https://ehmatthes.github.io/pcc/">Python 速成课程</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=ix9cRaBkVe0">Python 免费完整课程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/python?ref=roadmapsh">探索关于 Python 的热门帖子</a></li>
+</ul>
+<h3 id="go">◇Go<a hidden class="anchor" aria-hidden="true" href="#go">#</a></h3>
+<p>Go，也称为 Golang，是由 Google 开发的一种静态类型、编译型编程语言。它强调简洁性、效率和内置的并发支持。Go 具有快速编译、垃圾回收和强大的标准库。其语法简洁明了，易于阅读和维护。Go 的 goroutine 和 channel 为并发编程提供了强大的工具。该语言特别适合系统编程、网络服务和云原生应用。Go 的高效内存使用和快速执行使其在构建可扩展的服务器端应用和微服务方面广受欢迎。凭借其简洁性和性能，Go 在 DevOps 工具、容器技术和云基础设施项目中得到了广泛采用。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/golang">访问 Go 专属路线图</a></li>
+<li><em>官方</em> <a href="https://go.dev/tour/welcome/1">Go 基础教程</a></li>
+<li><em>官方</em> <a href="https://go.dev/doc/">Go 参考文档</a></li>
+<li><em>文章</em> <a href="https://gobyexample.com/">Go 示例 - 带注释的示例程序</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/make-a-restful-json-api-go/">用 Go 构建 RESTful JSON API</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=446E-r0rXHI">100 秒了解 Go</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/golang?ref=roadmapsh">探索关于 Golang 的热门帖子</a></li>
+</ul>
+<h2 id="2-操作系统">2. 操作系统<a hidden class="anchor" aria-hidden="true" href="#2-操作系统">#</a></h2>
+<h3 id="ubuntudebianlinux">◇Ubuntu/Debian(<em>Linux</em>)<a hidden class="anchor" aria-hidden="true" href="#ubuntudebianlinux">#</a></h3>
+<p>Ubuntu 和 Debian 都是流行的 Linux 发行版，其中 Debian 是 Ubuntu 的上游基础。Debian 以其稳定性、广泛的软件包库和严格的测试流程而闻名，是服务器和需要长期支持的系统的首选。Ubuntu 源自 Debian，旨在提供更友好的用户体验，具有定期发布、易用性和商业支持选项。它具有更简化的安装过程、广泛的文档和活跃的社区。两个发行版都使用 Debian 的包管理系统（APT），并共享许多底层技术，但 Ubuntu 强调更精致的桌面体验和快速的发布周期。</p>
+<ul>
+<li><em>课程</em> <a href="https://labex.io/courses/linux-basic-commands-practice-online">通过实践实验室练习 Linux 命令</a></li>
+<li><em>官方</em> <a href="https://www.debian.org/">Debian 官网</a></li>
+<li><em>官方</em> <a href="https://ubuntu.com/">Ubuntu 官网</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=lmeDvSgN6zY">如何使用 Ubuntu</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=zOZEkzwhThc">Debian 12 初学者教程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/ubuntu?ref=roadmapsh">探索关于 Ubuntu 的热门帖子</a></li>
+</ul>
+<h3 id="rhel衍生版linux">◇RHEL/衍生版(<em>Linux</em>)<a hidden class="anchor" aria-hidden="true" href="#rhel衍生版linux">#</a></h3>
+<p>Red Hat Enterprise Linux (RHEL) 是一种流行的 Linux 操作系统发行版，专为企业级使用设计。它由 Red Hat, Inc. 开发和维护，采用基于订阅的模式提供。有几个基于 RHEL 或从 RHEL 衍生的 Linux 发行版，这些发行版被称为 RHEL 衍生版。一些 RHEL 衍生版的例子包括：AlmaLinux、CentOS、CloudLinux、Oracle Linux 和 Scientific Linux。RHEL 衍生版通常在企业环境中使用，因为它们提供了 RHEL 的稳定性和可靠性，同时具有免费或低成本的额外优势。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux 官网</a></li>
+<li><em>官方</em> <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/">RHEL 文档</a></li>
+<li><em>文章</em> <a href="https://developer.ibm.com/series/learn-linux-101/">学习 Linux 101</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=HEBvdSI0wGQ">什么是 Red Hat Enterprise Linux？</a></li>
+</ul>
+<h3 id="freebsdunix">◇FreeBSD(<em>Unix</em>)<a hidden class="anchor" aria-hidden="true" href="#freebsdunix">#</a></h3>
+<p>FreeBSD 是一种免费、开源的类 Unix 操作系统，源自 Berkeley 软件发行版 (BSD)。FreeBSD 以其稳定性、性能和先进的网络功能而闻名，广泛用于服务器环境、嵌入式系统以及作为网络设备的基础。它具有单体内核、全面的用户态工具集和用于轻松安装软件的 ports 集合。FreeBSD 支持多种架构，并包含高级功能，如 ZFS 文件系统、用于容器化的 jail 和 pf 包过滤器。虽然 FreeBSD 在桌面环境中不太常见，但它广泛应用于互联网基础设施、存储系统以及需要强大、可定制操作系统和宽松许可证的公司中。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.freebsd.org/">FreeBSD</a></li>
+<li><em>官方</em> <a href="https://www.freebsd.org/projects/newbies/">FreeBSD 新手资源</a></li>
+<li><em>官方</em> <a href="https://docs.freebsd.org/en/">FreeBSD 文档</a></li>
+<li><em>官方</em> <a href="https://docs.freebsd.org/en/books/handbook/">FreeBSD 手册</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=NKHzcXwTdB4">100 秒了解 FreeBSD</a></li>
+</ul>
+<h2 id="3-终端知识">3. 终端知识<a hidden class="anchor" aria-hidden="true" href="#3-终端知识">#</a></h2>
+<h3 id="脚本编写-bash">◇<strong>脚本编写</strong>: Bash<a hidden class="anchor" aria-hidden="true" href="#脚本编写-bash">#</a></h3>
+<p>Bash（Bourne Again Shell）是一种强大的 Unix shell 和命令语言解释器，是大多数 Linux 发行版和 macOS 的默认 shell。它提供了与操作系统交互的命令行界面，执行命令并通过 shell 脚本自动化任务。Bash 支持变量、控制结构、函数和命令替换，使其在系统管理、DevOps 任务和通用脚本编写中非常灵活。它能够管道命令、重定向输入/输出，并利用大量内置命令和实用程序，使其成为开发人员和系统管理员在 Unix 类环境中管理和自动化工作流程的必备工具。</p>
+<ul>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=tK9Oc6AEnR4">Bash 脚本编写初学者教程</a></li>
+<li><em>文章</em> <a href="https://www.learnshell.org/en/Welcome">交互式 Shell 脚本教程</a></li>
+<li><em>文章</em> <a href="https://www.javatpoint.com/bash">Bash 脚本编写教程</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=I4EWvMFj37g">100 秒了解 Bash</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/bash?ref=roadmapsh">探索关于 Bash 的热门帖子</a></li>
+</ul>
+<h3 id="编辑器-vim-nano-emacs">◇<strong>编辑器</strong>: Vim, Nano, Emacs<a hidden class="anchor" aria-hidden="true" href="#编辑器-vim-nano-emacs">#</a></h3>
+<p>文本编辑器是用于创建、编辑和管理文本文件的软件工具。它们从具有基本功能的简单编辑器到复杂的集成开发环境（IDE）不等。流行的文本编辑器包括：</p>
+<ul>
+<li>
+<p>Notepad：Windows 的基本编辑器，适用于简单的文本文件。</p>
+</li>
+<li>
+<p>Vim：一种高度可配置且功能强大的编辑器，以其效率和模态界面而闻名。</p>
+</li>
+<li>
+<p>Emacs：一种多功能编辑器，具有广泛的定制选项和丰富的插件。</p>
+</li>
+<li>
+<p>Sublime Text：一种功能丰富的编辑器，注重速度和用户友好的界面。</p>
+</li>
+<li>
+<p>Visual Studio Code：一种现代的开源编辑器，内置调试支持、扩展和与各种开发工具的集成。</p>
+</li>
+<li>
+<p><em>官方</em> <a href="https://www.vim.org/">Vim</a></p>
+</li>
+<li>
+<p><em>官方</em> <a href="https://www.nano-editor.org/">GNU Nano</a></p>
+</li>
+<li>
+<p><em>官方</em> <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://vim-adventures.com/">Vim 冒险</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=RZ4p-saaQkc">Vim 初学者教程</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=DLeATFgGM-A">Linux 速成课程 - nano</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=48JlgiBpw_I">Emacs 绝对初学者指南</a></p>
+</li>
+</ul>
+<h3 id="进程监控">◇进程监控<a hidden class="anchor" aria-hidden="true" href="#进程监控">#</a></h3>
+<p>进程监控是对 IT 系统或组织内进程的持续观察和分析，以确保最佳性能、效率和合规性。它涉及跟踪关键指标、资源利用率和系统上运行的各个进程或应用程序的行为。这种做法有助于在问题影响整体系统性能或用户体验之前识别异常、瓶颈或潜在问题。进程监控工具通常提供有关 CPU 使用率、内存消耗、I/O 操作和线程活动的实时数据。它们通常包括警报、日志记录和进程数据可视化功能。在现代 IT 环境中，进程监控对于维护系统稳定性、优化资源分配、排查性能问题以及支持复杂分布式系统中的容量规划至关重要。</p>
+<p>Lsof 在其标准输出中列出有关进程打开的文件信息。</p>
+<ul>
+<li><em>文章</em> <a href="https://neverendingsecurity.wordpress.com/2015/04/13/lsof-commands-cheatsheet/">lsof 速查表</a></li>
+<li><em>文章</em> <a href="https://man7.org/linux/man-pages/man8/lsof.8.html">lsof 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=n9nZ1ellaV0">Linux 速成课程 - lsof 命令</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/monitoring?ref=roadmapsh">探索关于监控的热门帖子</a></li>
+</ul>
+<h3 id="性能监控">◇性能监控<a hidden class="anchor" aria-hidden="true" href="#性能监控">#</a></h3>
+<p>性能监控是对 IT 系统运行效率和有效性的系统观察和测量。它涉及收集、分析和报告各种组件（包括应用程序、网络、服务器和数据库）的关键性能指标（KPI）。此过程使用专门的工具来跟踪响应时间、吞吐量、资源利用率和错误率等指标。性能监控有助于识别瓶颈、预测潜在问题并优化系统资源。它对于维护服务级别协议（SLA）、确保用户满意度和支持容量规划至关重要。在现代 IT 环境中，性能监控通常结合实时分析、AI 驱动的洞察和自动警报系统，从而实现对复杂分布式系统的主动管理，并支持 IT 运营和服务交付的持续改进。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/sysadmin/linux-commands-vmstat">Linux 命令：使用 vmstat 探索虚拟内存</a></li>
+<li><em>文章</em> <a href="https://man7.org/linux/man-pages/man8/vmstat.8.html">VMstat 手册页</a></li>
+<li><em>文章</em> <a href="https://phoenixnap.com/kb/vmstat-command">vmstat 教程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/monitoring?ref=roadmapsh">探索关于监控的热门帖子</a></li>
+</ul>
+<h3 id="网络工具">◇网络工具<a hidden class="anchor" aria-hidden="true" href="#网络工具">#</a></h3>
+<p>网络工具是用于监控、分析、故障排除和管理计算机网络的重要软件实用程序。它们包括广泛的应用程序，如用于深度数据包分析的 Wireshark、用于网络扫描和安全审计的 Nmap、用于测试基本连接性的 Ping、用于可视化网络路径的 Traceroute、用于显示网络连接的 Netstat、用于命令行数据包捕获的 Tcpdump、用于性能测试的 Iperf、用于各种网络操作的 Netcat、用于 DNS 查询的 Nslookup/Dig 以及用于通过 SSH 或 telnet 进行远程访问的 PuTTY。这些工具共同使网络管理员和安全专业人员能够诊断问题、优化性能、进行安全评估并维护从小型本地网络到大型企业环境的网络基础设施的整体健康和效率。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.tecmint.com/scp-commands-examples/">10 个 SCP 命令示例</a></li>
+<li><em>文章</em> <a href="https://phoenixnap.com/kb/linux-scp-command">SCP 命令详解</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=MT85eMsMN6o">前 5 个 Linux 网络命令</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=gd7BXuUQ91w">你需要知道的 60 个 Linux 命令</a></li>
+</ul>
+<h3 id="文本处理">◇文本处理<a hidden class="anchor" aria-hidden="true" href="#文本处理">#</a></h3>
+<p>文本处理工具是使用户能够高效修改、处理和转换文本数据的实用程序或软件。这些工具通常用于脚本编写、数据清理和自动化任务。常见的文本处理工具包括用于搜索和替换的 <code>sed</code>（流编辑器）、用于模式扫描和数据提取的 <code>awk</code> 以及用于使用正则表达式搜索文本的 <code>grep</code>。其他流行的工具包括用于各种文本处理功能的 <code>cut</code>、<code>sort</code>、<code>tr</code> 和 <code>uniq</code>。这些命令行工具通常用于 UNIX/Linux 环境中，以处理大型文本文件、自动化工作流程并执行复杂的文本转换。</p>
+<ul>
+<li><em>文章</em> <a href="https://earthly.dev/blog/linux-text-processing-commands/">Linux 文本处理命令</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=9YOZmI-zWok">学习 Awk 对 Linux 用户至关重要</a></li>
+</ul>
+<h2 id="4-版本控制系统">4. 版本控制系统<a hidden class="anchor" aria-hidden="true" href="#4-版本控制系统">#</a></h2>
+<p>版本控制系统（VCS）是跟踪代码和文件随时间变化的工具，使多个用户能够协作项目、维护历史记录并管理代码库的不同版本。它们有助于跟踪修改、合并更改和解决冲突。VCS 有两种主要类型：集中式和分布式。集中式系统（如 Subversion 和 CVS）依赖于单一的中央仓库，而分布式系统（如 Git 和 Mercurial）允许每个用户拥有仓库的完整副本，包括其历史记录。分布式 VCS（如 Git）因其灵活性、分支能力和对协作工作流的强大支持而特别受欢迎。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/git-github">访问 Git &amp; GitHub 专属路线图</a></li>
+<li><em>官方</em> <a href="https://git-scm.com/">Git</a></li>
+<li><em>官方</em> <a href="https://www.mercurial-scm.org/">Mercurial</a></li>
+<li><em>官方</em> <a href="https://subversion.apache.org/">Subversion</a></li>
+<li><em>文章</em> <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">什么是版本控制？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=SVkuliabq4g">版本控制系统（VCS）</a></li>
+</ul>
+<h3 id="git">◇Git<a hidden class="anchor" aria-hidden="true" href="#git">#</a></h3>
+<p>Git 是一种分布式版本控制系统，旨在跟踪软件开发过程中源代码的变化。它允许多个开发人员同时在同一项目上工作，维护修改的完整历史记录。Git 在每个开发人员的机器上都有本地仓库，支持离线工作和快速操作。它通过分支和合并支持非线性开发，促进并行工作流。Git 的分布式特性增强了协作、备份和实验。关键概念包括提交、分支、合并和远程仓库。凭借其速度、灵活性和强大的分支与合并能力，Git 已成为现代软件开发中版本控制的标准，支持 GitHub 和 GitLab 等平台。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/git-github">访问 Git &amp; GitHub 专属路线图</a></li>
+<li><em>课程</em> <a href="https://antonz.org/git-by-example/">通过示例学习 Git - 通过小课程学习版本控制</a></li>
+<li><em>文章</em> <a href="https://www.atlassian.com/git">通过教程、新闻和技巧学习 Git - Atlassian</a></li>
+<li><em>文章</em> <a href="https://cs.fyi/guide/git-cheatsheet">Git 速查表</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=SWYqp7iY_Tc">Git &amp; GitHub 初学者速成课程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/git?ref=roadmapsh">探索关于 Git 的热门帖子</a></li>
+</ul>
+<h2 id="5-vcs-托管">5. VCS 托管<a hidden class="anchor" aria-hidden="true" href="#5-vcs-托管">#</a></h2>
+<p>在团队中工作时，通常需要一个远程位置来存放代码，以便其他人可以访问它、创建自己的分支以及创建或审查拉取请求。这些服务通常包括问题跟踪、代码审查和持续集成功能。一些流行的选择包括 GitHub、GitLab、BitBucket 和 AWS CodeCommit。</p>
+<ul>
+<li><em>官方</em> <a href="https://github.com/">GitHub</a></li>
+<li><em>官方</em> <a href="https://about.gitlab.com/">GitLab</a></li>
+<li><em>官方</em> <a href="https://bitbucket.org/product/guides/getting-started/overview">BitBucket</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=FQGXIIqziQg">GitHub vs GitLab vs Bitbucket - 哪个更好？</a></li>
+</ul>
+<h3 id="github">◇GitHub<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h3>
+<p>GitHub 是一个基于 Web 的版本控制和协作平台，使用 Git。它提供基于云的 Git 仓库托管，提供错误跟踪、任务管理和项目 wiki 等功能。GitHub 通过拉取请求促进代码审查，支持问题跟踪，并通过分叉和星标仓库等功能实现社交编码。它提供公共和私有仓库，使其在开源项目和私有开发中广受欢迎。GitHub 的生态系统包括与各种开发工具和 CI/CD 平台的集成。凭借 GitHub Actions 自动化、GitHub Packages 包管理和 GitHub Pages 网页托管等功能，它成为了一个全面的软件开发工作流平台，促进了全球开发人员之间的协作。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/git-github">访问 Git &amp; GitHub 专属路线图</a></li>
+<li><em>官方</em> <a href="https://github.com/">GitHub</a></li>
+<li><em>文章</em> <a href="https://ooloo.io/project/github-flow">如何在专业开发团队中使用 Git</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=pBy1zgt0XPc">什么是 GitHub？</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/github?ref=roadmapsh">探索关于 GitHub 的热门帖子</a></li>
+</ul>
+<h2 id="6-容器">6. 容器<a hidden class="anchor" aria-hidden="true" href="#6-容器">#</a></h2>
+<p>容器是轻量级、可移植且隔离的环境，用于打包应用程序及其依赖项，从而在不同的计算环境中实现一致的部署。它们封装了软件代码、运行时、系统工具、库和设置，确保应用程序无论部署在哪里都能以相同的方式运行。容器共享主机操作系统的内核，使其比传统的虚拟机更高效。像 Docker 这样的流行容器化平台提供了创建、分发和运行容器的工具。该技术支持微服务架构，简化了应用程序部署，提高了可扩展性，并通过简化从开发到生产的流程和实现更高效的资源利用来增强 DevOps 实践。</p>
+<ul>
+<li><em>文章</em> <a href="https://cloud.google.com/learn/what-are-containers">什么是容器？</a></li>
+<li><em>文章</em> <a href="https://www.docker.com/resources/what-container/">什么是容器？</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/category/containers/">容器 - The New Stack</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz">什么是容器？</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/containers?ref=roadmapsh">探索关于容器的热门帖子</a></li>
+</ul>
+<h3 id="docker">◇Docker<a hidden class="anchor" aria-hidden="true" href="#docker">#</a></h3>
+<p>Docker 是一个开源平台，使用容器化技术自动化应用程序的部署、扩展和管理。它使开发人员能够将应用程序及其所有依赖项打包到称为容器的标准化单元中，确保在不同环境中的一致行为。Docker 提供了全机器虚拟化的轻量级替代方案，使用操作系统级虚拟化在单个主机上运行多个隔离系统。其生态系统包括用于构建、共享和运行容器的工具，如 Docker Engine、Docker Hub 和 Docker Compose。Docker 已成为现代 DevOps 实践的重要组成部分，促进了微服务架构、持续集成/部署管道以及开发和生产环境中的高效资源利用。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/docker">访问 Docker 专属路线图</a></li>
+<li><em>官方</em> <a href="https://docs.docker.com/">Docker 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=RqTEHSBrYFw">Docker 教程</a></li>
+<li><em>视频</em> <a href="https://youtu.be/vP_4DlOH1G4">55 秒简化 Docker</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/docker?ref=roadmapsh">探索关于 Docker 的热门帖子</a></li>
+</ul>
+<h2 id="7-web-服务与代理配置">7. Web 服务与代理配置<a hidden class="anchor" aria-hidden="true" href="#7-web-服务与代理配置">#</a></h2>
+<p>学习如何设置：</p>
+<ul>
+<li>正向代理</li>
+<li>反向代理</li>
+<li>负载均衡器</li>
+<li>防火墙</li>
+<li>缓存服务器</li>
+<li>Web 服务器</li>
+</ul>
+<h3 id="正向代理">◇正向代理<a hidden class="anchor" aria-hidden="true" href="#正向代理">#</a></h3>
+<p>正向代理，通常简称为代理，是位于客户端设备和互联网之间的服务器，负责将客户端的请求转发到 Web 服务器。它代表客户端行事，可能提供匿名性、安全性和访问控制等好处。正向代理可以缓存频繁请求的内容，过滤网络流量，绕过地理限制，并记录用户活动。它们通常在企业网络中使用，以强制执行互联网使用策略，通过隐藏内部网络细节来增强安全性，并通过缓存提高性能。与反向代理不同，反向代理代表服务器提供资源，而正向代理主要服务于客户端需求，作为客户端与更广泛的互联网之间的中介。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.fortinet.com/resources/cyberglossary/proxy-server">什么是正向代理？</a></li>
+<li><em>文章</em> <a href="https://oxylabs.io/blog/reverse-proxy-vs-forward-proxy">正向代理与反向代理</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=HrG0MHkSsCA">理解代理、正向代理和反向代理</a></li>
+</ul>
+<h3 id="反向代理">◇反向代理<a hidden class="anchor" aria-hidden="true" href="#反向代理">#</a></h3>
+<p>反向代理是位于客户端设备和后端服务器之间的服务器，拦截来自客户端的请求并将其转发到适当的后端服务器。它代表服务器行事，提供负载均衡、缓存、SSL 终止和安全性等好处。反向代理可以将传入的流量分配到多个服务器以提高性能和可靠性，缓存频繁请求的内容以减少服务器负载，处理 SSL 加密和解密以减轻后端服务器的负担，并通过隐藏服务器细节提供额外的安全层。常见的用途包括提高 Web 应用程序性能、启用微服务架构以及增强 Web 托管环境的安全性。流行的反向代理软件包括 NGINX、HAProxy 和 Apache 的 mod_proxy。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/">什么是反向代理？</a></li>
+<li><em>文章</em> <a href="https://www.nginx.com/resources/glossary/reverse-proxy-server/">NGINX 文档</a></li>
+<li><em>文章</em> <a href="https://medium.com/globant/understanding-nginx-as-a-reverse-proxy-564f76e856b2">理解 NGINX 作为反向代理</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=4NB0NDtOwIQ">代理与反向代理（实际示例）</a></li>
+</ul>
+<h3 id="缓存服务器">◇缓存服务器<a hidden class="anchor" aria-hidden="true" href="#缓存服务器">#</a></h3>
+<p>缓存服务器，也称为代理服务器或缓存服务器，是一种专用的网络服务器，用于本地保存网页和其他互联网内容，以减少带宽使用、服务器负载和感知延迟。它通过拦截客户端的请求，保存来自 Web 服务器的响应，并为后续相同信息的请求提供缓存内容。缓存服务器可以显著提高响应时间并减少网络流量，特别是对于频繁访问的内容。它们通常用于内容分发网络（CDN）、企业网络和互联网服务提供商，以优化性能、降低成本并通过从更接近最终用户的位置提供内容来增强用户体验。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/cdn/what-is-caching/">什么是缓存？</a></li>
+<li><em>文章</em> <a href="https://networkencyclopedia.com/cache-server/">什么是缓存服务器？</a></li>
+<li><em>文章</em> <a href="https://nordvpn.com/cybersecurity/glossary/caching-server/">站点缓存 vs 浏览器缓存 vs 服务器缓存</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=dGAgxozNWFE">每个开发者都应该知道的缓存系统</a></li>
+</ul>
+<h3 id="防火墙">◇防火墙<a hidden class="anchor" aria-hidden="true" href="#防火墙">#</a></h3>
+<p>防火墙是一种<strong>网络安全设备</strong>，它根据组织先前建立的安全策略监控和过滤传入和传出的网络流量。它是位于私有内部网络和公共互联网之间的屏障。防火墙的主要目的是允许无害的流量进入并阻止危险的流量。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/">什么是防火墙？</a></li>
+<li><em>文章</em> <a href="https://www.cisco.com/c/en_in/products/security/firewalls/what-is-a-firewall.html">防火墙的类型</a></li>
+<li><em>文章</em> <a href="https://dev.to/coder7475/uncomplicated-firewall-ufw-1638">简单防火墙（UFW）</a></li>
+<li><em>文章</em> <a href="https://www.tutorialspoint.com/what-is-a-firewall-and-why-do-you-need-one">为什么我们需要防火墙？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=9GZlVOafYTg">防火墙与网络安全 - SimpliLearn</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/firewall?ref=roadmapsh">探索关于防火墙的热门文章</a></li>
+</ul>
+<h3 id="负载均衡器">◇负载均衡器<a hidden class="anchor" aria-hidden="true" href="#负载均衡器">#</a></h3>
+<p>负载均衡器充当<strong>交通警察</strong>，位于服务器前面，将客户端请求路由到能够满足这些请求的所有服务器，以最大化速度和容量利用率，并确保没有一台服务器过载。如果其中一台服务器宕机，负载均衡器会将流量重定向到剩余的在线服务器。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.nginx.com/resources/glossary/load-balancing/">什么是负载均衡？</a></li>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/performance/what-is-load-balancing/">负载均衡的概念和算法</a></li>
+<li><em>文章</em> <a href="https://dzone.com/articles/nginx-reverse-proxy-and-load-balancing">NGINX 反向代理与负载均衡</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=sCR3SAVdyCc">什么是负载均衡器？</a></li>
+</ul>
+<h3 id="nginxweb-服务器">◇Nginx（<em>Web 服务器</em>）<a hidden class="anchor" aria-hidden="true" href="#nginxweb-服务器">#</a></h3>
+<p>NGINX 是一个高性能、开源的 Web 服务器、反向代理和负载均衡器。NGINX 以其处理并发连接的效率而闻名，它使用事件驱动、异步的架构，消耗最少的资源。它擅长提供静态内容、将请求代理到应用服务器以及在多个后端之间进行负载均衡。NGINX 因其提高网站性能、可扩展性和安全性的能力而被广泛使用。它支持各种协议，包括 HTTP、HTTPS、SMTP 和 WebSocket，并提供 SSL/TLS 终止、缓存和内容压缩等功能。NGINX 在小型和大型企业环境中都很受欢迎，是许多现代 Web 架构中的关键组件，特别是在微服务和容器化部署中。</p>
+<ul>
+<li><em>官方</em> <a href="https://nginx.org/">Nginx</a></li>
+<li><em>文章</em> <a href="https://swissmade.host/en/blog/basic-nginx-setup-ubuntu-guide-to-a-functional-and-secure-website-serving">Ubuntu 上的基本 NGINX 设置：功能性和安全性网站服务指南</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=JKxlsvZXG7c">100 秒内解释 NGINX</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/nginx?ref=roadmapsh">探索关于 Nginx 的热门文章</a></li>
+</ul>
+<h2 id="8-网络与协议">8. 网络与协议<a hidden class="anchor" aria-hidden="true" href="#8-网络与协议">#</a></h2>
+<p>网络协议是标准化的规则和程序，用于管理数据在计算机网络中的传输、接收和解释。它们定义了数据通信中的格式、时序、序列和错误控制。关键协议包括：</p>
+<ul>
+<li>
+<p>TCP/IP（传输控制协议/互联网协议）：互联网通信的基础套件。</p>
+</li>
+<li>
+<p>HTTP/HTTPS：用于网页浏览和 Web 上的安全数据传输。</p>
+</li>
+<li>
+<p>FTP/SFTP：文件传输协议。</p>
+</li>
+<li>
+<p>SMTP/POP3/IMAP：电子邮件通信协议。</p>
+</li>
+<li>
+<p>DNS：用于域名解析。</p>
+</li>
+<li>
+<p>DHCP：用于自动分配 IP 地址。</p>
+</li>
+<li>
+<p>SSL/TLS：用于安全的加密通信。</p>
+</li>
+<li>
+<p>UDP：用于快速、无连接的数据传输。</p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://www.cloudflare.com/learning/ssl/what-is-ssl/">Cloudflare - 什么是 SSL？</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/">Cloudflare - 什么是 TLS？</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://cs.fyi/guide/http-in-depth">关于 HTTP 的一切你需要知道的</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/">什么是 HTTP？</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/">什么是 HTTPS？</a></p>
+</li>
+<li>
+<p><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/">什么是 DNS？</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=Wj0od2ag5sk">DNS 及其工作原理</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=7lxgpKh_fRY">DNS 记录</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=k3rFFLmQCuY">SSH vs SSL vs TLS</a></p>
+</li>
+<li>
+<p><em>视频</em> <a href="https://www.youtube.com/watch?v=YS5Zh7KExvE">OpenSSH 完整指南</a></p>
+</li>
+</ul>
+<h3 id="ftpsftp文件传输">◇FTP/SFTP（<em>文件传输</em>）<a hidden class="anchor" aria-hidden="true" href="#ftpsftp文件传输">#</a></h3>
+<p>FTP（文件传输协议）是一种标准的网络协议，用于在计算机网络中的客户端和服务器之间传输文件。它采用客户端-服务器模型，通常在客户端和服务器之间使用单独的控制和数据连接。FTP 允许用户上传、下载和管理远程系统上的文件，支持认证和匿名访问。尽管 FTP 因其简单性和兼容性而被广泛使用，但由于它以明文传输数据和凭证，存在安全限制。因此，更安全的替代方案如 SFTP（SSH 文件传输协议）和 FTPS（FTP 安全）在敏感数据传输中越来越受欢迎。尽管 FTP 已经存在多年，它仍然在各种文件传输需求中使用，特别是在遗留系统和安全性要求较低的环境中。</p>
+<p>SFTP（SSH 文件传输协议）是一种安全的文件传输协议，通过安全外壳（SSH）数据流提供文件访问、传输和管理功能。它被设计为 SSH 的扩展，以提供安全的文件传输能力。SFTP 在传输过程中加密命令和数据，防止窃听和中间人攻击。与传统的 FTP 不同，SFTP 使用单一连接，不分离控制通道和数据通道。它支持恢复中断的传输、目录列表和远程文件删除等功能。SFTP 在企业环境中广泛用于安全文件传输、自动化脚本以及作为 FTP 的更安全替代方案。它与 SSH 的集成使其成为系统管理员和开发人员在安全远程系统操作中的首选。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning">FTP vs SFTP vs FTPS</a></li>
+<li><em>文章</em> <a href="https://www.kiteworks.com/risk-compliance-glossary/sftp/">什么是 SFTP？</a></li>
+</ul>
+<h3 id="dns域名服务">◇DNS（<em>域名服务</em>）<a hidden class="anchor" aria-hidden="true" href="#dns域名服务">#</a></h3>
+<p>DNS（域名系统）是一种分层的、分散的命名系统，用于连接到互联网或私有网络的计算机、服务或其他资源。它将人类可读的域名（如 <a href="https://www.example.com">www.example.com</a>）转换为计算机用于在网络上相互识别的 IP 地址（如 192.0.2.1）。DNS 充当互联网的电话簿，使用户能够使用易于记忆的名称访问网站，而不是使用数字 IP 地址。该系统由 DNS 服务器、解析器和记录（如 A、CNAME、MX）组成，共同工作以高效地路由互联网流量。DNS 对互联网功能至关重要，影响从网页浏览和电子邮件到现代云架构中的负载均衡和服务发现的一切。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/">什么是 DNS？</a></li>
+<li><em>文章</em> <a href="https://howdns.works/">DNS 的工作原理（漫画）</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=Wj0od2ag5sk">DNS 及其工作原理</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/dns?ref=roadmapsh">探索关于 DNS 的热门文章</a></li>
+</ul>
+<h3 id="httpweb-通信">◇HTTP（<em>Web 通信</em>）<a hidden class="anchor" aria-hidden="true" href="#httpweb-通信">#</a></h3>
+<p>HTTP（超文本传输协议）是万维网上数据通信的基础。它是一种应用层协议，支持客户端（通常是 Web 浏览器）和服务器之间传输各种类型的数据，主要是网页及其组件。HTTP 采用请求-响应模型，客户端发送资源请求，服务器响应请求的数据或错误消息。它是无状态的，意味着每个请求都独立于之前的请求。HTTP 支持各种方法（GET、POST、PUT、DELETE 等）以执行不同类型的操作。虽然最初设计为纯文本传输，但现在广泛采用其安全版本 HTTPS，使用加密来保护传输中的数据。</p>
+<ul>
+<li><em>文章</em> <a href="https://cs.fyi/guide/http-in-depth">关于 HTTP 的一切你需要知道的</a></li>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/">什么是 HTTP？</a></li>
+<li><em>文章</em> <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">HTTP 概述</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=a-sBfyiXysI">HTTP/1 到 HTTP/2 到 HTTP/3</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=iYM2zFP3Zn0">HTTP 速成课程与探索</a></li>
+</ul>
+<h3 id="httpsweb-通信">◇HTTPS（<em>Web 通信</em>）<a hidden class="anchor" aria-hidden="true" href="#httpsweb-通信">#</a></h3>
+<p>HTTPS（超文本传输协议安全）是 HTTP 的安全版本，加密客户端和服务器之间交换的数据。它使用 SSL/TLS 协议提供身份验证、数据完整性和保密性。HTTPS 通过加密所有通信来防止窃听、篡改和中间人攻击。它使用数字证书来验证网站的身份，增强信任和安全性。HTTPS 对于保护登录凭证和财务数据等敏感信息至关重要。它已成为安全 Web 通信的标准，主要浏览器将非 HTTPS 网站标记为“不安全”。HTTPS 还提供 SEO 优势，并且是许多现代 Web 功能和渐进式 Web 应用程序的必备条件。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/">什么是 HTTPS？</a></li>
+<li><em>文章</em> <a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https">为什么 HTTPS 重要</a></li>
+<li><em>文章</em> <a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https">在服务器上启用 HTTPS</a></li>
+<li><em>文章</em> <a href="https://howhttps.works/">HTTPS 的工作原理（漫画）</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=25mXesOV9-8">HTTPS 真的能保护你吗？</a></li>
+</ul>
+<h3 id="ssltlsweb-通信">◇SSL/TLS（<em>Web 通信</em>）<a hidden class="anchor" aria-hidden="true" href="#ssltlsweb-通信">#</a></h3>
+<p>安全套接字层（SSL）和传输层安全（TLS）是用于提供互联网通信安全性的加密协议。这些协议加密通过 Web 传输的数据，因此任何试图拦截数据包的人都无法解释数据。一个重要区别是，由于安全漏洞，SSL 现在已被弃用，大多数现代 Web 浏览器不再支持它。但 TLS 仍然是安全的并得到广泛支持，因此最好使用 TLS。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/learning/ssl/what-is-ssl/">Cloudflare - 什么是 SSL？</a></li>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/">Cloudflare - 什么是 TLS？</a></li>
+<li><em>文章</em> <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">维基百科 - SSL/TLS</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=k3rFFLmQCuY">SSH vs SSL vs TLS</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=67Kfsmy_frM">7 分钟内解释 SSL/TLS</a></li>
+</ul>
+<h3 id="sshweb-通信">◇SSH（<em>Web 通信</em>）<a hidden class="anchor" aria-hidden="true" href="#sshweb-通信">#</a></h3>
+<p>SSH（安全外壳）是一种加密网络协议，用于在不安全的网络上安全地访问和管理远程机器。它提供加密通信，确保机密性和完整性，并允许安全文件传输、命令执行和隧道。SSH 广泛用于服务器、云基础设施和网络设备的远程管理，通常采用基于密钥的认证或密码。像 OpenSSH 这样的工具通常用于建立 SSH 连接，提供比 Telnet 等较旧、较不安全的协议更安全的替代方案。</p>
+<ul>
+<li>官方 <a href="https://www.ssh.com/academy/ssh/protocol">什么是 SSH？</a></li>
+<li>文章 <a href="https://www.baeldung.com/cs/ssh-intro">SSH 简介</a></li>
+<li>文章 <a href="https://www.goanywhere.com/blog/how-sftp-works">使用 SSH 进行 SFTP</a></li>
+<li>视频 <a href="https://www.youtube.com/watch?v=5JvLV2-ngCI">SSH 的工作原理</a></li>
+<li>订阅 <a href="https://app.daily.dev/tags/ssh?ref=roadmapsh">探索关于 SSH 的热门文章</a></li>
+</ul>
+<h3 id="osi-模型">◇OSI 模型<a hidden class="anchor" aria-hidden="true" href="#osi-模型">#</a></h3>
+<p>OSI（开放系统互连）模型是一个概念框架，将电信或计算系统的功能标准化为七个抽象层。这些层从下到上分别是：物理层、数据链路层、网络层、传输层、会话层、表示层和应用层。每一层在数据通信过程中都有特定的用途，下层处理更多与硬件相关的任务，而上层处理软件和用户界面方面的问题。该模型有助于理解数据如何在网络中移动、排查网络问题以及设计网络协议和硬件。虽然在现实世界的实现中并不严格遵循 OSI 模型，但它仍然是网络工程师和开发人员的宝贵教育工具和参考点，为讨论网络操作和架构提供了通用语言。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/">什么是 OSI 模型？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=dV8mjZd1OtU">OSI 模型</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=F5rni9fr1yE">OSI 与 TCP/IP 模型</a></li>
+</ul>
+<h3 id="白名单灰名单电子邮件协议">◇白名单/灰名单（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#白名单灰名单电子邮件协议">#</a></h3>
+<p>白名单涉及创建受信任实体（如 IP 地址、电子邮件地址或应用程序）的列表，这些实体被明确允许访问系统或发送消息。默认情况下，任何不在白名单上的内容都会被拒绝。白名单通过限制访问仅限已知和批准的实体来提供高级别的安全性，但它可能不够灵活，并且需要频繁更新以适应合法的更改。灰名单是一种更灵活的方法，主要用于电子邮件过滤。当从未知发件人收到电子邮件时，服务器会暂时拒绝它，并返回“稍后再试”的响应。合法的邮件服务器会在短暂的延迟后重新发送电子邮件，而垃圾邮件发送者通常不会重试，因此被阻止。这种方法通过利用垃圾邮件发送者通常不遵循重试机制的事实来减少垃圾邮件。灰名单可能比白名单更少侵入性，但它可能会对首次发件人造成轻微的电子邮件传递延迟。</p>
+<ul>
+<li><em>文章</em> <a href="https://en.wikipedia.org/wiki/Greylisting_%28email%29">灰名单的详细介绍</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=ljtU6I0sIiw">灰名单</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=NqQIBtY7ySw">如何将电子邮件地址加入白名单？</a></li>
+</ul>
+<h3 id="smtp电子邮件协议">◇SMTP（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#smtp电子邮件协议">#</a></h3>
+<p>电子邮件正在成为当今互联网上最有价值的服务之一。大多数互联网系统使用 SMTP 作为将邮件从一个用户传输到另一个用户的方法。SMTP 是一种推送协议，用于发送邮件，而 POP（邮局协议）或 IMAP（互联网消息访问协议）用于在接收方检索这些电子邮件。SMTP 是一种应用层协议。想要发送邮件的客户端打开与 SMTP 服务器的 TCP 连接，然后通过连接发送邮件。SMTP 服务器始终处于监听模式。一旦它侦听到来自任何客户端的 TCP 连接，SMTP 进程就会通过端口 25 启动连接。成功建立 TCP 连接后，客户端进程会立即发送邮件。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/learning/email-security/what-is-smtp">什么是 SMTP？ - Cloudflare</a></li>
+<li><em>文章</em> <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">SMTP - 维基百科</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=iUhDT3ZtWS0">什么是 SMTP 及其工作原理？</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/serverless?ref=roadmapsh">探索关于无服务器的热门文章</a></li>
+</ul>
+<h3 id="dmarc电子邮件协议">◇DMARC（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#dmarc电子邮件协议">#</a></h3>
+<p>DMARC（基于域的消息认证、报告和一致性）是一种电子邮件认证协议，建立在 SPF 和 DKIM 之上，以防范电子邮件欺骗和钓鱼攻击。它允许域名所有者指定电子邮件接收者应如何处理未通过认证检查的消息。DMARC 为域名所有者提供了一种反馈机制，以接收电子邮件认证结果的报告，帮助他们监控和改进电子邮件安全性。通过实施 DMARC 策略，组织可以提高其电子邮件的可交付性，保护其品牌声誉，并减少其域名被用于欺诈性电子邮件活动的可能性。DMARC 被主要电子邮件提供商广泛采用，并被认为是现代电子邮件安全策略的关键组成部分。</p>
+<ul>
+<li><em>官方</em> <a href="https://dmarc.org/">DMARC</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=zLxJLKf-ua8">什么是 DMARC：你需要了解的电子邮件安全</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/security?ref=roadmapsh">探索关于安全的热门文章</a></li>
+</ul>
+<h3 id="imap电子邮件协议">◇IMAP（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#imap电子邮件协议">#</a></h3>
+<p>IMAP（互联网消息访问协议）是一种标准的电子邮件协议，允许电子邮件客户端访问存储在邮件服务器上的消息。与 POP3 不同，IMAP 将电子邮件保留在服务器上，从而可以从多个设备访问并保持同步。它支持文件夹结构、消息标记和部分消息检索，使其在管理大量电子邮件时非常高效。IMAP 允许用户在服务器端进行搜索，减少带宽使用。它设计用于在服务器上长期存储邮件，非常适合需要从各种设备或位置访问电子邮件的用户。IMAP 的同步能力和服务器端管理功能使其成为大多数现代电子邮件系统的首选协议，特别是在移动和多设备环境中。</p>
+<ul>
+<li><em>文章</em> <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">维基百科：互联网消息访问协议</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=gLNOVbcyWbI">什么是 POP3、IMAP 和 SMTP？</a></li>
+</ul>
+<h3 id="spf电子邮件协议">◇SPF（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#spf电子邮件协议">#</a></h3>
+<p>发件人策略框架（SPF）用于验证电子邮件的发件人。通过设置 SPF 记录，互联网服务提供商可以验证邮件服务器是否有权为特定域名发送电子邮件。SPF 记录是 DNS TXT 记录，包含允许代表您的域名发送电子邮件的 IP 地址列表。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/">什么是 DNS SPF 记录？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=5HG8xJ2lWuc">什么是 SPF？发件人策略框架解释</a></li>
+</ul>
+<h3 id="pop3s电子邮件协议">◇POP3S（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#pop3s电子邮件协议">#</a></h3>
+<p>POP3（端口 110）或 POP3s（端口 995）代表邮局协议。它是一种互联网标准协议，本地电子邮件软件客户端使用它通过 TCP/IP 连接从远程邮件服务器检索电子邮件。互联网服务提供商托管的电子邮件服务器也使用 POP3 来接收和保存其订阅者的电子邮件。这些订阅者会定期使用电子邮件客户端软件检查远程服务器上的邮箱，并下载发送给他们的电子邮件。一旦电子邮件客户端下载了电子邮件，它们通常会被从服务器上删除，尽管一些电子邮件客户端允许用户指定邮件在服务器上保留一段时间。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.techtarget.com/whatis/definition/POP3-Post-Office-Protocol-3">什么是 POP3？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=gLNOVbcyWbI">什么是 POP3、IMAP 和 SMTP？</a></li>
+</ul>
+<h3 id="域名密钥电子邮件协议">◇域名密钥（<em>电子邮件协议</em>）<a hidden class="anchor" aria-hidden="true" href="#域名密钥电子邮件协议">#</a></h3>
+<p>域名密钥是一种电子邮件认证方法，旨在验证电子邮件发件人的域名并确保消息的完整性。由雅虎开发，它是 DKIM（域名密钥识别邮件）的前身。域名密钥使用公钥加密，允许电子邮件系统验证消息是由授权发件人发送的，并且在传输过程中未被篡改。发送服务器使用私钥对发出的电子邮件进行签名，接收服务器可以使用发件人 DNS 记录中发布的公钥验证签名。虽然域名密钥在很大程度上已被 DKIM 取代，但它在旨在打击电子邮件欺骗和钓鱼攻击的电子邮件认证技术的发展中发挥了关键作用。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.brainkart.com/article/DomainKeys-Identified-Mail_8493/">域名密钥识别邮件</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=IBhO0akhMlQ">什么是 DKIM？域名密钥识别邮件</a></li>
+</ul>
+<h2 id="9-云服务提供商">9. 云服务提供商<a hidden class="anchor" aria-hidden="true" href="#9-云服务提供商">#</a></h2>
+<p>云服务提供商提供了一层API来抽象基础设施，并根据安全和计费边界进行资源调配。云运行在数据中心的服务器上，但这些抽象巧妙地给人一种与单一“平台”或大型应用程序交互的错觉。通过云服务提供商快速调配、配置和保护资源的能力，是现代DevOps巨大成功和复杂性的关键。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.techtarget.com/searchitchannel/definition/cloud-service-provider-cloud-provider">云服务提供商</a></li>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-providers">什么是云服务提供商？</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/cloud?ref=roadmapsh">探索关于云的顶级文章</a></li>
+</ul>
+<h3 id="aws">◇AWS<a hidden class="anchor" aria-hidden="true" href="#aws">#</a></h3>
+<p>自2011年以来，亚马逊网络服务（AWS）一直是市场领先的云计算平台，领先于Azure和Google Cloud。AWS提供超过200种服务，数据中心遍布全球。AWS服务是一个在线平台，提供可扩展且经济高效的云计算解决方案。它是一个广泛采用的云平台，提供多种按需操作，如计算能力、数据库存储、内容交付等。</p>
+<ul>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=zA8guDqfv40">100小时AWS完整课程2024</a></li>
+<li><em>官方</em> <a href="https://aws.amazon.com/">AWS官网</a></li>
+<li><em>官方</em> <a href="https://aws.amazon.com/getting-started/cloud-essentials/">AWS云基础</a></li>
+<li><em>官方</em> <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html">亚马逊网络服务概述</a></li>
+<li><em>文章</em> <a href="https://grapplingdev.com/tutorials/how-to-create-aws-account">创建AWS账户</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/aws?ref=roadmapsh">探索关于AWS的顶级文章</a></li>
+</ul>
+<h3 id="azure">◇Azure<a hidden class="anchor" aria-hidden="true" href="#azure">#</a></h3>
+<p>微软Azure是一个全面的云计算平台，提供广泛的服务，用于通过微软管理的数据中心构建、部署和管理应用程序。它提供基础设施即服务（IaaS）、平台即服务（PaaS）和软件即服务（SaaS）解决方案，支持各种编程语言、工具和框架，包括微软特定和第三方系统。Azure的服务涵盖计算、分析、存储、网络等，使企业能够扩展和转型其业务，利用人工智能和机器学习，并实施强大的安全措施，同时通过其按需付费的定价模式可能降低IT成本。</p>
+<ul>
+<li><em>官方</em> <a href="https://azure.microsoft.com/en-us/">Azure官网</a></li>
+<li><em>开源</em> <a href="https://github.com/mikeroyal/Azure-Guide">微软Azure指南</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=5abffC-K40c">微软Azure基础认证课程（AZ-900）</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/azure?ref=roadmapsh">探索关于Azure的顶级文章</a></li>
+</ul>
+<h3 id="google-cloud">◇Google Cloud<a hidden class="anchor" aria-hidden="true" href="#google-cloud">#</a></h3>
+<p>Google Cloud是谷歌的云计算服务产品，提供超过150种产品/服务供选择。它由一组物理资产（如计算机和硬盘驱动器）和虚拟资源（如虚拟机）组成，这些资源位于谷歌的数据中心内。它运行在谷歌内部用于其终端用户产品（如搜索、Gmail、Google Drive和YouTube）的相同基础设施上。</p>
+<ul>
+<li><em>官方</em> <a href="https://cloud.google.com/">Google Cloud</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/5-tips-to-become-a-google-cloud-certified-professional-architect/">成为Google Cloud认证专业架构师的5个技巧</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=fZOz13joN0o">Google Cloud平台完整课程2023</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/cloud?ref=roadmapsh">探索关于云的顶级文章</a></li>
+</ul>
+<h2 id="10-无服务器计算">10. 无服务器计算<a hidden class="anchor" aria-hidden="true" href="#10-无服务器计算">#</a></h2>
+<p>无服务器计算是一种云计算执行模型，云提供商动态管理基础设施，使开发人员能够专注于编写代码。在此模型中，资源根据需求自动分配和扩展，计费基于实际使用情况而非预购容量。无服务器架构通常用于事件驱动的工作负载和微服务，提高开发效率并减少运营开销。流行的无服务器计算平台包括 AWS Lambda、Azure Functions 和 Google Cloud Functions。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless">什么是无服务器计算？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=vxJobGtqKVM">什么是无服务器计算？</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/serverless?ref=roadmapsh">探索关于无服务器计算的热门帖子</a></li>
+</ul>
+<h3 id="aws-lambda">◇AWS Lambda<a hidden class="anchor" aria-hidden="true" href="#aws-lambda">#</a></h3>
+<p>AWS Lambda 是一种无服务器计算服务，允许您运行代码而无需预置或管理服务器。它会自动扩展，响应触发器执行代码，并且仅按消耗的计算时间计费。Lambda 支持多种编程语言，并与其他 AWS 服务无缝集成，使其成为构建微服务、自动化任务和处理数据流的理想选择，同时最大限度地减少运营开销。</p>
+<ul>
+<li><em>官方</em> <a href="https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html">AWS Lambda 简介</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=RtiWU1DrMaM">AWS Lambda 教程：入门无服务器计算</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/aws?ref=roadmapsh">探索关于 AWS 的热门帖子</a></li>
+</ul>
+<h3 id="cloudflare">◇Cloudflare<a hidden class="anchor" aria-hidden="true" href="#cloudflare">#</a></h3>
+<p>Cloudflare 是一家互联网公司，提供一系列服务来帮助保护和加速网站和应用程序。其核心是内容分发网络（CDN）和反向代理云提供商。这意味着它充当网站源服务器与其访问者之间的中介，缓存内容并过滤恶意流量。Cloudflare 由 Matthew Prince、Lee Holloway 和 Michelle Zatlyn 于 2009 年 7 月创立。该公司获得风险投资，并于 2019 年 8 月向纽约证券交易所提交了 S-1 文件进行 IPO。它于 2019 年 9 月 13 日以每股 15 美元的价格公开交易。</p>
+<ul>
+<li><em>官方</em> <a href="https://cloudflare.com/">Cloudflare</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=24cml1rKGBs">Cloudflare 简介</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/cloudflare?ref=roadmapsh">探索关于 Cloudflare 的热门帖子</a></li>
+</ul>
+<h2 id="11-资源预配">11. 资源预配<a hidden class="anchor" aria-hidden="true" href="#11-资源预配">#</a></h2>
+<p>资源预配是指设置和配置必要的 IT 基础设施以支持应用程序或服务的过程。这包括分配和准备资源，如服务器、存储、网络和软件环境。预配可以手动完成，但在现代 DevOps 实践中，通常使用 Terraform、Pulumi 或 CloudFormation 等工具进行自动化。这些工具允许基础设施即代码（IaC），其中整个预配过程在版本控制的脚本或模板中定义。这种方法实现了跨环境的一致、可重复部署，减少了人为错误，并促进了快速扩展和灾难恢复。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/automation/what-is-provisioning">什么是资源预配？ - RedHat</a></li>
+<li><em>文章</em> <a href="https://www.ibm.com/topics/provisioning">什么是资源预配？ - IBM</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=hWvDlmhASpk">开放答案：什么是资源预配？</a></li>
+</ul>
+<h3 id="terraform">◇Terraform<a hidden class="anchor" aria-hidden="true" href="#terraform">#</a></h3>
+<p>Terraform 是 HashiCorp 开发的开源基础设施即代码（IaC）工具，用于使用声明性配置文件定义、预配和管理云和本地基础设施。它支持 AWS、Azure 和 Google Cloud 等多个云提供商，以及各种服务和平台，实现了跨多样化环境的基础设施自动化。Terraform 的状态管理和模块化结构允许高效扩展、重用和版本控制基础设施。它广泛用于自动化基础设施预配，减少手动错误，并提高基础设施的一致性和可重复性。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/terraform">访问专用 Terraform 路线图</a></li>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=7xngnjfIlK4">完整的 Terraform 课程</a></li>
+<li><em>官方</em> <a href="https://www.terraform.io/docs">Terraform 文档</a></li>
+<li><em>官方</em> <a href="https://learn.hashicorp.com/terraform">Terraform 教程</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/how-to-scale-your-terraform-infrastructure/">如何扩展您的 Terraform 基础设施</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/terraform?ref=roadmapsh">探索关于 Terraform 的热门帖子</a></li>
+</ul>
+<h2 id="12-配置管理">12. 配置管理<a hidden class="anchor" aria-hidden="true" href="#12-配置管理">#</a></h2>
+<p>配置管理是一种系统工程过程，用于在产品生命周期内建立产品属性的一致性。在技术领域，配置管理是一种 IT 管理过程，用于跟踪 IT 系统的各个配置项。IT 系统由粒度不同的 IT 资产组成。IT 资产可以代表一个软件、一台服务器或一组服务器。以下重点介绍配置管理在 IT 软件资产和软件资产 CI/CD 中的直接应用。软件配置管理是一种系统工程过程，用于跟踪和监控软件系统配置元数据的更改。在软件开发中，配置管理通常与版本控制和 CI/CD 基础设施一起使用。本文重点介绍其在敏捷 CI/CD 软件环境中的现代应用和使用。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.atlassian.com/microservices/microservices-architecture/configuration-management">什么是配置管理？</a></li>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/automation/what-is-configuration-management">什么是配置管理？ - RedHat</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=9In7ysQJGBs">为什么您需要学习配置管理</a></li>
+</ul>
+<h3 id="ansible">◇Ansible<a hidden class="anchor" aria-hidden="true" href="#ansible">#</a></h3>
+<p>Ansible 是一种开源的自动化工具，用于配置管理、应用程序部署和任务自动化。它通过使用声明性语言定义所需状态和配置，简化了管理和编排基础设施的过程。Ansible 使用 YAML 文件（称为 playbooks）来描述要在远程系统上执行的任务。它采用无代理架构，这意味着它使用 SSH 或其他远程协议在目标机器上执行任务，而无需安装额外的软件。Ansible 广泛用于自动化重复任务、确保一致性以及管理跨各种环境的大规模部署。</p>
+<ul>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=9Ua2b06oAr4">Ansible 初学者完整课程</a></li>
+<li><em>官方</em> <a href="https://www.ansible.com/">Ansible 网站</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=xRMPKQweySE">100 秒了解 Ansible</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/ansible?ref=roadmapsh">探索关于 Ansible 的热门帖子</a></li>
+</ul>
+<h2 id="13-cicd-工具">13. CI/CD 工具<a hidden class="anchor" aria-hidden="true" href="#13-cicd-工具">#</a></h2>
+<p>CI/CD 是一种通过在应用程序开发的各个阶段引入自动化来频繁向客户交付应用程序的方法。CI/CD 的主要概念包括持续集成、持续交付和持续部署。CI/CD 解决了新代码集成可能对开发和运维团队造成的问题。具体来说，CI/CD 在应用程序的整个生命周期中引入了持续的自动化和监控，从集成和测试阶段到交付和部署。这些相互关联的实践通常被称为“CI/CD 管道”，并由开发和运维团队以敏捷的方式共同支持，采用 DevOps 或站点可靠性工程（SRE）方法。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment">CI vs CD</a></li>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/devops/what-is-ci-cd">什么是 CI/CD？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=scEDHsr3APg">100 秒解释 DevOps CI/CD</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=42UP1fxi2SY">5 分钟了解 CI/CD</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/cicd?ref=roadmapsh">探索关于 CI/CD 的热门帖子</a></li>
+</ul>
+<h3 id="circleci">◇CircleCI<a hidden class="anchor" aria-hidden="true" href="#circleci">#</a></h3>
+<p>CircleCI 是一个流行的持续集成和持续交付（CI/CD）平台，它自动化了软件项目的构建、测试和部署过程。它支持多种编程语言，并与各种版本控制系统集成，主要是 GitHub 和 Bitbucket。CircleCI 使用 YAML 配置文件来定义管道，允许开发人员指定复杂的工作流、并行作业执行和自定义环境。它提供了缓存、工件存储和 Docker 层缓存等功能，以加快构建速度。通过其基于云和自托管的选项，CircleCI 为各种规模的项目提供了可扩展的解决方案，帮助团队提高代码质量、加速发布周期并简化开发工作流。</p>
+<ul>
+<li><em>官网</em> <a href="https://circleci.com/">CircleCI 网站</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=_XaYv9zvHUk">CircleCI 初学者教程</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/cicd?ref=roadmapsh">探索关于 CI/CD 的热门帖子</a></li>
+</ul>
+<h3 id="gitlab-ci">◇GitLab CI<a hidden class="anchor" aria-hidden="true" href="#gitlab-ci">#</a></h3>
+<p>GitLab CI 是 GitLab 生态系统中的一个集成持续集成和交付平台。它通过 YAML 文件中定义的管道自动化构建、测试和部署代码更改的过程。GitLab CI 提供了并行执行、容器注册表集成和自动 DevOps 等功能，使团队能够直接从其 GitLab 仓库中实施强大的 CI/CD 工作流，而无需额外的工具或基础设施。</p>
+<ul>
+<li><em>官网</em> <a href="https://gitlab.com/">GitLab 网站</a></li>
+<li><em>官方文档</em> <a href="https://docs.gitlab.com/">GitLab 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=z7nLsJvEyMY">GitLab CI/CD 管道初学者教程（2024）</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/gitlab?ref=roadmapsh">探索关于 GitLab 的热门帖子</a></li>
+</ul>
+<h3 id="github-actions">◇GitHub Actions<a hidden class="anchor" aria-hidden="true" href="#github-actions">#</a></h3>
+<p>GitHub Actions 是一个直接集成到 GitHub 仓库中的持续集成和持续交付（CI/CD）平台。它允许开发人员自动化软件工作流，包括构建、测试和部署应用程序。Actions 在 YAML 文件中定义，并由各种 GitHub 事件触发，如推送、拉取请求或计划任务。该平台提供了一个预构建 Actions 的市场，并支持自定义 Actions。GitHub Actions 提供了矩阵构建、并行作业执行，并支持多种操作系统和语言。它与 GitHub 的生态系统无缝集成，促进了自动化代码审查、问题跟踪和项目管理。该工具使开发人员能够在 GitHub 工作流中高效地实施 DevOps 实践，从而提高生产力和代码质量。</p>
+<ul>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=Tz7FsunBbfQ">GitHub Actions 认证 - 通过考试的全课程</a></li>
+<li><em>官方文档</em> <a href="https://docs.github.com/en/actions">GitHub Actions 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=URmeTqglS58">什么是 GitHub Actions？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=nyKZTKQS_EQ">使用 GitHub Actions 自动化您的工作流</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/github?ref=roadmapsh">探索关于 GitHub 的热门帖子</a></li>
+</ul>
+<h2 id="14-密钥管理">14. 密钥管理<a hidden class="anchor" aria-hidden="true" href="#14-密钥管理">#</a></h2>
+<p>密钥管理是指在组织的IT基础设施中安全地处理、存储和分发敏感信息，如密码、API密钥和证书。它涉及使用专门的工具和实践来保护密钥免受未经授权的访问，同时确保在需要时授权系统和用户可以访问这些密钥。密钥管理解决方案通常提供静态和传输中的加密、访问控制、审计、轮换策略以及与各种平台和服务的集成等功能。这些系统旨在集中存储密钥，降低暴露风险，自动化密钥生命周期管理，并提供与应用程序和DevOps工作流的无缝集成。在现代复杂的IT环境中，有效的密钥管理对于维护安全性、合规性和操作效率至关重要。</p>
+<ul>
+<li><em>文章</em> <a href="https://cs.fyi/guide/secret-management-best-practices">如何在Web应用程序中管理密钥？</a></li>
+<li><em>文章</em> <a href="https://www.keepersecurity.com/blog/2023/01/26/why-devsecops-teams-need-secrets-management/">为什么DevSecOps团队需要密钥管理</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=u_L-f7Th_7o">生产环境中管理密钥的DevOps技巧</a></li>
+</ul>
+<h3 id="vault">◇Vault<a hidden class="anchor" aria-hidden="true" href="#vault">#</a></h3>
+<p>HashiCorp Vault 是一款专为安全管理密钥和保护敏感数据（如密码、API密钥和加密密钥）而设计的工具。它提供集中式密钥管理、访问控制和审计功能。Vault 支持多种身份验证方法和动态密钥，允许动态生成密钥并管理其生命周期。它还提供强大的加密功能，包括静态和传输中的数据加密。Vault 广泛应用于DevOps环境中，以确保敏感信息的安全和可扩展管理，并与各种基础设施和应用程序平台集成。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.vaultproject.io/">HashiCorp Vault</a></li>
+<li><em>开源</em> <a href="https://github.com/hashicorp/vault">hashicorp/vault</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=nG8fCdWkLzc">180秒了解HashiCorp Vault</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=ae72pKpXe-s">HashiCorp Vault 初学者教程</a></li>
+</ul>
+<h2 id="15-基础设施监控">15. 基础设施监控<a hidden class="anchor" aria-hidden="true" href="#15-基础设施监控">#</a></h2>
+<p>监控是指使基础设施的性能和状态可见的实践。本节包含用于监控的常见工具。这是一个供应商众多的领域——在研究特定产品或项目的材料时要谨慎，因为有许多相互矛盾的观点和策略在使用。对于最复杂的面向互联网的应用程序，没有单一的解决方案，因此了解这些工具的优缺点将有助于您规划如何为特定目标监控系统。</p>
+<ul>
+<li><em>文章</em> <a href="https://thenewstack.io/best-practices-to-optimize-infrastructure-monitoring-within-devops-teams/">优化DevOps团队基础设施监控的最佳实践</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/seven-steps-to-effective-cloud-native-infrastructure-monitoring/">有效进行云原生基础设施监控的七个步骤</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=ESub4SAKouI">使用Telegraf、Grafana和InfluxDB进行基础设施监控基础</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/infrastructure?ref=roadmapsh">探索关于基础设施的热门文章</a></li>
+</ul>
+<h3 id="prometheus">◇Prometheus<a hidden class="anchor" aria-hidden="true" href="#prometheus">#</a></h3>
+<p>Prometheus 是一个开源的系统监控和警报工具包，专为可靠性和可扩展性而设计。它具有多维数据模型、灵活的查询语言（PromQL）和高效的时间序列数据库。Prometheus 以给定的时间间隔从配置的目标收集指标，评估规则表达式，显示结果，并在观察到指定条件时触发警报。它采用拉取模型，从HTTP端点抓取指标，并支持动态环境的服务发现。Prometheus 特别适合监控微服务和容器化环境，与Kubernetes等系统无缝集成。其生态系统包括用于第三方系统的各种导出器和内置的警报管理器。Prometheus 在云原生架构中被广泛采用，是现代可观测性堆栈的核心组件，通常与Grafana等工具一起用于可视化。</p>
+<ul>
+<li><em>官方</em> <a href="https://prometheus.io/">Prometheus 网站</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=STVMGrYIlfg">Prometheus 监控系统简介 | 关键概念和功能</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/prometheus?ref=roadmapsh">探索关于Prometheus的热门文章</a></li>
+</ul>
+<h3 id="grafana">◇Grafana<a hidden class="anchor" aria-hidden="true" href="#grafana">#</a></h3>
+<p>Grafana 是一个开源的分析和交互式可视化Web应用程序。它连接到各种数据源，包括时间序列数据库、关系数据库和云服务，以创建可定制的仪表板。Grafana 擅长可视化基础设施和应用程序分析的时间序列数据，支持多种图表类型和插件。它具有警报功能、用户身份验证和基于角色的访问控制。Grafana 通常用于监控系统指标、应用程序性能和业务分析。其灵活性和从多个数据源组合数据的能力使其在DevOps环境中广受欢迎，用于创建全面的监控解决方案。Grafana 的用户友好界面和广泛的定制选项使用户能够创建视觉上吸引人且信息丰富的仪表板，用于实时数据可视化和分析。</p>
+<ul>
+<li><em>官方</em> <a href="https://grafana.com/">Grafana</a></li>
+<li><em>官方</em> <a href="https://grafana.com/videos/">Grafana 网络研讨会和视频</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=9TJx7QTrTyo">服务器监控 // Prometheus 和 Grafana 教程</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/grafana?ref=roadmapsh">探索关于Grafana的热门文章</a></li>
+</ul>
+<h3 id="datadog">◇Datadog<a hidden class="anchor" aria-hidden="true" href="#datadog">#</a></h3>
+<p>Datadog 是一个用于大规模应用程序的监控和分析平台。它包括基础设施监控、应用程序性能监控、日志管理和用户体验监控。Datadog 通过400多个集成聚合整个堆栈的数据，用于故障排除、警报和图表绘制。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.datadoghq.com/">Datadog 网站</a></li>
+<li><em>官方</em> <a href="https://docs.datadoghq.com/">Datadog 文档</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/devops?ref=roadmapsh">探索关于DevOps的热门文章</a></li>
+</ul>
+<h2 id="16-日志管理">16. 日志管理<a hidden class="anchor" aria-hidden="true" href="#16-日志管理">#</a></h2>
+<p>日志管理是处理由所有软件应用程序及其运行基础设施生成的日志事件的过程。它包括日志的收集、聚合、解析、存储、分析、搜索、归档和处置，最终目标是利用这些数据进行故障排除和获取业务洞察，同时确保应用程序和基础设施的合规性和安全性。</p>
+<ul>
+<li><em>官方</em> <a href="https://devops.com/log-management-what-devops-teams-need-to-know/">日志管理：DevOps团队需要了解的内容</a></li>
+<li><em>文章</em> <a href="https://sematext.com/guides/log-management">日志管理简介</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/logging-for-kubernetes-what-to-log-and-how-to-log-it/">Kubernetes日志记录：记录什么以及如何记录</a></li>
+</ul>
+<h3 id="loki">◇Loki<a hidden class="anchor" aria-hidden="true" href="#loki">#</a></h3>
+<p>Loki是由Grafana Labs设计的一个水平可扩展、高可用、多租户的日志聚合系统。它的设计初衷是成本效益高且易于操作，特别适合存储和查询来自Kubernetes集群的日志。Loki索引的是日志的元数据而非全文，这使得它比传统的日志管理系统更节省资源。它使用与Prometheus相同的查询语言（LogQL），使得熟悉Prometheus的用户更容易上手。Loki与Grafana无缝集成以实现可视化，并经常与Prometheus和Grafana一起用于云原生可观测性堆栈中。其设计注重简洁性，使其成为在容器化环境中寻求高效日志管理的组织的一个有吸引力的选择。</p>
+<ul>
+<li><em>官方</em> <a href="https://grafana.com/oss/loki/">Loki</a></li>
+<li><em>官方</em> <a href="https://grafana.com/docs/loki/latest/?pg=oss-loki&amp;plcmt=quick-links">Loki文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=h_GGd7HfKQ8">认识Grafana LOKI，一个适用于一切的日志聚合系统</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/grafana?ref=roadmapsh">探索关于Grafana的热门帖子</a></li>
+</ul>
+<h3 id="elastic-stack">◇Elastic Stack<a hidden class="anchor" aria-hidden="true" href="#elastic-stack">#</a></h3>
+<p>Elastic Stack，前身为ELK Stack，是一组用于实时搜索、分析和可视化数据的开源工具。它由四个主要组件组成：Elasticsearch（一个分布式搜索和分析引擎）、Logstash（一个数据处理管道）、Kibana（一个数据可视化管理工具）和Beats（轻量级数据收集器）。这些工具共同使用户能够从各种来源收集数据，处理和丰富数据，将其存储在可搜索的格式中，并创建交互式可视化和仪表板。Elastic Stack广泛用于日志分析、应用程序性能监控、安全信息和事件管理（SIEM）以及商业智能应用，提供了处理大量多样化数据的可扩展性和灵活性。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.elastic.co/elastic-stack/">Elastic Stack</a></li>
+<li><em>文章</em> <a href="https://logz.io/blog/fluentd-logstash/">Logstash vs Fluentd</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=CfCTWVAwFbQ">掌握Elastic Stack：Elastic Stack概述</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/elk?ref=roadmapsh">探索关于ELK的热门帖子</a></li>
+</ul>
+<h2 id="17-容器编排">17. 容器编排<a hidden class="anchor" aria-hidden="true" href="#17-容器编排">#</a></h2>
+<p>容器编排是管理和自动化容器生命周期的过程，包括其部署、扩展和跨多个主机的网络连接。这是在生产环境中运行复杂容器化应用程序的关键技术。</p>
+<p>通过利用Kubernetes、Docker Swarm和Apache Mesos等工具，组织可以确保其应用程序的高可用性、可扩展性和可靠性。容器编排通过自动化日常任务简化了操作，并为微服务、云原生开发和DevOps实践提供了坚实的基础。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/containers/what-is-container-orchestration">什么是容器编排？</a></li>
+<li><em>文章</em> <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/">什么是Kubernetes？</a></li>
+<li><em>文章</em> <a href="https://docs.docker.com/engine/swarm/">Docker Swarm</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=PH-2FfFD2PU">Kubernetes简介</a></li>
+</ul>
+<h3 id="kubernetes">◇Kubernetes<a hidden class="anchor" aria-hidden="true" href="#kubernetes">#</a></h3>
+<p>Kubernetes是一个开源的容器管理平台，也是该领域的主导产品。使用Kubernetes，团队可以在多个底层主机上部署镜像，并通过YAML定义其所需的可用性、部署逻辑和扩展逻辑。Kubernetes源自Google的内部平台Borg，该平台用于配置和分配计算资源（类似于Microsoft Azure的Autopilot和Aquaman系统）。Kubernetes的流行使其成为DevOps工程师越来越重要的技能，并引发了整个行业中平台团队的创建。这些平台工程团队通常存在的唯一目的是使其产品开发同事能够轻松使用Kubernetes。</p>
+<ul>
+<li><em>路线图</em> <a href="https://roadmap.sh/kubernetes">访问专门的Kubernetes路线图</a></li>
+<li><em>官方</em> <a href="https://kubernetes.io/">Kubernetes网站</a></li>
+<li><em>开源</em> <a href="https://github.com/kubernetes/kubernetes">kubernetes/kubernetes</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and-why-you-should-care/">入门：Kubernetes的由来、是什么以及为什么你应该关注</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/kubernetes-an-overview/">Kubernetes概述</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=2T86xAtR6Fo">完整的Kubernetes课程 - 从初学者到专家</a></li>
+<li><em>动态</em> <a href="https://app.daily.dev/tags/kubernetes?ref=roadmapsh">探索关于Kubernetes的热门帖子</a></li>
+</ul>
+<h2 id="18-应用监控">18. 应用监控<a hidden class="anchor" aria-hidden="true" href="#18-应用监控">#</a></h2>
+<p>应用监控涉及对软件应用程序的持续观察和分析，以确保其性能最佳、识别问题并提供对其操作的洞察。此过程包括跟踪响应时间、错误率、资源利用率（CPU、内存和磁盘）以及事务性能等指标。应用监控工具收集和分析数据以检测异常，提供潜在问题的警报，并提供应用程序行为和性能的详细洞察。通过监控应用程序，组织可以主动解决问题、优化性能并改善用户体验，最终确保其软件系统的可靠性和效率。</p>
+<ul>
+<li><em>文章</em> <a href="https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques/">应用基础与高级监控技术</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/why-legacy-apps-need-your-monitoring-love-too/">为什么遗留应用也需要你的监控关爱</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=PHcnmTdVPT0">应用监控 - 四大黄金信号</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/monitoring?ref=roadmapsh">探索关于监控的热门文章</a></li>
+</ul>
+<h3 id="opentelemetry">◇OpenTelemetry<a hidden class="anchor" aria-hidden="true" href="#opentelemetry">#</a></h3>
+<p>OpenTelemetry 是一个用于云原生软件的开源可观测性框架，提供了一种标准化的方式来收集和导出遥测数据，如指标、日志和跟踪。它旨在通过提供供应商中立、统一的 API、库、代理和工具，使可观测性成为云原生应用程序的内置功能。OpenTelemetry 简化了跨不同语言和平台的可观测性实现，使开发人员能够一次性检测其代码并将数据发送到多个后端。它支持许多流行框架和库的自动检测，减少了向应用程序添加可观测性所需的工作量。通过提供一致的数据收集和导出方法，OpenTelemetry 促进了现代分布式软件环境中可观测性工具和平台之间更好的互操作性。</p>
+<ul>
+<li><em>官方</em> <a href="https://opentelemetry.io/">OpenTelemetry 网站</a></li>
+<li><em>官方</em> <a href="https://opentelemetry.io/docs/">OpenTelemetry 文档</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=mUA-uzk94ro">什么是 OpenTelemetry？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=r8UvWSX3KA8">OpenTelemetry 课程 - 理解软件性能</a></li>
+</ul>
+<h2 id="19-制品管理">19. 制品管理<a hidden class="anchor" aria-hidden="true" href="#19-制品管理">#</a></h2>
+<p>在软件开发中，制品是开发生命周期中产生的各种输出，包括源代码、二进制文件、文档、配置文件、构建输出和测试结果。这些制品对于管理、部署和维护应用程序至关重要，因为它们为开发、测试和生产环境提供了必要的资源和文档。它们有助于跟踪项目进度，确保一致性，并促进软件系统的高效交付和操作。</p>
+<ul>
+<li><em>文章</em> <a href="https://docs.oracle.com/en-us/iaas/Content/devops/using/artifacts.htm">什么是制品 - Oracle</a></li>
+<li><em>文章</em> <a href="https://support.atlassian.com/bitbucket-cloud/docs/use-artifacts-in-steps/">什么是制品 - Atlassian</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=gEfsCU-Sj1g">了解 GitLab 制品和缓存</a></li>
+</ul>
+<h3 id="artifactory">◇Artifactory<a hidden class="anchor" aria-hidden="true" href="#artifactory">#</a></h3>
+<p>Artifactory 是一个通用的 DevOps 解决方案，用于托管、管理和分发二进制文件和制品。任何类型的二进制软件——如应用程序安装程序、容器镜像、库、配置文件等——都可以使用 Artifactory 进行管理、保护、存储和交付。名称“Artifactory”反映了它可以托管软件开发“工厂”中所需的任何类型的“制品”。在软件开发中，制品是在软件开发和交付过程中产生的任何对象。制品包括用于安装和运行应用程序的文件，以及配置或管理软件所需的任何补充信息。Artifactory 作为 DevOps 流程的中心枢纽。所有制品、依赖项、包等最终都会被放入并从 Artifactory 中提取。</p>
+<ul>
+<li><em>官方</em> <a href="https://jfrog.com/artifactory/">Artifactory 网站</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=ZCNOtVj7bow">5 分钟了解 JFrog Artifactory 的关键特性</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/artifactory?ref=roadmapsh">探索关于 Artifactory 的热门文章</a></li>
+</ul>
+<h2 id="20-gitops">20. GitOps<a hidden class="anchor" aria-hidden="true" href="#20-gitops">#</a></h2>
+<p>GitOps 是一种使用 Git 作为单一事实来源来管理基础设施和应用程序部署的范式。它通过使用 Git 仓库存储基础设施和应用程序的声明性描述来扩展 DevOps 实践。对期望状态的更改通过拉取请求进行，这些请求会触发自动化过程以使实际状态与期望状态保持一致。GitOps 依赖于持续部署工具，这些工具会自动将实时系统与 Git 中定义的期望状态进行协调。这种方法提供了基础设施的版本控制、改进的可审计性、更轻松的回滚和增强的协作等好处。GitOps 特别适合云原生应用程序和 Kubernetes 环境，提供了一种简化的方法来管理复杂的分布式系统。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.weave.works/technologies/gitops/">GitOps 指南</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=f5EpcWp0THw">什么是 GitOps，GitOps 如何工作及其为何如此有用</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/gitops?ref=roadmapsh">探索关于 GitOps 的热门文章</a></li>
+</ul>
+<h3 id="argocd">◇ArgoCD<a hidden class="anchor" aria-hidden="true" href="#argocd">#</a></h3>
+<p>Argo CD 是一个基于 GitOps 方法的 Kubernetes 持续交付工具。它用于通过持续同步生产环境中的期望应用程序状态与实际应用程序状态来自动化云原生应用程序的部署和管理。在 Argo CD 工作流中，应用程序的更改通过提交代码或配置更改到 Git 仓库来进行。Argo CD 监控仓库并自动使用持续交付管道将更改部署到生产环境。该管道由 Git 仓库的更改触发，并负责构建、测试和将更改部署到生产环境。Argo CD 旨在成为一种简单高效的管理云原生应用程序的方式，因为它允许开发人员使用熟悉的工具和流程对系统进行更改，并提供系统所有更改的清晰和可审计的历史记录。它通常与 Helm 等工具结合使用，以自动化云原生应用程序的部署和管理。</p>
+<ul>
+<li><em>官方</em> <a href="https://argo-cd.readthedocs.io/en/stable/">Argo CD - Argo 项目</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=MeU5_k9ssrs">ArgoCD 初学者教程</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=p-kAqxuJNik">什么是 ArgoCD</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/argocd?ref=roadmapsh">探索关于 ArgoCD 的热门文章</a></li>
+</ul>
+<h2 id="21-服务网格">21. 服务网格<a hidden class="anchor" aria-hidden="true" href="#21-服务网格">#</a></h2>
+<p>服务网格是一个专门的基础设施层，用于管理分布式应用程序中微服务之间的通信。它提供了负载均衡、服务发现、加密、可观测性和流量管理等功能，使服务能够安全高效地进行通信。通过将网络相关的关注点从应用代码中抽象出来，服务网格增强了可靠性和安全性，同时简化了微服务交互的管理。流行的服务网格实现包括 Istio、Linkerd 和 Consul。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh">什么是服务网格？</a></li>
+<li><em>文章</em> <a href="https://thenewstack.io/category/service-mesh/">关于服务网格的最新消息 (TNS)</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=16fgzklcF7Y">Istio &amp; 服务网格 - 15分钟简单解释</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/service-mesh?ref=roadmapsh">探索关于服务网格的热门文章</a></li>
+</ul>
+<h3 id="istio">◇Istio<a hidden class="anchor" aria-hidden="true" href="#istio">#</a></h3>
+<p>Istio 是一个开源的服务网格平台，提供了一种控制微服务之间如何共享数据的方式。它包括允许 Istio 集成到任何日志平台、遥测或策略系统中的 API。Istio 设计用于在各种环境中运行：本地、云托管、Kubernetes 容器中、虚拟机中运行的服务等。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.redhat.com/en/topics/microservices/what-is-istio">什么是 Istio？</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=6zDrLvpfCK4">Istio 服务网格解释</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/istio?ref=roadmapsh">探索关于 Istio 的热门文章</a></li>
+</ul>
+<h3 id="consul">◇Consul<a hidden class="anchor" aria-hidden="true" href="#consul">#</a></h3>
+<p>Consul 是一个服务网格解决方案，提供了一个功能齐全的控制平面，具有服务发现、配置和分段功能。这些功能可以根据需要单独使用，也可以一起使用以构建完整的服务网格。Consul 需要一个数据平面，并支持代理和原生集成模型。Consul 附带一个简单的内置代理，因此一切都可以开箱即用，但也支持第三方代理集成，如 Envoy。</p>
+<ul>
+<li><em>官方</em> <a href="https://www.consul.io/docs/intro">什么是 Consul？</a></li>
+<li><em>开源</em> <a href="https://github.com/hashicorp/consul-guides">Consul 指南</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=s3I1kKKfjtQ">Consul 服务网格初学者教程</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/hashicorp?ref=roadmapsh">探索关于 HashiCorp 的热门文章</a></li>
+</ul>
+<h2 id="22-云设计模式">22. 云设计模式<a hidden class="anchor" aria-hidden="true" href="#22-云设计模式">#</a></h2>
+<p>云设计模式是解决云计算架构中常见问题的可重用解决方案。这些模式解决了分布式系统中与可扩展性、可靠性、安全性和性能相关的挑战。它们提供了设计和实现云原生应用程序的最佳实践，涵盖了数据管理、消息传递、弹性和部署等方面。示例包括用于处理故障的断路器模式、用于分离读写操作的 CQRS 模式以及用于将应用程序组件部署到单独进程或容器中的边车模式。通过利用这些模式，开发人员可以创建更健壮、高效和可维护的云应用程序，从而更好地利用云平台的优势。</p>
+<ul>
+<li><em>课程</em> <a href="https://www.youtube.com/watch?v=cxYHugyNTP0">30 个云设计模式深入解析</a></li>
+<li><em>官方</em> <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/">云设计模式</a></li>
+<li><em>文章</em> <a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/introduction.html">云设计模式、架构和实现</a></li>
+</ul>
+<h3 id="可用性">◇可用性<a hidden class="anchor" aria-hidden="true" href="#可用性">#</a></h3>
+<p>可用性是指系统正常运行并按预期工作的时间百分比，通常称为正常运行时间。可用性可能受到硬件或软件错误、基础设施问题、恶意攻击和系统负载的影响。许多云提供商通常为用户提供服务水平协议 (SLA)，其中规定了承诺的正常运行时间/停机时间的确切百分比。可用性与可靠性相关。例如，一家公司可能承诺其服务的正常运行时间为 99.99%。</p>
+<ul>
+<li><em>文章</em> <a href="https://devops.com/defining-availability-maintainability-and-reliability-in-sre/">在 SRE 中定义可用性、可维护性和可靠性</a></li>
+<li><em>文章</em> <a href="https://www.sqlservercentral.com/articles/cloud-computing-basics-achieving-high-availability-2">实现高可用性的技术</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=tEylFyxbDLE">SLIs、SLOs、SLAs，哦我的天！(SRE 实现 DevOps)</a></li>
+</ul>
+<h3 id="数据管理">◇数据管理<a hidden class="anchor" aria-hidden="true" href="#数据管理">#</a></h3>
+<p>数据管理是云应用程序的关键要素，影响大多数质量属性。数据通常托管在不同位置和跨多个服务器上，原因包括性能、可扩展性或可用性，这可能会带来一系列挑战。例如，必须保持数据一致性，并且通常需要在不同位置之间同步数据。此外，数据应在静止、传输和通过授权访问机制时受到保护，以维护机密性、完整性和可用性的安全保证。有关更多信息，请参阅 Azure 安全基准数据保护控制。</p>
+<ul>
+<li><em>文章</em> <a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/category/data-management">数据管理模式</a></li>
+<li><em>视频</em> <a href="https://www.youtube.com/watch?v=l83bkKJh1wM">什么是主数据管理</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/data-management?ref=roadmapsh">探索关于数据管理的热门文章</a></li>
+</ul>
+<h3 id="设计与实现">◇设计与实现<a hidden class="anchor" aria-hidden="true" href="#设计与实现">#</a></h3>
+<p>良好的设计包括组件设计和部署的一致性和连贯性、简化管理和开发的可维护性以及允许组件和子系统在其他应用程序和其他场景中使用的可重用性。在设计和实现阶段做出的决策对云托管应用程序和服务的质量和总拥有成本有巨大影响。</p>
+<ul>
+<li><em>文章</em> <a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation">设计与实现模式</a></li>
+</ul>
+<h3 id="管理与监控">◇管理与监控<a hidden class="anchor" aria-hidden="true" href="#管理与监控">#</a></h3>
+<p>DevOps 管理和监控涉及监督从规划、开发、集成和测试、部署到操作的整个开发过程。它涉及生产环境中应用程序、服务和基础设施状态的完整实时视图。实时流、历史回放和可视化等功能是应用程序和服务监控的关键组件。</p>
+<ul>
+<li><em>文章</em> <a href="https://www.atlassian.com/devops/devops-tools/devops-monitoring">管理与监控入门指南</a></li>
+<li><em>订阅</em> <a href="https://app.daily.dev/tags/monitoring?ref=roadmapsh">探索关于监控的热门文章</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://yuuniji.us.kg/tags/devops/">DevOps</a></li>
+      <li><a href="https://yuuniji.us.kg/tags/%E8%B7%AF%E7%BA%BF%E5%9B%BE/">路线图</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://yuuniji.us.kg/posts/japanese-grammar/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>日语语法指南</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on x"
+            href="https://x.com/intent/tweet/?text=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be&amp;url=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f&amp;hashtags=DevOps%2c%e8%b7%af%e7%ba%bf%e5%9b%be">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f&amp;title=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be&amp;summary=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be&amp;source=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f&title=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on whatsapp"
+            href="https://api.whatsapp.com/send?text=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be%20-%20https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on telegram"
+            href="https://telegram.me/share/url?text=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be&amp;url=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share DevOps 学习路线图 on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=DevOps%20%e5%ad%a6%e4%b9%a0%e8%b7%af%e7%ba%bf%e5%9b%be&u=https%3a%2f%2fyuuniji.us.kg%2fposts%2fdevops-roadmap%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://yuuniji.us.kg/">叶泽伟的博客</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
