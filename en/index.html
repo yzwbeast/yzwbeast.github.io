@@ -64,6 +64,7 @@
 </noscript><meta property="og:url" content="https://yuuniji.us.kg/en/">
   <meta property="og:site_name" content="叶泽伟的博客">
   <meta property="og:title" content="Yuuniji&#39;s Blog">
+  <meta property="og:description" content=" ">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
@@ -164,6 +165,154 @@
     </nav>
 </header>
 <main class="main"> 
+<div class="post-content"><div id="quote" class="quote-box"></div>
+
+<script>
+    const quotes = [
+        "Live as if you were to die tomorrow. Learn as if you were to live forever.<br>— Mahatma Gandhi (Father of the Nation, India)",
+        "These prison walls are funny. First you hate 'em, then you get used to 'em. Enough time passes, you depend on them.<br>That's institutionalized.<br>— The Shawshank Redemption (Movie)",
+        "Being a slave is unfortunate, but not terrifying, because you know how to struggle and there is hope for freedom.<br>But if you find beauty in slavery, admire it, and revel in it, you are doomed to be a slave forever!<br>— Lu Xun",
+        "Good design evolves continuously.<br>Bad design is patched continuously.",
+        "Use copper as a mirror to dress properly.<br>Use history as a mirror to understand rise and fall.<br>Use people as a mirror to know gains and losses.<br>— Emperor Taizong of Tang (Li Shimin)",
+        "I never consider ease and joyfulness as the purpose of life itself.<br>I call this the ideal of a pigsty.<br>— Albert Einstein",
+        "For one year, plan to grow grain.<br>For ten years, plan to grow trees.<br>For a lifetime, plan to nurture people.<br>— Guanzi",
+        "The purest, most abstract design problem is designing a bridge—the challenge is to span a given distance with the least material.<br>— Paul Graham (Renowned Hacker, Silicon Valley Entrepreneur)",
+        "The value of a person lies in what they contribute, not in what they gain.<br>— Albert Einstein",
+        "Better tools do not necessarily lead to better designs.",
+        "I too have fear and greed, but only—fear when others are greedy, and greed when others are fearful.<br>— Warren Buffett",
+        "No snowflake in an avalanche ever feels responsible.<br>— Voltaire (Enlightenment Thinker)",
+        "If criticism is not free, then praise is meaningless.<br>— The Motto of Le Figaro (French Newspaper)",
+        "A free man will not ask, 'What can my country do for me?'<br>Nor will he ask, 'What can I do for my country?'<br>Instead, he will ask, 'What can I and my fellow citizens do through our government?'<br>— Milton Friedman (Nobel Laureate in Economics)",
+        "The two greatest assets in life are your talent and your time.<br>Talent increases, but time decreases. Our lives are spent trading time for talent.",
+        "When injustice becomes law, resistance becomes duty.",
+        "If builders built buildings the way programmers wrote programs, the first woodpecker that came along would destroy civilization.<br>— Gerald Weinberg (Software Engineering Expert)",
+        "Reading is building your own thoughts with the help of others' ideas.<br>— Nikolay Rubakin (Writer)",
+        "There is only one heroism in the world: to see the world as it is and to love it.<br>— Romain Rolland (Writer, Nobel Laureate)",
+        "Better to speak out and die than to remain silent and live.<br>— Fan Zhongyan",
+        "Property should not be public, and power should not be private—otherwise, we will fall into hell.<br>— John Locke (Philosopher, Thinker)",
+        "In the short run, the market is a voting machine.<br>In the long run, it is a weighing machine.<br>— Benjamin Graham",
+        "A true warrior dares to be a normal person in an abnormal country.",
+        "Good code is its own best documentation.<br>— Steve McConnell, Code Complete",
+        "The attempt to make heaven on earth invariably produces hell.<br>— Karl Popper (Philosopher, Thinker)",
+        "A good programmer is someone who looks both ways before crossing a one-way street.<br>— Doug Linder",
+        "Only when the tide goes out do you discover who's been swimming naked.<br>— Warren Buffett",
+        "View China with a global perspective, not the world with a Chinese perspective.<br>— Zhou Youguang (Linguist, Economist)",
+        "Without property rights, there is no justice.<br>— Friedrich Hayek (Nobel Laureate in Economics, Political Thinker)",
+        "Spend your own money on yourself—be both economical and effective.<br>Spend your own money on others—be economical but not effective.<br>Spend others' money on yourself—be effective but not economical.<br>Spend others' money on others—be neither economical nor effective.<br>— Milton Friedman (Nobel Laureate in Economics)",
+        "Before software can be reusable, it first has to be usable.<br>— Ralph Johnson (Co-author of Design Patterns)",
+        "The safest road is the one most traveled, but don’t expect to find much game on it.<br>— André Gide (Writer, Nobel Laureate)",
+        "If you don’t want to do something, you’ll find an excuse.<br>If you do want to do it, you’ll find a way.<br>— Arabic Proverb",
+        "You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time.<br>— Abraham Lincoln (Former U.S. President)",
+        "When something happens, the coward asks, 'Is it safe?'<br>The self-interested ask, 'Is it wise?'<br>The vain ask, 'Is it popular?'<br>But the conscience asks, 'Is it right?'<br>— Martin Luther King Jr. (American Civil Rights Leader)",
+        "If debugging is the process of removing bugs, then programming must be the process of putting them in.<br>— Edsger Dijkstra (Turing Award Winner)",
+        "Education is not the filling of a pail but the lighting of a fire.<br>— W.B. Yeats (Irish Poet)",
+        "What has always made the state a hell on earth has been precisely that man has tried to make it heaven.<br>— Friedrich Hölderlin (Quoted in Hayek's The Road to Serfdom)",
+        "Morality is in books, role models are on TV, the homeland is in the lungs, love is in property deeds, and happiness is in dreams...<br>This is the so-called 'unique characteristic.'",
+        "For intellectuals, being elite in thought is more important than being elite in morality.<br>— Wang Xiaobo (Writer)",
+        "The greatest pain in life is not failure, but never experiencing what you truly desire.",
+        "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.<br>— Bill Gates",
+        "Simple is beautiful.",
+        "The only lesson we learn from history is that we learn nothing from history.<br>— Arnold J. Toynbee (Historian)",
+        "The goal of education in any despotic country is to diminish the intellect of its citizens.<br>— Montesquieu (Enlightenment Thinker)",
+        "The first generation left a mess.<br>The second generation treated symptoms but not the root cause, making you think it was cured.<br>The third generation treated the face instead of the problem—appearances mattered most.<br>This generation goes further: they silence the pain—if you don’t scream, there’s no illness!",
+        "Unlimited tolerance must lead to the disappearance of tolerance.<br>— Karl Popper (Philosopher, Thinker)",
+        "Simplicity is a prerequisite for reliability.<br>— Edsger Dijkstra (Turing Award Winner)",
+        "Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.<br>(Note: This is also the motto of my blog.)",
+        "He who knows others is wise. He who knows himself is enlightened.<br>He who conquers others is strong. He who conquers himself is mighty.<br>— Tao Te Ching",
+        "The unexamined life is not worth living.<br>— Socrates (Father of Philosophy)",
+        "Any code you write, six months later, will look like it was written by someone else.<br>— Tom Cargill (Bell Labs Scientist)",
+        "The best way to predict the future is to create it.<br>— Abraham Lincoln (Former U.S. President)",
+        "If criticism is not free, then praise is meaningless.<br>— The Motto of Le Figaro (French Newspaper)",
+        "If you visit a foreign country and see only good news in the newspapers,<br>I bet the good people of that country are in prison.<br>— Pat Moynihan (U.S. Senator, Sociologist)",
+        "There are only two kinds of programming languages: the ones people complain about and the ones nobody uses.<br>— Bjarne Stroustrup (Creator of C++)",
+        "The art of programming is the art of managing complexity.<br>— Edsger Dijkstra (Turing Award Winner)",
+        "When I invest, I look at the entire picture of a company.<br>Most investors only focus on its stock price.<br>— Warren Buffett",
+        "When injustice becomes law, resistance becomes duty.",
+        "I never consider ease and joyfulness as the purpose of life itself.<br>I call this the ideal of a pigsty.<br>— Albert Einstein",
+        "A lie repeated a thousand times becomes the truth.<br>— Joseph Goebbels (Nazi Propaganda Minister)",
+        "To win every battle is not the ultimate skill.<br>To subdue the enemy without fighting is the ultimate skill.<br>— Sun Tzu, The Art of War",
+        "Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric.<br>— Bertrand Russell (Philosopher, Mathematician, Thinker)",
+        "Only two things are infinite: the universe and human stupidity.<br>And I’m not sure about the universe.<br>— Albert Einstein",
+        "Value investing does not guarantee success, but it offers the only true path to success.<br>— Warren Buffett",
+        "Tape is Dead, Disk is Tape, Flash is Disk, RAM Locality is King!<br>— Jim Gray (Turing Award Winner, Database Expert)",
+        "It is difficult to free fools from the chains they revere.<br>— Voltaire (Enlightenment Thinker)",
+        "Once you’ve worn a mask for so long, your face grows to fit it.<br>— V for Vendetta (Movie)",
+        "Those inside the city want to escape, and those outside want to rush in.<br>This applies to marriage, careers, and most of life’s desires.<br>— Qian Zhongshu, Fortress Besieged",
+        "Investment success does not depend on what you know, but on how honestly you admit what you don’t know.<br>Investors don’t need to do many things right, but they must avoid big mistakes.<br>— Warren Buffett",
+        "People always think their own era is the worst and yearn for the golden age of the past.<br>But those who lived in what we now consider golden ages thought their world was just as bleak.<br>— Woody Allen (Writer, Director)",
+        "The function of good software is to make the complex appear simple.<br>— Grady Booch (Co-creator of UML)",
+        "Who controls the past controls the future. Who controls the present controls the past.<br>— George Orwell, 1984",
+        "Software is like sex—it’s better when it’s free.<br>— Linus Torvalds (Creator of Linux)",
+        "Your time is limited, so don’t waste it living someone else’s life.<br>— Steve Jobs",
+        "Time’s glory is to calm contending kings, to unmask falsehood, and to bring truth to light.<br>— William Shakespeare",
+        "The fundamental defect of fathers is that they want their children to be a credit to them.<br>— Bertrand Russell (Philosopher, Mathematician, Thinker)",
+        "There is no silver bullet.<br>— Fred Brooks, The Mythical Man-Month (Turing Award Winner)",
+        "Artists use lies to tell the truth, while politicians use them to cover the truth up.<br>— V for Vendetta (Movie)",
+        "There are no constant tactics in war, just as water has no constant shape.<br>He who can adapt to the enemy’s changes will achieve victory.<br>— Sun Tzu, The Art of War",
+        "Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.<br>— Bertrand Russell, What I Have Lived For",
+        "Examine your design from different levels.",
+        "Those who would give up essential liberty to purchase a little temporary safety deserve neither liberty nor safety.<br>— Benjamin Franklin (Founding Father of the U.S., Scientist, Writer)",
+        "It’s not scary to worship money. What’s scary is living in a society where buying a house takes centuries of savings, yet worshiping money is forbidden.<br>It’s not scary to be vulgar. What’s scary is living in a country where millions of men can’t find partners because young women are taken by older men, yet vulgarity is condemned.",
+        "Java is to JavaScript as ham is to hamster.<br>— A Programmer’s Joke",
+        "In theory, there is no difference between theory and practice. But in practice, there is.<br>— Snepscheut",
+        "Programs must be written for people to read, and only incidentally for machines to execute.<br>— Structure and Interpretation of Computer Programs (SICP)",
+        "Democracy is not just about voting.<br>It is a way of life, a way of thinking, the air you breathe, the grace in your actions, and the space for individuality.<br>— Lung Ying-tai (Taiwanese Writer)",
+        "Interest is the best teacher.<br>— Albert Einstein",
+        "Successful teaching does not rely on coercion but on inspiring desire.<br>— Leo Tolstoy (Writer)",
+        "Investment is the activity of forecasting asset returns.<br>Speculation is the activity of forecasting market psychology.<br>— John Maynard Keynes (Economist)",
+        "Live the life you’ve imagined, or you’ll end up imagining the life you live.",
+        "If you lose wealth, you lose little.<br>If you lose honor, you lose much.<br>If you lose courage, you lose everything.<br>— Johann Wolfgang von Goethe",
+        "To achieve what you’ve never had, you must do what you’ve never done.",
+        "Adding manpower to a late software project makes it later.<br>— Fred Brooks, The Mythical Man-Month (Turing Award Winner)",
+        "Know your enemy and know yourself, and you can fight a hundred battles without disaster.<br>Know yourself but not your enemy, and you may win or lose.<br>Know neither your enemy nor yourself, and you will perish in every battle.<br>— Sun Tzu, The Art of War",
+        "Imagination is more important than knowledge.<br>For knowledge is limited, whereas imagination embraces the entire world, stimulating progress and giving birth to evolution.<br>— Albert Einstein",
+        "Everyone is born original, but sadly, most become copies.",
+        "Most people would rather die than think. In fact, they do.<br>— Bertrand Russell (Philosopher, Mathematician, Thinker)",
+        "No one can go back and start a new beginning, but anyone can start today and make a new ending.",
+        "True ignorance is not the absence of knowledge but the refusal to acquire it.<br>— Karl Popper (Philosopher, Thinker)"
+    ]
+    
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+    
+    document.getElementById('quote').innerHTML = randomQuote;
+</script>
+
+<style>
+    .quote-box {
+        max-width: 600px;
+         
+         
+         
+         
+         
+        font-size: 0.8rem;
+         
+        text-align: left;
+         
+         
+         
+    }
+
+     
+
+    .quote-box {
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
+
+
+</div>
 
 <article class="first-entry"> 
   <header class="entry-header">
